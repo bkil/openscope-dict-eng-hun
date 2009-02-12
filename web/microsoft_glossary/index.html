@@ -4,8 +4,8 @@
   <meta charset=utf-8>
   <title>Dictionary</title>
   <link rel='shortcut icon' type=image/x-icon href=data:image/x-icon;,>
-  <meta name=robots content=noindex>
-  <meta http-equiv=Content-Security-Policy content="script-src 'unsafe-inline'; frame-ancestors *; referrer 'no-referrer';">
+  <meta name=robots content='noindex,nofollow,noarchive'>
+  <meta http-equiv=Content-Security-Policy content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' 'self'; img-src data: *;">
   <meta name=referrer content=no-referrer>
   <script>
     if ((document.location.search !== '') && (document.location.search !== '?i=1') && (history.length >= 2)) {
@@ -44,7 +44,7 @@
   </style>
 <body>
 
-  <form action=get.php>
+  <form action=get.php rel=noreferrer>
     <input id=_js-search name=q placeholder='Search for English word...' autofocus>
     <input type=submit>
   </form>

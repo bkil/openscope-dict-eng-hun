@@ -7,7 +7,7 @@ ErrorDocument 503 /503.html
 <IfModule mod_headers.c>
   Header always set X-Robots-Tag "noindex"
   Header always set Referrer-Policy "no-referrer"
-  Header set Content-Security-Policy "script-src 'unsafe-inline'; referrer 'no-referrer';"
+  Header set Content-Security-Policy "default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' 'self'; img-src data: *;"
   Header set Cache-Control "public, max-age=86400, stale-while-revalidate=31536000, s-maxage=86400"
 
   Header always edit Set-Cookie ^(.*)$ "$1; SameSite=None"
