@@ -719,7 +719,7 @@ address space	címtér (IP)	!
 addressee	címzett	!
 adhoc	eseti	!
 adjust	módosítás, igazítás	?
-administration	Adminisztráció	?Felügyelet
+administration	Adminisztráció, ?Felügyelet	?
 administrator	rendszergazda	!
 advance slides	dia továbbítása	!
 advanced	fejlett, speciális (extra beállítások elérése), tapasztalt (felhasználó), NEM: haladó 	!
@@ -779,7 +779,7 @@ assertion failure	érvényesítési hiba	!
 assessment	felmérés	!
 assign	hozzárendelés	!
 assignment	hozzárendelés	!
-assistant	asszisztens	?segéd
+assistant	asszisztens, ?segéd	?
 attach	csatolás	!
 attachment	melléklet (NEM: csatolmány)	!
 audio feature	hangszolgáltatás	!
@@ -815,7 +815,7 @@ base64	base64 kódolás	!
 based	-alapú (Java-alapú)	!
 batch file	parancsfájl	!
 battery	akkumulátor, nem telep, azt nem lehet tölteni	!
-baudsebesség	átviteli sebesség	
+baudsebesség	átviteli sebesség	?
 bcc	rejtett másolat (e-mail)	!
 behavior	viselkedés	!
 belong	tartozni vhova	!
@@ -850,6 +850,7 @@ boolean xor	logikai kizáró vagy	!
 boot	indítani, rendszerindítás (folyamat)	!
 boot loader	rendszerbetöltő (grub, lilo)	!
 boot sector	boot szektor	!
+bootstrap	rendszerbetöltő	?
 bopomofo	bopomofo	!
 border	szegély	!
 bottleneck	szűk keresztmetszet	!
@@ -864,7 +865,7 @@ breakpoint	töréspont	!
 breve	breve	!
 brightness	fényerő	!
 brightness / contrast	fényerő / kontraszt	!
-broadcast		
+broadcast	üzenetszórás	?
 brochure	brosúra	!
 broken	sérült	!
 brownstone	homokkő	!
@@ -958,6 +959,7 @@ collapse	Összecsukás	!
 color	szín	!
 color bars	színellenőrző csíkok	?
 colorblind	színtévesztő	!
+colorpicker	színválasztó	?
 column	oszlop, hasáb	!
 column spacing	hasábtávolság	!
 combo box	legördülő menü, lenyíló menü	!
@@ -1052,7 +1054,7 @@ customize	Személyre szabás	!
 cycle	körforgás	!
 cylinder	henger, cilinder (lemezen)	!
 cyrillic	cirill	!
-dash	vonás	!
+dash	vonás, dash (Ubuntuban)	?
 data	adatok	!
 database	adatbázis	!
 databuffer size (mb)	adatpuffer mérete (mb)	!
@@ -1092,7 +1094,7 @@ department	részleg	!
 depth	mélység	!
 descending	csökkenő	!
 description	leírás	!
-deselect all	kijelölések megszüntetése	
+deselect all	kijelölés megszüntetése	?
 deserialize	visszafejtés	?
 design	látványterv, tervezni	!
 design view	terv nézet	!
@@ -1131,7 +1133,7 @@ disk	lemez	!
 dismiss	Rendben (üzenetre), bezárás (ablak), megszüntetés (kijelölés)	!
 dispatcher	kézbesítő, kezelő	?
 display	megjelenítés, kijelző	!
-display manager	bejelentkezéskezelő	?ablakkezelő
+display manager	bejelentkezéskezelő (?ablakkezelő)	?
 dissertation	Értekezés	!
 dissolve	Áttűnés	!
 distance	távolság	!
@@ -1223,7 +1225,7 @@ equalizer	hangszínszabályzó	!
 error margin	biztonsági ráhagyás	!
 error message	hibaüzenet	!
 error occurred	hiba történt	!
-escape	fedés (nemtomholláttam, de jó -kg)	?
+escape	levédés, fedés	?
 essential	alapvető	!
 establish	létrehozni	!
 estimate	becsülni	!
@@ -1239,7 +1241,7 @@ excess length	fölös hossz	!
 exclusive access	kizárólagos hozzáférés	!
 executable file	végrehajtható fájl	!
 exist	létezik	!
-existing	meglévő	
+existing	meglévő, létező	!
 existing design	meglévő látványterv	!
 expand	kinyitni (UI elemet), bővíteni (partíciót)	!
 expected location	elvárt hely	!
@@ -1367,6 +1369,7 @@ gravel	kavicsok	!
 grayscale	szürkeárnyalatos	!
 greylist	szürkelista	!
 greyscale	szürkeárnyalatos (NEM: szürkeskálás)	!
+grid view	rácsnézet	?
 group box	csoportpanel	!
 group policy	csoportházirend	!
 grow	növelni, nagyítani	!
@@ -1420,6 +1423,7 @@ image map	képtérkép	!
 imap account	imap-fiók	!
 imperial	angolszász (mértékrendszer)	!
 implement	megvalósítani	!
+implementation	Implementáció, megvalósítás	?
 import file	fájl importálása, importálási fájl	!
 in order to	[vmi] érdekében	!
 inactive	inaktív	!
@@ -1474,7 +1478,7 @@ italic	dőlt	!
 item	elem	!
 iterations	iterációk	!
 jigsaw	kirakó, puzzle	!
-job	Feladat	? az nem a task?
+job	feladat, (az nem a task?)	?
 journal	napló, folyóirat	!
 jukebox	zenegép	!
 justified	sorkizárt	!
@@ -1494,6 +1498,7 @@ large circumflex	nagy circumflex	!
 last name	vezetéknév	!
 last used	utoljára használt	!
 latitude	Szélesség	!
+launcher	indító	?
 launch icon	indítóikon	!
 lavender	levendula	!
 layer indicator	rétegjelző	!
@@ -1502,7 +1507,7 @@ ldap server	ldap-kiszolgáló	!
 lead-in	bevezető (szakasz CD-n)	!
 leading	kezdő (karakter)	!
 left join	bal oldali összekapcsolás	!
-legacy	örökölt	
+legacy	örökölt	?
 legend	jelmagyarázat	!
 letter	betű, levél, letter (lapméret)	!
 letterlike symbols	betűszerű szimbólumok	!
@@ -1565,7 +1570,7 @@ major interval	főbeosztás	!
 make sure	Győződjön meg róla, hogy	!
 malform		
 malformed	helytelenül formázott	!
-malicious	rosszindulatú	
+malicious	rosszindulatú	?
 malware	rosszindulatú program	?
 manage	kezelni	!
 manager	kezelő, menedzser	!
@@ -1580,7 +1585,7 @@ mark	jel, jelölés	!
 markup	jelölő (általános), jelölőkód (konkrét)	?
 masquerading	maszkolás	!
 master document	fődokumentum	!
-master server	elsődleges kiszolgáló	
+master server	elsődleges kiszolgáló	?
 master view	minta nézet	!
 match	illeszkedik (minta), megfelel (kapott-várt érték), találat (keresésnél)	?
 match case	kis- és nagybetűk egyeztetése	!
@@ -1602,7 +1607,7 @@ metering mode	Mérési mód	!
 method	eljárás, metódus (program), módszer (általános)	!
 metric	metrika (hálózatok), metrikus (mértékrendszer)	!
 microphone	mikrofon	!
-migration	átállás, költözés	?
+migration	költözés, áttelepítés, átállás	?
 millisecond	ezredmásodperc	!
 min	min	!
 mini icons	mini ikonok	!
@@ -1638,6 +1643,7 @@ multiple	többszörös, több	!
 multiply	szorzás	!
 multiselection	többszörös kijelölés	!
 multisession	több szakaszos (CD)	!
+multitouch	többérintéses	?
 multitrack	többsávos	!
 music player	zenelejátszó	!
 mute	némítani	!
@@ -1665,7 +1671,9 @@ no	nem	!
 no icon	nincs ikon	!
 node	csomópont	!
 nominal interest	névleges kamat	!
+non profit	nonprofit	?
 non-breaking spaces	nem törhető szóköz	!
+non-profit	nonprofit	?
 non-recoverable	helyrehozhatatlan	!
 noname	névtelen	!
 none	nincs	!
@@ -1692,6 +1700,7 @@ offline (transacted)	kapcsolat nélkül (tranzakció után)	!
 offset	eltolás	!
 ok	ok	!
 old value	korábbi érték	!
+older	régebbi, korábbi	?
 ole	ole	!
 ole automation error	ole automatizációs hiba	!
 ole object	ole-objektum	!
@@ -1725,7 +1734,7 @@ outgoing	kimenő	!
 outgoing mail	kimenő levelek	!
 outline	körvonal	!
 overall	összesen	?
-overclocking	?túlhajtás	
+overclocking	?túlhajtás	?
 overflow	túlcsordulás	!
 overhead	túlterhelés, ráhagyás	!
 overlap	Átfedés	!
@@ -1749,6 +1758,7 @@ participants	résztvevők	!
 partition	particionálni, partíció	!
 partition table	partíciós tábla	!
 pass count	menetek száma	!
+passcode	jelkód, titkos kombináció	?
 password protected	jelszóval védett	!
 paste special	irányított beillesztés	!
 patch	javítócsomag, folt	!
@@ -1774,12 +1784,13 @@ phone/cellphone/fax	telefon/mobil/fax	!
 phonetic symbols	fonetikus szimbólumok	!
 physical memory	fizikai memória	!
 pica	pica	!
+pick	kiválasztás	?
 picker button	pipettagomb	!
 picture placeholders	kép helye	!
 pie	tortadiagram	!
 pin	rögzíteni (UI elemet)	!
 pipeline	adatcsatorna	!
-pixbuf	kép	
+pixbuf	kép	?
 pixels	képpont	!
 placeholder	helykitöltő	!
 plain	egyszerű (szöveg)	!
@@ -1789,6 +1800,8 @@ playback	lejátszás (multimédiát)	!
 playlist	lejátszólista	!
 please	-	!
 please wait	kis türelmet	!
+plot	ábrázolás	?
+plot area	ábrázolási terület	?
 plug-in	bővítőmodul	!
 plugin	bővítmény	!
 pointer	mutató	!
@@ -1802,7 +1815,7 @@ popup menu	helyi menü	!
 popup window	felugró ablak, felbukkanó ablak	!
 port	port	!
 portable	hordozható	!
-position	pozíció, pozíció, elhelyezkedés	!
+position	pozíció, elhelyezkedés	!
 position not protected	pozíció módosítható	!
 position protected	pozíció nem módosíható	!
 position x	x pozíció	!
@@ -1874,7 +1887,7 @@ pull	lekérni (dvcs)	?
 purpose	cél	!
 push	megnyomni, elküldeni (dvcs)	?
 push button	nyomógomb	!
-puzzle	logikai (játék)	!
+puzzle	kirakó, fejtörő, logikai (játék)	?
 pv	jelenérték	!
 quirk	kerülő megoldás	!
 quota	kvóta	!
@@ -1885,7 +1898,7 @@ radio button	rádiógomb	!
 radius	sugár	!
 radix	számrendszer	!
 raise	előtérbe hozni (ablakot)	!
-rate	sebesség	!
+rate	osztályzás, sebesség	?
 raw queue		
 re-enable	újraengedélyezni	!
 read	olvasás	!
@@ -1910,13 +1923,14 @@ red	vörös	!
 redial	újrahívás	!
 redirect	átirányítani	!
 redraw	Újrarajzolás	!
+refactoring	újraírás	?
 refer	hivatkozni	!
 reference	hivatkozás	!
 refuse	visszautasítani	!
 register	regisztrálás	!
 register-true	soregyen	!
 registration	regisztráció, regisztráció	!
-registration marks	Passzerjelek	
+registration marks	Passzerjelek	?
 registry	rendszerleíró adatbázis (Windows), nyilvántartás (általános)	!
 regression curve	regressziós görbe	!
 regular	szabályos, normál	!
@@ -1936,6 +1950,8 @@ remember password	jelszó tárolása	!
 remind again later	figyelmeztetés később	!
 reminder	emlékeztető	!
 removable	cserélhető, eltávolítható (eszköz)	!
+render	megjelenítés	?
+renderer	megjelenítő	?
 renew	megújítani	!
 reorder	átrendezni, újrarendezni	!
 reorganize	Átszervezés	!
@@ -1971,6 +1987,7 @@ reverse	fordított	!
 reverse circumflex	hacsek	!
 review	áttekinteni, értékelés	!
 revoke	visszavonni	!
+rewrap	újratördelés	?
 rewrite	újraírni	!
 rgb	rgb	!
 rgb colors	rgb-színek	!
@@ -2087,7 +2104,7 @@ slogan	jelmondat	!
 slot ids	tárolóhely-azonosítók	!
 slow key	lassú billentyűk	!
 slow terminals	lassú terminálok	!
-smiley	hangulatjel	
+smiley	hangulatjel	?
 smooth	sima	!
 smooth transition	sima átmenet	!
 smtp	SMTP	!
@@ -2180,7 +2197,7 @@ subtotals	részösszeg	!
 subtract	kivonás	!
 subwoofer	mélysugárzó	!
 suggestions	javaslatok	!
-suite	alkalmazáscsomag	
+suite	alkalmazáscsomag	?
 sum	Összeg	!
 summary	Összegzés	!
 summary slide	Összefoglaló dia	!
@@ -2188,6 +2205,8 @@ superscript	felső index	!
 superset	tartalmazó halmaz	!
 suppress	elnyomni	?
 swap	Lapozás, swap (partíció)	?
+swipe	pöccintés	?
+swiping from right edge	csúsztassa ujját a jobb élről	?
 sync	szinkronizálás	!
 syndicate	tartalom megosztása	!
 synonym	szinonima	!
@@ -2216,7 +2235,7 @@ temp file	átmeneti fájl	!
 temporary	Átmeneti	!
 temporary buffer	átmeneti puffer	!
 term	Kifejezés, feltétel (licenc)	!
-terms of use	felhasználási feltételek	
+terms of use	felhasználási feltételek	?
 text area	szövegterület	!
 text body	szövegtörzs	!
 text box	szövegdoboz	!
@@ -2246,9 +2265,9 @@ timestamp	időbélyeg	!
 tip	tipp	!
 title/position	beosztás	!
 to mux	egyesíteni	!
-todo	teendő	
+todo	teendő	?
 toggle	átváltás	!
-token	jelsor, token	
+token	jelsor, token	?
 tolerance	tolerancia	!
 toner low	kevés a festék	!
 tool menu	eszközmenü	!
@@ -2273,7 +2292,7 @@ transparency	Átlátszóság	!
 transparency color	Átlátszó szín	!
 transpose	felcserélés	!
 traversal	bejárás	!
-trigger	trigger (DB), aktiváló	!
+trigger	trigger (DB), eseményindító (DB), aktiváló	?
 tristate	háromállapotú	!
 troubleshooting	hibaelhárítás	!
 true	igaz	!
@@ -2289,7 +2308,7 @@ typed	típusos	!
 ui	felület	!
 umount	leválasztás	!
 unallocated	lefoglalatlan	!
-unbind	?	
+unbind		
 uncategorized	kategorizálatlan	!
 unchanged	változatlan	!
 uncheck	törölje (jelölőnégyzetet)	!
