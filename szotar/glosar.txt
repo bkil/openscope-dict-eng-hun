@@ -889,7 +889,6 @@ can not	nem lehet	!
 can't	nem lehet	!
 cancel	megszakítani, Mégse (gomb)	!
 canceled by user	felhasználói megszakítás	!
-canonicalize		
 canvas	rajzvászon	!
 capability	Képesség	!
 capitals	nagybetűk	!
@@ -1170,7 +1169,6 @@ driver settings	illesztőprogram beállításai	!
 drop caps	iniciálé	!
 dropdown	legördülő	!
 droplets	cseppek	!
-dual-boot		?
 dummy	üres	!
 duration	időtartam	!
 dwell click	elidőzési kattintás	!
@@ -1303,7 +1301,6 @@ font effects	betűhatások	!
 font size	betűméret	!
 font weight	betűvastagság	!
 font width	betűszélesség	!
-fontwork		
 foo	izé	!
 footer	Élőláb	!
 footnote	lábjegyzet	!
@@ -1379,7 +1376,6 @@ handle	kezelni, Leíró (programozásban), Fogantyú (GUI)	!
 handout	emlékeztető	!
 hanging indent	függő behúzás	!
 hard link	hard link	?
-hardening		
 hatching	vonalkázás	!
 header	fejléc, élőfej	!
 heading	címsor	!
@@ -1568,7 +1564,6 @@ maintainer	karbantartó	!
 major axis	főtengely	!
 major interval	főbeosztás	!
 make sure	Győződjön meg róla, hogy	!
-malform		
 malformed	helytelenül formázott	!
 malicious	rosszindulatú	?
 malware	rosszindulatú program	?
@@ -1899,7 +1894,6 @@ radius	sugár	!
 radix	számrendszer	!
 raise	előtérbe hozni (ablakot)	!
 rate	osztályzás, sebesség	?
-raw queue		
 re-enable	újraengedélyezni	!
 read	olvasás	!
 read only	csak olvasható, írásvédett	!
@@ -2308,7 +2302,6 @@ typed	típusos	!
 ui	felület	!
 umount	leválasztás	!
 unallocated	lefoglalatlan	!
-unbind		
 uncategorized	kategorizálatlan	!
 unchanged	változatlan	!
 uncheck	törölje (jelölőnégyzetet)	!
@@ -2345,7 +2338,6 @@ upload	feltölteni	!
 user agent	Felhasználói ügynök	?
 user directory	felhasználói könyvtár	!
 user's guide	felhasználói kézikönyv	!
-usermode		?
 utility	segédprogram	!
 valid	érvényes	!
 validation	ellenőrizni, jóváhagyás, javaslat	!
