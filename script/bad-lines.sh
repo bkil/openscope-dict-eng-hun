@@ -3,9 +3,9 @@
 main() {
   filters
 
-  filters 2>&1 |
-  grep -q "" && return 1
-  return 0
+  local ERRORS="`filters 2>/dev/null | wc -l`"
+  echo "errors: $ERRORS" >&2
+  [ "$ERRORS" -eq 0 ]
 }
 
 filters() {
@@ -37,8 +37,6 @@ filter() {
     " \
     ../szotar/glosar.txt |
   cat -A
-
-  echo >&2
 }
 
 main "$@"
