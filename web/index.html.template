@@ -67,6 +67,12 @@ a, a:visited { color: #00a }
 
 <div id="results"></div>
 
+<!-- <noscript> -->
+<div id="results-nojs">
+{% GLOSARHTMLTABLE %}
+</div>
+<!-- </noscript> -->
+
 <br/>
 <div id="content">
 
