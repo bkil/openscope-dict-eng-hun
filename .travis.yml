@@ -1,0 +1,24 @@
+sudo: false
+os: linux
+arch: arm64
+dist: bionic
+language: minimal
+branches:
+  only:
+  - master
+notifications:
+  email: false
+addons:
+  apt:
+    packages:
+    - dictfmt
+    - dictzip
+script:
+- script/generate-site.sh
+after_success:
+- script/deploy.sh
+env:
+  global:
+  - GH_USER: bkil
+  - GH_REPO: openscope-dict-eng-hun
+  - secure: FAQddwwQ8X7Pb0An/LKmit7bh8njitWNoMSgaVv6K7Ad0/1R4zLBiAm4DeQWAlbUg6xpGGKeYGdl21RGRDhmfSdAHNiG6QiUHJ7asenr9yedMwXNsC+7b+dYIkU7fs8P6FJDM+QaKsQvbAP+dtW262CTRydgZTy3wmCZk09VIWtth7v1QqXd3L++J2e+Jcmn8fRy3sPbw+b8fLFuBGN3w+IozX9HGcGAomKqvKqNavrHPIEQSUjyEvsVr9OQcXbHeCveCx3TbdOj3RIIsrViRG4EqDnrhdom9YhLqUXsa25lI8fTaChds0HYYYY5/odjLcciWE/Mh7aq4ajgzS7CVlQ2qogcvXrDe0J2aOnMm7vdcEJcTEW6J4IDIPXAafJRkprgsORaucJ7uMC3wxbuyPeZuOX1oT9XowDFownbMNiDzHZBeOJ6RHsDXZLTFLHQnm3D5Q2rEPDTxI5i4Xak4WKYlKUjZ+wiuUtpUHCuFNuFdz4FJAZgoP+sqGKKF8GduWAapTZfEVkGhoYIeOWn+/0foZZHE/l9AfxXVzcO9a6HJ/iByA9aAI9tx4tE1vjj6fQlLVbPRi2BsUS2MiJ/Y5fU9gj/vRambDpk5h8fCwtO3cPSJERUf13dLgMME+AtuMP2F+lEcVGCjcwm7ywNsaD7K7/8fynzWKiag9ETsZ0=

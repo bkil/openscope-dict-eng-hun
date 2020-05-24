@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>openscope.org szótár</title>
+<meta http-equiv="generator" content="glosar-0.2">
+<script type='text/javascript' src='js/glossary.js'></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="alternate" type="application/rss+xml" title="{% t 'Recent changes - RSS Feed' %}" href="https://github.com/bkil/openscope-dict-eng-hun/commits/master.atom" />
+</head>
+<body>
+<center>
+<style>
+body, td, th { font-family: arial; font-size: 13px; }
+#content { width:740px; text-align:left }
+h1 { color: #aaa; font-weight: normal; font-size: 26px; text-align: center}
+h2 { color: #aaa; font-weight: normal; font-size: 18px; margin-bottom: 5px}
+ul { margin-top: 1px }
+table { background: #ccc }
+td { background: #eee; padding: 3px; font-size: 12px;}
+a, a:visited { color: #00a }
+</style>
+<div id="content">
+
+<h1>openscope.org szótár 0.2</h1>
+
+
+<p style='color: red;'>{% t 'You need to log in in order to modify the content.' %}</p>
+
+<div id="count"></div>
+
+{% t 'Term:' %} <input type="text" id="keywordField" value="" autocomplete="off">
+
+<input type="button" id="editButton" value="{% t 'Edit' %}" onClick="showDefinitionDiv()">
+
+<div id="definitionDiv" style="display:none">
+<table>
+<tr><th>{% t 'Edit translation' %}</th></tr>
+<tr><td class="hint">{% t 'Please use this order: <i>verb inf.</i>, <i>noun</i> (ex: to edit, edit)' %}</td></tr>
+<tr><td><input type="text" id="definitionField"></td></tr>
+<tr><td class="hint">
+{% t 'Meta information:' %}
+<ul>
+{% t '<li><tt>[[WikiWord]]</tt> create a link to a wiki page, used for discussions</li>' %}
+{% t "<li><tt  class='term_locked'>!</tt> - lock a <span class='term_locked'>stable</span> translation</li>" %}
+{% t "<li><tt class='term_debate'>?</tt> - tag the translation as fuzzy <span class='term_debate'>debate</span></li>" %}
+</ul>
+</td></tr>
+<tr><td><input type="text" id="metaField"></td></tr>
+<tr>
+<td align="right">
+<input type="button" value="{% t 'Cancel' %}" onClick="cancel()">
+
+/*
+ * Show save button only when allowed
+ */
+<input type="button" value="{% t 'Save' %}" onClick="save()">
+
+
+/*
+ * Show delete button only when authenticated users
+ */
+<input type="button" value="{% t 'Delete' %}" onClick="save()">
+
+</td></tr>
+</table>
+
+</div>
+
+<div id="results"></div>
+
+<br/>
+<div id="content">
+
+<h1>{% t 'About this dictionary' %}</h1>
+<br/>
+<!--fixme: typo in "glossary", "translating" -->
+{% t 'This glosary is used for translationg „free” and „open source” software by the localization teams of our language. ' %}
+
+{% t 'Everybody can contribute, the system is based on the <a href=%s>Wiki</a> idea. (each change is saved).' %}
+<a href="http://wiki.org/wiki.cgi?WhatIsWiki">Wiki</a>
+<p>
+<!--fixme: typo in "support" -->
+{% t 'This page requires JavaScript suport.' %}
+
+<h2>{% t 'Downloading raw data' %}</h2>
+{% t 'The content is licenced under <a href=%s>GPL</a> and can be downloaded from here:' %}
+<a href="LICENSE">LICENSE</a>,
+<a href="glosar.txt">glosar.txt</a>.
+
+<h2>{% t 'Translation teams for our language' %} </h2>
+<!--fixme: add moar -->
+<a href="{% t 'http://wiki.services.openoffice.org/wiki/Languages' %}">{% t 'OpenOffice.org' %}</a>,
+<a href="{% t 'https://wiki.mozilla.org/Category:L10n_Teams' %}">{% t 'Mozilla' %}</a>,
+<a href="{% t 'http://l10n.gnome.org/teams/' %}">{% t 'GNOME' %}</a>,
+<a href="{% t 'http://i18n.kde.org/teams-list.php' %}">{% t 'KDE' %}</a>,
+<a href="{% t 'http://i18n.xfce.org/wiki/language_maintainers' %}">{% t 'Xfce' %}</a>,
+<a href="{% t 'https://translations.launchpad.net/+groups/ubuntu-translators' %}">{% t 'Ubuntu' %}</a>
+<a href="{% t 'http://en.opensuse.org/OpenSUSE_Localization_Teams' %}">{% t 'openSUSE' %}</a>,
+<a href="{% t 'https://translate.fedoraproject.org/teams/' %}">{% t 'Fedora' %}</a>,
+<a href="{% t 'http://debian.org/international/' %}">{% t 'Debian' %}</a>
+
+<h2>{% t 'Source code' %}</h2>
+{% t 'Source code is licensed under <a href=%s>GPL</a>, you can dowload the latest version from <a href=%s>here</a>.' %}
+<a href="LICENSE">LICENSE</a>,
+<a href="https://github.com/bkil/openscope-dict-eng-hun">git</a>.
+
+<hr noshade size=1>
+</div>
+
+<div id="help">
+    <a href="https://github.com/bkil/openscope-dict-eng-hun/commits/master">{% t 'Recent changes' %}</a> [ <a href="https://github.com/bkil/openscope-dict-eng-hun/commits/master.atom">RSS2</a> ] &middot;
+    <a href="https://github.com/bkil/openscope-dict-eng-hun/issues">{% t 'unfixed terms' %}</a> &middot;
+    <a href="https://github.com/bkil/openscope-dict-eng-hun/pulls">{% t 'fixed terms' %}</a> &middot;
+</br><a href="https://github.com/bkil/openscope-dict-eng-hun/commits/master">{% t 'Changelog' %}</a> &middot;
+    <a href="exported.po">{% t 'Export to po' %}</a></div>
+
+</div>
+
+<script>
+setup();
+</script>
+</center>
+</body>
+</html>
