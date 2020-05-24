@@ -1,31 +1,10 @@
-
-require_once ('functions/misc.php');
-require_once ('config.inc.php');
-
-putenv("LC_ALL=$locale");
-setlocale(LC_ALL, $locale);
-bindtextdomain("tm", $localedir);
-textdomain("tm");
-
-header("Content-Type: text/html; charset=UTF-8");
-header( "Expires: Mon, 26 Jul 1997 05:00:00 GMT" );
-header( "Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT" );
-header( "Cache-Control: no-cache, must-revalidate" );
-header( "Pragma: no-cache" );
-
-$split_keyword = isset($_GET['keyword'])?explode(' = ',$_GET['keyword']):null;
-$keyword = isset($split_keyword)?$split_keyword['0']:'';
-
 <html>
-<head profile="http://a9.com/-/spec/opensearch/1.1/">
+<head>
 <title>openscope.org szótár</title>
 <meta http-equiv="generator" content="glosar-0.2">
-<script type='text/javascript' src='js/server.php?client'></script>
 <script type='text/javascript' src='js/glossary.js'></script>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="alternate" type="application/rss+xml" title="{% t 'Recent changes - RSS Feed' %}" href="<?php print $base_url; ?>recent.rss2.php" />
-<link rel="alternate" type="application/rss+xml" title="{% t 'Unfixed terms - RSS Feed' %}" href="<?php print $base_url; ?>unfixed.rss2.php" />
-<link rel="search" type="application/opensearchdescription+xml" href="{% t 'http://localhost/glosar/glosar-search.xml' %}" title="{% t 'Terminology search' %}" />
+<link rel="alternate" type="application/rss+xml" title="{% t 'Recent changes - RSS Feed' %}" href="https://github.com/bkil/openscope-dict-eng-hun/commits/master.atom" />
 </head>
 <body>
 <center>
@@ -44,17 +23,7 @@ a, a:visited { color: #00a }
 <h1>openscope.org szótár 0.2</h1>
 
 
-if(!$username) {
-    if ($permit_anon_edit){
-	echo "<p style='color: green;'>" . {% t 'You are free to modify the content. Please login, for a better team communication.' %} . "</p>";
-    } else {
-        echo "<p style='color: red;'>" . {% t 'You need to log in in order to modify the content.' %} . "</p>";
-    }
-} else {
-    echo "<p style='color: green;'>" . _("Changes are made under the username: <i>".$username."</i>.") . "</p>";
-}
-
-
+<p style='color: red;'>{% t 'You need to log in in order to modify the content.' %}</p>
 
 <div id="count"></div>
 
@@ -83,17 +52,13 @@ if(!$username) {
 /*
  * Show save button only when allowed
  */
-if (($username)||($permit_anon_edit)) {
 <input type="button" value="{% t 'Save' %}" onClick="save()">
-}
 
 
 /*
  * Show delete button only when authenticated users
  */
-if (($username)) {
 <input type="button" value="{% t 'Delete' %}" onClick="save()">
-}
 
 </td></tr>
 </table>
@@ -107,13 +72,19 @@ if (($username)) {
 
 <h1>{% t 'About this dictionary' %}</h1>
 <br/>
+<!--fixme: typo in "glossary", "translating" -->
 {% t 'This glosary is used for translationg „free” and „open source” software by the localization teams of our language. ' %}
-<?php printf(_("Everybody can contribute, the system is based on the <a href=%s>Wiki</a> idea. (each change is saved)."), "\"http://wiki.org/wiki.cgi?WhatIsWiki\""); ?>
+
+{% t 'Everybody can contribute, the system is based on the <a href=%s>Wiki</a> idea. (each change is saved).' %}
+<a href="http://wiki.org/wiki.cgi?WhatIsWiki">Wiki</a>
 <p>
+<!--fixme: typo in "support" -->
 {% t 'This page requires JavaScript suport.' %}
 
 <h2>{% t 'Downloading raw data' %}</h2>
-<?php printf(_("The content is licenced under <a href=%s>GPL</a> and can be downloaded from here:"), "\"http://www.gnu.org/copyleft/gpl.html\""); ?> <a href="data/glosar.txt">glosar.txt</a>.
+{% t 'The content is licenced under <a href=%s>GPL</a> and can be downloaded from here:' %}
+<a href="LICENSE">LICENSE</a>,
+<a href="glosar.txt">glosar.txt</a>.
 
 <h2>{% t 'Translation teams for our language' %} </h2>
 <!--fixme: add moar -->
@@ -128,19 +99,19 @@ if (($username)) {
 <a href="{% t 'http://debian.org/international/' %}">{% t 'Debian' %}</a>
 
 <h2>{% t 'Source code' %}</h2>
-<?php printf(_("Source code is licensed under <a href=%s>GPL</a>, you can dowload the latest version from <a href=%s>here</a>."),
-"\"http://www.gnu.org/copyleft/gpl.html\"", "\"https://code.launchpad.net/~ubuntu-l10n-hu/ubuntu-hu-web/glossary\""); ?>
+{% t 'Source code is licensed under <a href=%s>GPL</a>, you can dowload the latest version from <a href=%s>here</a>.' %}
+<a href="LICENSE">LICENSE</a>,
+<a href="https://github.com/bkil/openscope-dict-eng-hun">git</a>.
 
 <hr noshade size=1>
 </div>
 
 <div id="help">
-    <a href="recent.php">{% t 'Recent changes' %}</a> [ <a href="recent.rss2.php">RSS2</a> ] &middot;
-    <a href="report.php">{% t 'unfixed terms' %}</a> [<a href="unfixed.rss2.php">RSS2</a>] &middot;
-    <a href="report.php?type=fixed">{% t 'fixed terms' %}</a> &middot;
-    <a href="report.php?type=unsorted">{% t 'unsorted terms' %}</a>
-</br><a href="changelog.php">{% t 'Changelog' %}</a> &middot;
-    <a href="export.php">{% t 'Export to po' %}</a></div>
+    <a href="https://github.com/bkil/openscope-dict-eng-hun/commits/master">{% t 'Recent changes' %}</a> [ <a href="https://github.com/bkil/openscope-dict-eng-hun/commits/master.atom">RSS2</a> ] &middot;
+    <a href="https://github.com/bkil/openscope-dict-eng-hun/issues">{% t 'unfixed terms' %}</a> &middot;
+    <a href="https://github.com/bkil/openscope-dict-eng-hun/pulls">{% t 'fixed terms' %}</a> &middot;
+</br><a href="https://github.com/bkil/openscope-dict-eng-hun/commits/master">{% t 'Changelog' %}</a> &middot;
+    <a href="exported.po">{% t 'Export to po' %}</a></div>
 
 </div>
 

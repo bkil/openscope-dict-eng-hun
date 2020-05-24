@@ -24,7 +24,7 @@ function setup() {
 	keywordField.focus();
 	editButton.disabled = true;
 
-	glossaryRemote = new glossary(GlossaryHandler);
+//	glossaryRemote = new glossary(GlossaryHandler);
 
 	setTimeout("mainLoop()", 10);
 }
