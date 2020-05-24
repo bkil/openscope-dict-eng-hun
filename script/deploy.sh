@@ -3,7 +3,7 @@
 set -e
 
 main() {
-  if [[ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]]; then
+  if [ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]; then
     cp -at $HOME/ dist
 
     cd $HOME
