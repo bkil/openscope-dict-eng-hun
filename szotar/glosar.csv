@@ -1,684 +1,8 @@
 ...	…	!
+\'	„”	!
+\"	„”	!
 32 bit	32 bites (rendszer)	!
 64 bit	64 bites (rendszer)	!
-AND	ÉS	!
-ASCII	ASCII	!
-Abstract	Elvont, elvonatkoztatott, kivonat, kivonatolt, absztrakt	!
-Accept	Elfogadás	!
-Active	Aktív	!
-Address	Cím	!
-Address book	címjegyzék	!
-Addressbook	címjegyzék	!
-Administration	Adminisztráció	!
-Aggregate	Összetett	!
-Alarm	Figyelmeztetés	!
-Align	Igazítás	!
-Alpha	Alfa	!
-Analog	Analóg	!
-Analysis	Analízis	!
-Anchor	Horgony	!
-Animation	Animáció	!
-Anonymous	Névtelen	!
-Answer mode	Válaszadási mód	!
-Antialiasing	Élsimítás	!
-Append	Hozzáfűzés	!
-Applet	Kisalkalmazás	!
-Application	Alkalmazás	!
-Application Launcher	Alkalmazásindító	!
-Arc	Ív	!
-Argument	Paraméter, argumentum	!
-Array	Tömb (memóriaszerkezet), Fürt (alkatrészek rendszere)	!
-Arrow key	Nyílbillentyű	!
-Article	Cikk	!
-Ascending order	Növekvő sorrend	!
-Asynchronous	Aszinkron	!
-Attribute	Attribútum, jellemző	!
-Audio	Hang	!
-Authentication	Hitelesítés	!
-Author	Szerző	!
-Autofill	Automatikus kitöltés	!
-Availability	Elérhetőség	!
-Average	Átlag	!
-Axis	Tengely	!
-Background	Háttér	!
-Balance	Egyensúly	!
-Base	Alap	!
-Binary	Bináris	!
-Binding	Kötés	!
-Bit	Bit	!
-Bitmap	Bitkép	!
-Blank	Üres	!
-Blinking cursor	Villogó kurzor	!
-Blocked	Blokkolt	!
-Blur image	Kép elmosása	!
-Bold	Félkövér	!
-Boolean	Logikai	!
-Box	Doboz	!
-Branch	Ág	!
-Bricks	Téglák	!
-Browse	Böngészés	!
-Browser	Böngésző	!
-Buffer	Puffer	!
-Build	Fordítás	!
-Bullet	Felsorolásjel	!
-Bulletin Board	Hirdetőtábla	!
-Bus	Busz	!
-Busy	Foglalt	!
-Button	Gomb	!
-C	C	!
-CD	CD	!
-CORBA	CORBA	!
-CPU	CPU	!
-Cache	Gyorsítótár	!
-Calculator	Számológép	!
-Calendar	Naptár	!
-Call	Hívás	!
-Caption	Felirat	!
-Case Sensitive	Kis- és nagybetű	!
-Categories	Kategóriák	!
-Cell	Cella	!
-Cellular	Mobil	!
-Center	Középre	!
-Channel	Csatorna	!
-Character set	Karakterkészlet	!
-Chat	Csevegés	!
-Check bit	Ellenőrző bit	!
-Class	Osztály	!
-Classification	Besorolás	!
-Clear	Törlés	!
-Click	Kattintás	!
-Clipboard	Vágólap	!
-Close	Bezárás	!
-Coefficient	Együttható	!
-Collaboration	Együttműködés	!
-Collate	Szétválogatás	!
-Collision	Ütközés	!
-Command	Parancs	!
-Command Line	Parancssor	!
-Command line options	Parancssori kapcsolók	!
-Common properties	Általános tulajdonságok	!
-Compare	Összehasonlítás	!
-Concatenate	Összefűzés	!
-Condition	Feltétel	!
-Conduit	Csatoló	!
-Confidential	Bizalmas	!
-Configuration	Beállítás	!
-Confirm	Megerősíteni	!
-Confirmation	Megerősítés	!
-Connection	Kapcsolat	!
-Constraint	Megszorítás	!
-Content	Tartalom	!
-Continue	Folytatás	!
-Control	Vezérlés	!
-Conversion	Átalakítás	!
-Copy	Másolás	!
-Copyright	Copyright	!
-Core file	Core fájl	!
-Correlation	Korreláció	!
-Cost	Költség	!
-Count	Mennyiség	!
-Covariance	Kovariancia	!
-Create	Létrehozás	!
-Critical error	Kritikus hiba	!
-Cross Site Scripting	webhelyközi parancsfájl	!
-Cross-reference	Kereszthivatkozás	!
-Ctrl	Ctrl	!
-Current	Jelenlegi	!
-Cursor	Kurzor, Sormutató	!
-Curve	Görbe	!
-Customize	Testreszabás	!
-Cut	Kivágás	!
-DMA	DMA	!
-DNS	DNS	!
-Daemon	Démon	!
-Data	Adat	!
-Debug	Hibakeresés	!
-Decrease	Csökkentés	!
-Default	Alapértelmezett	!
-Delete	Törlés	!
-Dependence	Függőség	!
-Derived	Származtatott	!
-Descending sort	Csökkenő sorrend	!
-Descriptor	Leíró	!
-Desktop Publishing	kiadványszerkesztés	!
-Destination	Cél	!
-Destroy	Kilövés	!
-Detection	Felismerés	!
-Device	Eszköz	!
-Diagonal	Átló	!
-Diagram	Diagram	!
-Dial	Tárcsázás	!
-Dialog Box	Párbeszédablak doboz	!
-Dialout Device	Kitárcsázó eszköz	!
-Digits	Számjegyek	!
-Dimension	Dimenzió	!
-Direction	Irány	!
-Directory	Könyvtár	!
-Disable	Tiltás	!
-Discard	Eldobás	!
-Disconnect	leválasztás	!
-Discrete	Diszkrét	!
-Dismiss	Eltüntetés	!
-Dissipation	Veszteség	!
-Distribute	Elosztás	!
-Dithering	Színszórás, Árnyalás	!
-Division by zero	Osztás nullával	!
-Document	Dokumentum	!
-Domain	Tartomány	!
-Dot	Pont	!
-Download	Letöltés	!
-Drawing Area	Rajzterület	!
-Drop	Ejtés	!
-Drop down menu	Legördülő menü	!
-Druid	Varázsló	!
-Duplicate...	Kétszerezés	!
-Dynamic	Dinamikus	!
-E-mail	E-mail	!
-Echo	Visszhang	!
-Edge	Szél	!
-Edit	Szerkesztés	!
-Effects	Hatások	!
-Eject	Kiadás	!
-Electronic Mail	Elektronikus levél	!
-Enable	Engedélyezés	!
-Encapsulated PostScript	Encapsulated PostScript	!
-Encoding	Kódolás	!
-Engineering	Műszaki tervezés	!
-Entity	Entitás	!
-Equation	Egyenlet	!
-Error	Hiba	!
-Ethernet	Ethernet	!
-Event	Esemény	!
-Exception	Kivétel	!
-Exclusive OR	Kizáró VAGY	!
-Execute	Végrehajtás	!
-Exit	Kilépés	!
-Expanded memory	Kiterjesztett memória	!
-Exponential notation	Exponenciális ábrázolás	!
-Export	Exportálás	!
-Extension	Kiterjesztés	!
-FTP	FTP	!
-Favorite	Kedvenc	!
-Fax	Fax	!
-File	Fájl	!
-Filename	Fájlnév	!
-Filesystem	Fájlrendszer	!
-Fill	Kitöltés	!
-Find	Keresés	!
-Firmware	Firmware	!
-Fixed Font	Rögzített szélességű betűkészlet	!
-Float	Lebegő	!
-Floppy	Floppy	!
-Flowchart	Folyamatábra	!
-Folder	Mappa	!
-Font	Betűkészlet	!
-Footer	Élőláb	!
-Forecast	Előrejelzés	!
-Foreground	Előtér	!
-Form	Űrlap	!
-Formula	Képlet	!
-Fraction	Tört	!
-Frame	Keret	!
-Free Software	Szabad szoftver	!
-Frequency	Frekvencia	!
-GNOME	GNOME	!
-GNU	GNU	!
-GPL	GPL	!
-GTK+	GTK+	!
-GUI	felület, grafikus felület	!
-Gamma	Gamma	!
-Geometry	Geometria	!
-Global	Globális	!
-Grab	Elkapás	!
-Gradient	Színátmenet	!
-Graph	Grafikon	!
-Graphical user interface	Grafikus felhasználói felület	!
-Grid	Rács	!
-Group	Csoport	!
-Gutter	Kötésmargó	!
-HTML	HTML	!
-HTTP	HTTP	!
-Hacker	Hacker	!
-Handshake	Kézfogás	!
-Hard Disk	Merevlemez	!
-Header	Élőfej, Fejléc	!
-Hello World	Szia Világ	!
-Help	Súgó	!
-Hex	Hexa	!
-Hidden file	Rejtett fájl	!
-Hide	Elrejtés	!
-Highlight...	Kiemelés...	!
-Histogram	Hisztogram	!
-History	Előzmények	!
-Home	Kezdőlap	!
-Home Page	Honlap	!
-Home directory	Saját könyvtár	!
-Homogeneous environment	Homogén környezet	!
-Host	Gép	!
-Host name	Gépnév	!
-Hot Key	Gyorsbillentyű	!
-Hotkey	Gyorsbillentyű	!
-Hue	Árnyalat	!
-I/O subsystem	I/O alrendszer	!
-ID	Azonosító	!
-IDE	IDE	!
-IP address	IP-cím	!
-IRC	IRC	!
-Icon	Ikon	!
-Identifier	Azonosító	!
-Idle	Üresjárat	!
-Illegal	Szabálytalan	!
-Image	Kép, lemezkép	!
-Implementation	Implementáció	!
-Import	Importálás	!
-Inactive window	Inaktív ablak	!
-Increase	Növelés	!
-Indent	Behúzás	!
-Index	Tárgymutató, Index (adatbázisnál)	!
-Indicator	Jelző	!
-Inode	Inode	!
-Input	Bemenet	!
-Input/output	Bemenet/kimenet	!
-Insertion point	Beszúrási pont	!
-Install	Telepítés	!
-Intercept	Metszéspont	!
-Interface	Felület (szoftver), Csatoló (hardver)	!
-Internal bug	Belső hiba	!
-Internal error	Belső hiba	!
-International	Nemzetközi	!
-Interrupt	Megszakítás	!
-Intersect	Metszet	!
-Intuitive	Intuitív	!
-Invalid	Érvénytelen	!
-Invert Selection	Kijelölés megfordítása	!
-Invisible	Láthatatlan	!
-JPEG	JPEG	!
-Jaz Drive	Jaz-meghajtó	!
-Job	Feladat	!
-Justify	Sorkizárt	!
-KDE	KDE	!
-Kernel	Rendszermag	!
-Key	Billentyű, Kulcs (GConf)	!
-Keyboard	Billentyűzet	!
-Keyboard shortcut	Gyorsbillentyűk	!
-Keyword	Kulcsszó	!
-Kill	Kilövés	!
-Kill app	Alkalmazás kilövése	!
-Kilobyte	Kilobájt	!
-LaTeX	LaTeX	!
-Label	Címke	!
-Lambda	Lambda	!
-Landscape	Fekvő	!
-Language	Nyelv	!
-Launcher	Indítóikon	!
-Layer	Réteg	!
-Legal	Legal	!
-Length	Hossz	!
-Letter	Letter	!
-License agreement	Licencegyezmény	!
-Limits	Korlátok	!
-Linux	Linux	!
-Local	Helyi	!
-Location	Hely	!
-Lock	Zárolás	!
-Log	Napló	!
-Logical	Logikai	!
-Login	Bejelentkezés	!
-Logout	Kijelentkezés	!
-Look	Kinézet	!
-Lookup	Keresés	!
-Loop	Hurok, hurokeszköz, Ciklus	!
-MDI	MDI	!
-MIME Type	MIME-típus	!
-MINIX	MINIX	!
-MS	MS	!
-MSDOS	MS-DOS	!
-MTU	MTU	!
-Macro	Makró	!
-Mail	Levél	!
-Mail Client	Levelezőkliens	!
-Mail server	Levelezőkiszolgáló	!
-Mailbox	Postafiók	!
-Main body	Fő törzs	!
-Man Pages	Man oldalak	!
-Manager	Kezelő	!
-Manual	Kézikönyv	!
-Manual page	Kézikönyvoldal	!
-Margins	Margók	!
-Mark	Jel	!
-Median	Medián	!
-Meeting	Találkozó	!
-Memory	Memória	!
-Menu	Menü	!
-Merge	Összefűzés	!
-Message	Üzenet	!
-Metadata	Metaadat	!
-Metafile	Metafájl	!
-Minimize	Minimalizálás	!
-Mode	Mód	!
-Model	Modell	!
-Modem	Modem	!
-Modifier	Módosítóbillentyű	!
-Modify	Módosítás	!
-Module	Modul	!
-Monitor	Monitor	!
-Mount	csatolás	!
-Mouse Cursor	Egérkurzor	!
-Move	Áthelyezés	!
-NO-DAEMON	NO-DAEMON	!
-Nautilus	Nautilus	!
-Netmask	Hálózati maszk	!
-Netscape	Netscape	!
-Network	Hálózat	!
-Note that	Ne feledje, hogy	!
-Notebook	noteszgép	!
-Notification	Értesítés	!
-Number	Szám	!
-Numbered List	Számozott lista	!
-Numeric	Numerikus	!
-OR	VAGY	!
-Object code	Tárgykód	!
-Observations	Megfigyelések	!
-Obsolete	Elavult	!
-Offline	Offline	!
-On Screen Display	OSD, képernyőkijelzés (OSD)	!
-Online	Online	!
-Opacity	Átlátszatlanság	!
-Open	Megnyitás	!
-Open Source	Nyílt forrású	!
-Operating System	Operációs rendszer	!
-Operation	Művelet	!
-Orientation	Tájolás	!
-Origin	Eredet	!
-Output	Kimenet	!
-Overwrite	Felülírás	!
-Owner	Tulajdonos	!
-PID	PID	!
-PPP	PPP	!
-Pack	Csomag	!
-Package	Csomag	!
-Packet	Csomag	!
-Padding	Kitöltés	!
-Page	Oldal	!
-Pager	Személyhívó	!
-Palette	Paletta	!
-Panel	Panel	!
-Parameter	Paraméter	!
-Parcel	Csomag	!
-Parse	Feldolgozni	!
-Password	Jelszó	!
-Paste	Beillesztés	!
-Path	Útvonal	!
-Pattern	Minta	!
-Period	Időtartam	!
-Periodic	Periodikus	!
-Perl	Perl	!
-Perl Script	Perl-parancsfájl	!
-Permission	Jogosultság	!
-Picker Settings	Pipetta beállításai	!
-Pilot device	Pilot eszköz	!
-Pipe	Adatcsatorna, átirányítani	!
-Pixel	Képpont	!
-Pixmap	Kép	!
-Place	Hely	!
-Play	Lejátszás	!
-Plug-in	Bővítmény	!
-Point	Pont	!
-Policy	Szabály	!
-Polygon	Sokszög	!
-Polyline	Töröttvonal	!
-Portrait	Álló	!
-PostScript	PostScript	!
-Postal Box	Postafiók	!
-Preferences	Beállítások	!
-Prefix	Előtag	!
-Preview	Előnézet	!
-Primary Colors	Elsődleges színek	!
-Print	Nyomtatás	!
-Print area	Nyomtatási terület	!
-Printer	Nyomtató	!
-Priority	Prioritás	!
-Privacy	Adatvédelem	!
-Private Messages	Személyes üzenetek	!
-Private key	Személyes kulcs	!
-Problem	Probléma	!
-Process	Folyamat	!
-Process ID	Folyamatazonosító	!
-Processor	Processzor	!
-Progress	Folyamat	!
-Progress Bar	Folyamatjelző	!
-Properties	Tulajdonságok	!
-Proportional font	Proporcionális betűkészlet	!
-Protected	Védett	!
-Protection	Védelem	!
-Protocol	Protokoll	!
-Proxy	Proxy	!
-Public	Nyilvános	!
-Public Key	Nyilvános kulcs	!
-Query	Lekérdezés	!
-Queue	Várólista	!
-Quit	Kilépés	!
-RPM package	RPM-csomag	!
-Radio	Rádió	!
-Radio Button	Választógomb	!
-Random	Véletlen	!
-Range	Tartomány	!
-Rank	Sorrend	!
-Rating	Értékelés	!
-Ratio	Arány	!
-Raw data	Nyers adat	!
-Raw memory	Nyers memória	!
-Real Memory	Valós memória	!
-Real time	Valós idejű	!
-Reboot	Újraindítás	!
-Receive	Fogadás	!
-Receptivity	Érzékenység	!
-Rectangle	Téglalap	!
-Recurrence	Ismétlődés	!
-Recursion	Rekurzió	!
-Redisplay	Újrarajzolás	!
-Redo	Újra	!
-Refresh	Frissítés	!
-Region	Régió	!
-Regular expression	Reguláris kifejezés	!
-Regulate	Szabályozás	!
-Relationship	Kapcsolat	!
-Release	Kiadás	!
-Remote	Távoli	!
-Remove	Eltávolítás	!
-Rename	Átnevezés	!
-Repeat	Ismétlés	!
-Repetitive Strain Injury (RSI)	ismétlődő mozgásból eredő izomhúzódás	!
-Replace	Csere	!
-Reports	Jelentések	!
-Reset	Visszaállítás	!
-Resident	Rezidens	!
-Resident memory	Rezidens memória	!
-Resize	Átméretezés	!
-Resolution	Felbontás	!
-Restart	Újraindítás	!
-Resume	Folytatás	!
-Retry	Újra	!
-Revert	Visszaállítás	!
-Root Directory	Gyökérkönyvtár	!
-Rotate	Forgatás	!
-Row	Sor	!
-Run	Futtatás	!
-SCSI	SCSI	!
-SLIP	SLIP	!
-SMTP	SMTP	!
-SOCKS Server	SOCKS-kiszolgáló	!
-SYLK file	SYLK-fájl	!
-Sample	Minta	!
-Saturation	Telítettség	!
-Save	Mentés	!
-Save As	Mentés másként	!
-Scalable	Skálázható	!
-Scalar	Skaláris	!
-Scale	Méretezés	!
-Screensaver	Képernyővédő	!
-Screenshot	Képernyőkép	!
-Script	Parancsfájl	!
-Scroll	Görgetés	!
-Scrollbars	Görgetősávok	!
-Search	Keresés	!
-Search Domains	Keresési tartomány	!
-Secondary Colors	Másodlagos színek	!
-Secure channel	Biztonságos csatorna	!
-Security	Biztonság	!
-Segmentation Fault	Szegmentációs hiba	!
-Selection	Kijelölés	!
-Send	Küldés	!
-Sensitive	Érzékeny	!
-Separator	Elválasztó	!
-Server	Kiszolgáló	!
-Set	Beállítás	!
-Settings	Beállítások	!
-Setup	Beállítás	!
-Severity	Súlyosság	!
-Share	Megosztás	!
-Shared Memory	Osztott memória	!
-Shift key	Shift billentyű	!
-Show	Megjelenítés	!
-Shut Down	Leállítás	!
-Signal	Szignál	!
-Skip	Kihagyás	!
-Smart	Okos	!
-Smart terminal	Okos terminál	!
-Socket	Foglalat	!
-Software Foundation	Szoftver Alapítvány	!
-Sort	Rendezés	!
-Source	Forrás	!
-Source code	Forráskód	!
-Space character	Szóköz karakter	!
-Spam	Levélszemét	!
-Special character	Speciális karakter	!
-Spell Checker	Helyesírás-ellenőrző	!
-Stack	Verem	!
-Standard	Szabványos	!
-Standby	Készenlét	!
-Start	Indítás	!
-Startup	Indulás	!
-State	Állapot	!
-Statistics	Statisztika	!
-Status	Állapot	!
-Stereotype	Előítélet	!
-Stock Ticker	Részvényfigyelő	!
-Storage	Tároló	!
-Strikethrough	Áthúzott	!
-String	Karakterlánc	!
-Style	Stílus	!
-Subdirectory	Alkönyvtár	!
-Subject	Tárgy	!
-Submenu	Almenü	!
-Submit	Elküldés	!
-Subnet	Alhálózat	!
-Subscript	Alsó index	!
-Suffix	Utótag	!
-Superscript	Felső index	!
-Support	Támogatás	!
-Suspend	Felfüggesztés	!
-Swap	Lapozás (swap)	!
-Symbol	Szimbólum	!
-Symbolic link	Szimbolikus link	!
-Synchronize	Szinkronizálás	!
-Syndication	Tartalommegosztás (RSS)	!
-Syntax error	Szintaktikai hiba	!
-System	Rendszer	!
-System Configuration	Rendszerbeállítás	!
-TCLASS	TCLASS	!
-TCP/IP	TCP/IP	!
-TERM variable	TERM-változó	!
-Talk	Csevegés	!
-Telnet	Telnet	!
-Template	Sablon	!
-Terminal	Terminál	!
-Terminate	Megszakítás	!
-Test	Teszt	!
-Test Module	Teszt-modul	!
-Text	Szöveg	!
-Text only	Csak szöveg	!
-Theme	Téma	!
-Threshold	Küszöb	!
-Thumb Nails	Bélyegkép, Előnézet (pl. betűtípus)	!
-Tile	Csempe	!
-Time format	Időformátum	!
-Timezone	Időzóna	!
-Title	Cím	!
-Tolerance	Tűréshatár	!
-Tool	Eszköz	!
-Toolbar	Eszköztár	!
-Tooltip	Buboréksúgó	!
-Transfer	Átvitel	!
-Translate	Fordítás	!
-Transparent	Átlátszó	!
-Trash	Kuka	!
-Tree	Fa	!
-Trim	Levágás	!
-Tty	Tty	!
-Turing Machine	Turing gép	!
-Type	Típus	!
-Type mismatch	Nem megfelelő típus	!
-UNIX	UNIX	!
-URI	Egységes erőforrás-azonosító, URI cím	!
-URL	URL, Egységes erőforrás-hivatkozás, URL-cím	!
-USB	USB	!
-Undelete	Törlés visszavonása	!
-Underline	Aláhúzott	!
-Undo	Visszavonás	!
-Unicode	Unicode	!
-Uninstall	Eltávolítás	!
-Unknown host	Ismeretlen kiszolgáló	!
-Unload	Eltávolítás	!
-Untitled	Névtelen	!
-Update	Frissítés	!
-Upgrade	Frissítés	!
-Uptime	Működési idő	!
-User	Felhasználó	!
-User Interface	Felhasználói felület	!
-User defined	Felhasználó által megadott, Egyéni	!
-Username	Felhasználónév	!
-VERBOSE	VERBOSE	!
-VFS	VFS	!
-Valid chars	Érvényes karakterek	!
-Value	Érték	!
-Variable	Változó	!
-Vector Graphics	Vektorgrafika	!
-Vendor	Gyártó	!
-Verify	Ellenőrzés	!
-Version	Verzió	!
-Vertical	Függőleges	!
-Vertical Alignment	Függőleges igazítás	!
-Video	Video	!
-View	Nézet	!
-Viewport	Munkalap	!
-Virtual	Virtuális	!
-Visualization	Képi megjelenítés	!
-WVLAN	WVLAN	!
-Wallpaper	Háttérkép	!
-Warning	Figyelmeztetés	!
-Watch file	Fájl figyelése	!
-Web Page	Weboldal	!
-Weight	Vastagság	!
-Widget	Elem, Felületi elem	!
-Width	Szélesség	!
-Window	Ablak	!
-Window Manager	Ablakkezelő	!
-Word	Szó	!
-Work	Munka	!
-Work With	... kezelése	!
-Workbook	Munkafüzet	!
-Wrap	Tördelés	!
-Write	Írás	!
-X Align	X-igazítás	!
-X server	X-kiszolgáló	!
-XDMCP socket	XDMCP foglalat	!
-XML	XML	!
-Zigzagline	Cikcakk vonal	!
-Zip Drive	Zip-meghajtó	!
-Zoom	Nagyítás	!
-\"	„”	!
-\'	„”	!
 abbreviated	rövidített	!
 abort	megszakítás	!
 about	Névjegy	!
@@ -686,60 +10,71 @@ absence, of sg	(vmi) hiánya	!
 absent	hiányzó	!
 absolute record	abszolút hivatkozás	!
 absolute value	abszolút érték	!
-ac	hálózati tápellátás	!
+Abstract	Elvont, elvonatkoztatott, kivonat, kivonatolt, absztrakt	!
 acceleration	gyorsítás	!
 accelerator	hívóbetű (_UI-n)	?
 accent	ékezet	!
 accept changes	változások elfogadása	!
-accept or discard	elfogadás vagy elutasítás	!
 accepted	elfogadva	!
-access	hozzáférés	!
+Accept	Elfogadás	!
+accept or discard	elfogadás vagy elutasítás	!
 access  control list	hozzáférés-vezérlési lista	!
 access denied	hozzáférés megtagadva	!
-access key	hívóbetű (_UI, MS-izmus)	!
-access point	hozzáférési pont	!
+access	hozzáférés	!
 accessibility	akadálymentesítés	!
+access key	hívóbetű (_UI, MS-izmus)	!
 accessories	kellékek, kiegészítők	!
 accessory	kiegészítő	!
+access point	hozzáférési pont	!
 account	felhasználói fiók, fiók	!
 account name	fiók neve	!
 accuracy	pontosság	!
+ac	hálózati tápellátás	!
 acronym	betűszó	!
 action	művelet	!
 activate	bekapcsolás	!
+Active	Aktív	!
 actual	tényleges (NEM: aktuális)	!
-ad-hoc	eseti	!
 add	hozzáadás	!
 add-in	kiegészítő	!
-addition +	Összeadás +	!
 additional parameter	további paraméter	!
+addition +	Összeadás +	!
 addon	bővítmény	!
+Address book	címjegyzék	!
+Addressbook	címjegyzék	!
+Address	Cím	!
+addressee	címzett	!
 address field	címmező	!
 address space	címtér (IP)	!
-addressee	címzett	!
+ad-hoc	eseti	!
 adhoc	eseti	!
 adjust	módosítás, igazítás	?
+Administration	Adminisztráció	!
 administration	Adminisztráció, ?Felügyelet	?
 administrator	rendszergazda	!
-advance slides	dia továbbítása	!
 advanced	fejlett, speciális (extra beállítások elérése), tapasztalt (felhasználó), NEM: haladó 	!
+advance slides	dia továbbítása	!
 advantage	előny	!
 affiliation	kapcsolat	!
 agenda	napirend	!
 agents	Ügynökök	!
+Aggregate	Összetett	!
 aging	elévülés	!
 airbrush	festékszóró	!
+Alarm	Figyelmeztetés	!
 album art	albumgrafika	!
 alert	riasztás, értesítés, figyelmeztetés 	?
 alias	álnév	!
+Align	Igazítás	!
 alignment	igazítás	!
 allocate	lefoglalni	!
 allow	engedélyez, lehetővé tesz	!
 allow moving	mozgatás engedélyezése	!
-alpha channel	alfa csatorna	!
+Alpha	Alfa	!
 alphabet	ábécé	!
 alphabetical delimiter	alfabetikus határoló	!
 alphabetical index	tárgymutató	!
+alpha channel	alfa csatorna	!
 already completed	már elkészült	!
 alternate	alternatív	!
 alternating	váltakozó	!
@@ -747,16 +82,28 @@ alternatively	ennek alternatívájaként	!
 altitude	magasság	!
 ambient light	háttérfény	!
 amount	mennyiség, összeg (pénz)	!
+Analog	Analóg	!
+Analysis	Analízis	!
+Anchor	Horgony	!
+AND	ÉS	!
 and more!	és sok más(t)! (általános BS, ~stb.)	!
-angle	szög	!
 angled connector line	cikkcakkos összekötő vonal	!
+angle	szög	!
+Animation	Animáció	!
 annotation	magyarázat	!
 announce	bejelenteni, bejelentés	!
+Anonymous	Névtelen	!
+Answer mode	Válaszadási mód	!
+Antialiasing	Élsimítás	!
 anyway	mindenképp	!
 aperture value	Apertúraérték	!
 appearance	megjelenés	!
+Append	Hozzáfűzés	!
 appendix	függelék, vakbél	!
+Applet	Kisalkalmazás	!
 appliance	készülék, eszköz?	!
+Application	Alkalmazás	!
+Application Launcher	Alkalmazásindító	!
 apply	alkalmaz	!
 appointment	értekezlet	!
 approved	elfogadva	!
@@ -764,42 +111,58 @@ arcade	ügyességi (játék), játéktermi (pénzbedobós-gépes)	!
 architecture	architektúra	!
 archive	archívum	!
 archive file	archívumfájl	!
+Arc	Ív	!
 arcsine	arkusz szinusz	!
 arctangent	arkusz tangens	!
-are you sure?	biztos benne?	!
 area	terület	!
+are you sure?	biztos benne?	!
+Argument	Paraméter, argumentum	!
 arrange	elrendezés	!
-arrow	nyíl	!
+Array	Tömb (memóriaszerkezet), Fürt (alkatrészek rendszere)	!
 arrowheads	nyílhegyek	!
+Arrow key	Nyílbillentyű	!
+arrow	nyíl	!
+Article	Cikk	!
 artist	előadó (zene)	!
 artwork	grafika	!
 ascending	növekvő	!
+Ascending order	Növekvő sorrend	!
+ASCII	ASCII	!
 aspect ratio	méretarány	!
 assertion failure	érvényesítési hiba	!
 assessment	felmérés	!
 assign	hozzárendelés	!
 assignment	hozzárendelés	!
 assistant	asszisztens, ?segéd	?
+Asynchronous	Aszinkron	!
 attach	csatolás	!
 attachment	melléklet (NEM: csatolmány)	!
+Attribute	Attribútum, jellemző	!
+audiobook	Hangoskönyv	!
 audio feature	hangszolgáltatás	!
 audio file	hangfájl	!
-audiobook	Hangoskönyv	!
+Audio	Hang	!
 audit	auditálni	!
+Authentication	Hitelesítés	!
 authorization	felhatalmazás, jogosultság	!
+Author	Szerző	!
 auto 	automatikus	!
 autodetect	automatikus felismerés	!
 autodiscovery	automatikus feltérképezés	!
+Autofill	Automatikus kitöltés	!
 automatic	automatikus	!
 autopilot	tündér	!
 autotext	szöveg-o-mata	!
+Availability	Elérhetőség	!
 available	elérhető	!
 avatar	avatar	!
+Average	Átlag	!
 axial	tengelyirányú	!
-b-spline	b-spline	!
+Axis	Tengely	!
 backend	háttér (összetétel), háttérprogram	!
 background color	háttérszín	!
 background fill	háttérkitöltés	!
+Background	Háttér	!
 backport	visszaportolni	!
 backspace	backspace	!
 backup	Biztonsági mentés, tartalék (~pót dolog, nem másolat)	!
@@ -807,12 +170,14 @@ backup copies	biztonsági mentések	!
 backup domain controller	Tartalék tartományvezérlő	!
 backward	vissza	!
 balance columns	oszlopok kiegyensúlyozása	!
-ban	tiltani, kitiltani	!
+Balance	Egyensúly	!
 banner	kísérőoldal (nyomtatás), reklámcsík (web)	!
+ban	tiltani, kitiltani	!
 bar	bigyó	!
-base line	alapvonal	!
 base64	base64 kódolás	!
+Base	Alap	!
 based	-alapú (Java-alapú)	!
+base line	alapvonal	!
 batch file	parancsfájl	!
 battery	akkumulátor, nem telep, azt nem lehet tölteni	!
 baudsebesség	átviteli sebesség	?
@@ -822,27 +187,37 @@ belong	tartozni vhova	!
 benchmark	teljesítményteszt	!
 best viewed with	megtekintéshez javasolt:	!
 bibliography	irodalomjegyzék	!
+Binary	Bináris	!
 binary file	bináris fájl	!
 binary operator	bináris operátor	!
+Binding	Kötés	!
+Bit	Bit	!
+Bitmap	Bitkép	!
 bitmask	bitmaszk	!
 bitrate	bitsebesség	!
-black white	fekete-fehér	!
 blacklist	feketelista	!
+black white	fekete-fehér	!
 blank	törölni (CD-t), üres	!
+Blank	Üres	!
 bleed marks	Kifutójelek	?
 blind copy	rejtett másolat	!
+Blinking cursor	Villogó kurzor	!
 bloat	túlméretezett	!
 block	blokk (FS), tiltás (IM)	!
 block buffer	blokk puffer	!
 block device	blokkeszköz	?
+Blocked	Blokkolt	!
+Blur image	Kép elmosása	!
 board game	táblajáték	!
 body	törzs	!
+Bold	Félkövér	!
 bonding devices	nyalábolt eszközök	!
-book	könyv	!
 book excerpt	könyvkivonat	!
+book	könyv	!
 book mark	könyvjelző	!
 bookmark	könyvjelző	!
 boolean and	logikai És	!
+Boolean	Logikai	!
 boolean not	logikai nem	!
 boolean or	logikai vagy	!
 boolean value	logikai érték	!
@@ -855,76 +230,105 @@ bopomofo	bopomofo	!
 border	szegély	!
 bottleneck	szűk keresztmetszet	!
 bounce key	billentyűszűrés	!
+Box	Doboz	!
 braces	kapcsos zárójelek	!
-bracket	zárójel	!
 bracket matching	Zárójelek párosítása	!
 brackets	szögletes zárójelek	!
+bracket	zárójel	!
+Branch	Ág	!
 brand	márka	!
-break	törés	!
 breakpoint	töréspont	!
+break	törés	!
 breve	breve	!
-brightness	fényerő	!
+Bricks	Téglák	!
 brightness / contrast	fényerő / kontraszt	!
+brightness	fényerő	!
 broadcast	üzenetszórás	?
 brochure	brosúra	!
 broken	sérült	!
 brownstone	homokkő	!
-browse	Tallózás	!
+Browse	Böngészés	!
 browser	böngésző	!
+Browser	Böngésző	!
+browse	Tallózás	!
 brush	ecset	!
+b-spline	b-spline	!
 buddy	partner (IM)	!
+Buffer	Puffer	!
 bug	hiba, hibajelentés	!
+Build	Fordítás	!
 built-in	beépített	!
+Bullet	Felsorolásjel	!
+Bulletin Board	Hirdetőtábla	!
 bullets and numberings	felsorolás és számozás	!
+Bus	Busz	!
+Busy	Foglalt	!
+Button	Gomb	!
 button type	gombtípus	!
 byte	bájt	!
+Cache	Gyorsítótár	!
 calculate	számítás	!
 calculation template group	számítássablon-csoport	!
-call stack	hívási verem	!
+Calculator	Számológép	!
+Calendar	Naptár	!
 callback	visszahívás	!
+Call	Hívás	!
 callout	felirat	!
+call stack	hívási verem	!
 camera	fényképezőgép	!
 camera position	kamerapozíció	!
+canceled by user	felhasználói megszakítás	!
+cancel	megszakítani, Mégse (gomb)	!
 can not	nem lehet	!
 can't	nem lehet	!
-cancel	megszakítani, Mégse (gomb)	!
-canceled by user	felhasználói megszakítás	!
 canvas	rajzvászon	!
 capability	Képesség	!
 capitals	nagybetűk	!
 captcha	captcha	?
+Caption	Felirat	!
 capture	rögzíteni	!
 caret	kurzor	!
 cartoon	rajzfilm	!
 cartridge	kazetta	!
 cascade windows	lépcsőzetes ablakelrendezés	!
+Case Sensitive	Kis- és nagybetű	!
 case sensitive	Kis- és nagybetűs	!
 catalog	katalógus	!
+Categories	Kategóriák	!
 category	kategória	!
+C	C	!
 cc	másolat (e-mail)	!
+CD	CD	!
 cd-rom drive	cd-meghajtó	!
+Cell	Cella	!
+Cellular	Mobil	!
 centered	középre helyezett (háttérkép)	!
+Center	Középre	!
 centralize	központosítani	!
-certificate	tanúsítvány	!
 certificate authority	hitelesítésszolgáltató	!
 certificate issuer	tanúsítvány kiállítója	!
-change	módosítani, változtatni	!
+certificate	tanúsítvány	!
 changelog	változások listája, változáslista	?
+change	módosítani, változtatni	!
+Channel	Csatorna	!
 channel subscription	feliratkozás csatornákra	!
 chapter	fejezet	!
-char cell	karaktercella	!
-character	karakter	!
 character device	karakteres eszköz	?
 characteristics	jellemző	!
+character	karakter	!
+Character set	Karakterkészlet	!
+char cell	karaktercella	!
 charcoal sketch	szénvázlat	!
 chart	diagram	!
-check	ellenőrizni, keresni (~ for: vmit, pl frissítést)	!
+Chat	Csevegés	!
+Check bit	Ellenőrző bit	!
 check box	jelölőnégyzet	!
-check spelling	helyesírás-ellenőrzés	!
 checkbox	jelölőnégyzet	!
-checkered	kockás	!
+check	ellenőrizni, keresni (~ for: vmit, pl frissítést)	!
 checkered diagonal	rombuszos	!
+checkered	kockás	!
 checkpoint	ellenőrzőpont	!
+check spelling	helyesírás-ellenőrzés	!
 cherry-pick	mazsolázni (git)	?
 child	gyermek	!
 child process	gyermekfolyamat	!
@@ -933,8 +337,8 @@ choose	válasszon	!
 chroma	színesség 	!
 chrominance	színesség 	!
 cipher	titkosító	!
-circle	kör	!
 circle arc	körív	!
+circle	kör	!
 circle pie	kördiagram	!
 circle pie, unfilled	kördiagram kitöltés nélkül	!
 circle sector	körcikk	!
@@ -942,118 +346,167 @@ circle segment	körszelet	!
 circumflex	circumflex	!
 city	város	!
 cjk compatibility	távol-keleti kompatibilitás	!
-class id	osztályazonosíó	!
 classic	klasszikus	!
+class id	osztályazonosíó	!
+Classification	Besorolás	!
+Class	Osztály	!
+Clear	Törlés	!
+Click	Kattintás	!
 client	Ügyfél, kliens	!
 clipart	clipart	!
 clipboard id	vágólap azonosítója	!
+Clipboard	Vágólap	!
+Close	Bezárás	!
 cloud computing	számítási felhő	?
 cmyk	cmyk	!
 coarse grained	durva felbontású	!
+codec	kodek	!
 code	kód	!
 code map	karakterkiosztás	!
 code segment	kódszegmens	!
-codec	kodek	!
+Coefficient	Együttható	!
+Collaboration	Együttműködés	!
 collapse	Összecsukás	!
-color	szín	!
+Collate	Szétválogatás	!
+Collision	Ütközés	!
 color bars	színellenőrző csíkok	?
 colorblind	színtévesztő	!
 colorpicker	színválasztó	?
+color	szín	!
 column	oszlop, hasáb	!
 column spacing	hasábtávolság	!
 combo box	legördülő menü, lenyíló menü	!
-comma	vessző	!
+Command line options	Parancssori kapcsolók	!
+Command Line	Parancssor	!
+Command	Parancs	!
 commands	parancsok	!
+comma	vessző	!
 comment	megjegyzés, hozzászólás (web)	!
 commit	végrehajtani, véglegesíteni (vcs)	!
 common	általános, közös, gyakori	!
 common file	közös fájlok	!
 common name	általános név (cert)	!
+Common properties	Általános tulajdonságok	!
 company	cég	!
+Compare	Összehasonlítás	!
 compile	fordítás	!
 complete	kész	!
 completion	kiegészítés	!
 compliant	megfelelő, -kompatibilis (utótag)	?
 compose	összeállítani (e-mail)	!
-compress	tömöríteni	!
 compressed	tömörített	!
+compress	tömöríteni	!
+Concatenate	Összefűzés	!
 concordance file	szómutatófájl	!
 conditional formatting	feltételes formázás	!
 conditional style	feltételes stílus	!
 conditional text	feltételes szöveg	!
+Condition	Feltétel	!
+Conduit	Csatoló	!
 cone	kúp	!
 conference proceedings	konferencia-jegyzőkönyv	!
 conference report	konferenciabeszámoló	!
 confidence level	konfidenciaszint	!
-confidential	titkos	!
+Confidential	Bizalmas	!
 confidentiality level	titkossági szint	!
+confidential	titkos	!
 config file	konfigurációs fájl, beállítófájl	?
+Configuration	Beállítás	!
 configure	beállítás	!
 confine	korlátozni	!
-confirm	megerősítés	!
+Confirmation	Megerősítés	!
 confirm delete	törlés megerősítése	!
+Confirm	Megerősíteni	!
+confirm	megerősítés	!
 confirm receipt	kézhezvétel megerősítése	!
 connect	csatlakozni	!
-connector	Összekötő	!
+Connection	Kapcsolat	!
 connector attributes	Összekötő attribútumai	!
+connector	Összekötő	!
 connector reserved 2	2. fenntartott összekötő	!
 consecutive numbering	folyamatos számozás	!
 consolidate	Összesítés	!
+Constraint	Megszorítás	!
 contact	névjegy (címjegyzékben), partner (IM)	!
 contain	tartalmaz	!
 content negotiation	tartalomegyeztetés	?
+Content	Tartalom	!
 context	környezet	!
 context menu	helyi menü (jobbklikkes)	!
+Continue	Folytatás	!
 continuous	folytonos	!
 contour	körvonal	!
 contrast	kontraszt	!
 contributor	közreműködő, hozzájáruló(?)	?
+Control	Vezérlés	!
 control	vezérlőelem	!
 convened by	Összehívta:	!
 conversation	társalgás	!
-cookie	süti	!
+Conversion	Átalakítás	!
 cookies	sütik	!
+cookie	süti	!
 coordinate	koordináta	!
 coprocess	társfolyamat	?
+Copy	Másolás	!
+Copyright	Copyright	!
+CORBA	CORBA	!
+Core file	Core fájl	!
 correct	javítani, helyes	!
+Correlation	Korreláció	!
 corrupt	sérült	!
 cos	cos	!
+Cost	Költség	!
 could not	nem sikerült	!
 couldn't	nem sikerült	!
+Count	Mennyiség	!
 country	ország	!
+Covariance	Kovariancia	!
 cover	borító	!
+CPU	CPU	!
 cpu	processzor	!
-cr	cr	!
-cr lf	cr lf	!
 crash	összeomlás	!
 crawl	bejárás (tartalomindexelő)	!
 crc check	ellenőrzőösszeg	!
+cr	cr	!
+Create	Létrehozás	!
 creation	létrehozás	!
 creator	létrehozó	!
 credential	hitelesítési adatok	!
 credit	köszönet	!
 credits	köszönet	!
 criteria	feltételek	!
+Critical error	Kritikus hiba	!
+cr lf	cr lf	!
 crop	levágás, képkivágás	!
 crop marks	vágójelek	?
 crossplatform	keresztplatform	!
+Cross-reference	Kereszthivatkozás	!
+Cross Site Scripting	webhelyközi parancsfájl	!
 crypto	titkosítási-	!
+Ctrl	Ctrl	!
 cube	kocka	!
 cubic spline	harmadfokú spline	!
 curly bracket	kapcsos zárójel	!
 currency	pénznem	!
 current context	jelenlegi környezet	!
+Current	Jelenlegi	!
 currently	pillanatnyilag	!
+Cursor	Kurzor, Sormutató	!
 cursor type	kurzortípus	!
+Curve	Görbe	!
 curve integral	vonalintegrál	!
-custom	egyéni	!
 custom dictionaries	saját szótár	!
-custom window	egyéni ablak	!
+custom	egyéni	!
 customize	Személyre szabás	!
+Customize	Testreszabás	!
+custom window	egyéni ablak	!
+Cut	Kivágás	!
 cycle	körforgás	!
 cylinder	henger, cilinder (lemezen)	!
 cyrillic	cirill	!
+Daemon	Démon	!
 dash	vonás, dash (Ubuntuban)	?
+Data	Adat	!
 data	adatok	!
 database	adatbázis	!
 databuffer size (mb)	adatpuffer mérete (mb)	!
@@ -1066,33 +519,41 @@ dde link	dde-kapcsolat	!
 deactivate	kikapcsolás	!
 deblocking	blokkbontás	!
 debugger	hibakereső	!
-decimal	decimális	!
+Debug	Hibakeresés	!
 decimal accuracy	tizedes pontosság	!
+decimal	decimális	!
 decimal places	tizedeshelyek	!
 decimal separator	tizedesjel	!
 decoder	dekódoló	!
 decompress	kibontani	!
 decorative	díszes	!
+Decrease	Csökkentés	!
 decrease indent	behúzás csökkentése	!
 decrease spacing	helykihagyás csökkentése	!
-decrypt	visszafejt	!
 decryption	visszafejtés, titkosítás feloldása	!
+decrypt	visszafejt	!
+Default	Alapértelmezett	!
 define	meghatározás	!
 definition	meghatározás	!
 degree	fok	!
 degrees_freedom	szabadsági_fok	!
-deinstall	eltávolítás	!
 deinstallation	eltávolítás	!
+deinstall	eltávolítás	!
 deinterlace	váltottsorosság megszüntetése	!
 delay	késleltetés	!
+Delete	Törlés	!
 demote	lefokozás	!
 denominator	nevező	!
 denote	jelezni	!
 deny	megtagadni, letiltani	!
 department	részleg	!
+Dependence	Függőség	!
 depth	mélység	!
+Derived	Származtatott	!
 descending	csökkenő	!
+Descending sort	Csökkenő sorrend	!
 description	leírás	!
+Descriptor	Leíró	!
 deselect all	kijelölés megszüntetése	?
 deserialize	visszafejtés	?
 design	látványterv, tervezni	!
@@ -1100,86 +561,126 @@ design view	terv nézet	!
 desktop	asztal (képernyőterület), asztali környezet (GNOME), munkaállomás (hw)	!
 desktop background	háttér	!
 desktop environment	asztali környezet	!
+Desktop Publishing	kiadványszerkesztés	!
+Destination	Cél	!
+Destroy	Kilövés	!
 detail	részlet	!
 detected	felismerni (eszközt), csatlakoztatva (ipod detected)	!
+Detection	Felismerés	!
 detective	detektív	!
 determine	meghatározni	!
 development	fejlesztés	!
+Device	Eszköz	!
 diacritic	mellékjel	!
 diagnostic	diagnosztikai	!
-dial-up	betárcsázós (modem)	!
+Diagonal	Átló	!
+Diagram	Diagram	!
 dialing	tárcsázás	!
+Dialog Box	Párbeszédablak doboz	!
 dialog	párbeszédablak, ablak (doksiban)	!
+Dialout Device	Kitárcsázó eszköz	!
+Dial	Tárcsázás	!
+dial-up	betárcsázós (modem)	!
 dictionary	szótár	!
 digest	kivonat	!
 digital	digitális	!
-dimension line	méretvonal	!
+Digits	Számjegyek	!
+Dimension	Dimenzió	!
 dimensioning	méretezés	!
+dimension line	méretvonal	!
 din a4 portrait	din a4 álló	!
 din a5 landscape	din a5 fekvő	!
 direct column break	közvetlen hasábtörés	!
 direct cursor	közvetlen kurzor	!
-direct line break	közvetlen sortörés	!
-direct page break	közvetlen oldaltörés	!
+Direction	Irány	!
 directive	direktíva	?
+direct line break	közvetlen sortörés	!
 directly	közvetlenül	!
+Directory	Könyvtár	!
 directory	könyvtár, címtár	!
 directory tree	könyvtárstruktúra	!
+direct page break	közvetlen oldaltörés	!
+Disable	Tiltás	!
+Discard	Eldobás	!
 discard	elvetés	!
 disconnected	szétkapcsolva	!
+Disconnect	leválasztás	!
 discover	feltérképezni (hw-t)	!
+Discrete	Diszkrét	!
 disk	lemez	!
+Dismiss	Eltüntetés	!
 dismiss	Rendben (üzenetre), bezárás (ablak), megszüntetés (kijelölés)	!
 dispatcher	kézbesítő, kezelő	?
-display	megjelenítés, kijelző	!
 display manager	bejelentkezéskezelő (?ablakkezelő)	?
+display	megjelenítés, kijelző	!
 dissertation	Értekezés	!
+Dissipation	Veszteség	!
 dissolve	Áttűnés	!
 distance	távolság	!
 distinct values	különböző értékek	!
 distinguished name	megkülönböztető név (LDAP)	!
 distort	torzítás	!
+Distribute	Elosztás	!
 distribution	eloszlás, disztribúció (Linux ~), NEM: terjesztés	!
 dithering	színközelítés	!
-divide	osztás	!
+Dithering	Színszórás, Árnyalás	!
 dividend	osztandó	!
+divide	osztás	!
+Division by zero	Osztás nullával	!
 divisor	osztó	!
+DMA	DMA	!
+DNS	DNS	!
 dns server	dns-kiszolgáló	!
 dockapp	dokkalkalmazás	!
+Document	Dokumentum	!
+Domain	Tartomány	!
 dot dash	pont vonás	!
+Dot	Pont	!
 dotted underline	pontozott aláhúzás	!
-double	dupla	!
+double-angled line	kettős cikkcakkos vonal	!
 double click	dupla kattintás	!
 double curve integral	kettős vonalintegrál	!
+double	dupla	!
 double integral	kettős integrál	!
 double quotes	kettős idézőjelek	!
-double-angled line	kettős cikkcakkos vonal	!
 downgrade	visszafejlesztés (csomagkezelésnél)	!
-drag	húzni (egérrel)	!
+Download	Letöltés	!
 drag and drop	fogd és vidd	!
-draw	rajzolás	!
-draw functions	rajzolóműveletek 	!
-draw object	rajzobjektum	!
-draw object bar	rajzobjektum eszköztár	!
+drag	húzni (egérrel)	!
 drawer	fiók	!
+draw functions	rajzolóműveletek 	!
+Drawing Area	Rajzterület	!
 drawing	rajz	!
+draw object bar	rajzobjektum eszköztár	!
+draw object	rajzobjektum	!
+draw	rajzolás	!
 drive	meghajtó	!
 driver	illesztőprogram (szoftverek), meghajtó (hardverek)	!
 driver settings	illesztőprogram beállításai	!
 drop caps	iniciálé	!
 dropdown	legördülő	!
+Drop down menu	Legördülő menü	!
+Drop	Ejtés	!
 droplets	cseppek	!
+Druid	Varázsló	!
 dummy	üres	!
+Duplicate...	Kétszerezés	!
 duration	időtartam	!
 dwell click	elidőzési kattintás	!
-e-mail address	e-mail cím	!
-e.g.	például	!
+Dynamic	Dinamikus	!
 easy	egyszerű, ellenjavallt: könnyű	!
+Echo	Visszhang	!
+Edge	Szél	!
 editing time	szerkesztés ideje	!
 edition	kiadás	!
 editor	szerkesztő	!
+Edit	Szerkesztés	!
 effect	életbe lép (módosítás), hatás, effektus	?
+Effects	Hatások	!
+e.g.	például	!
+Eject	Kiadás	!
 elapsed	eltelt (idő)	!
+Electronic Mail	Elektronikus levél	!
 element	elem	!
 eliminate points	pontok eltávolítása	!
 ellipse	ellipszis	!
@@ -1187,6 +688,8 @@ ellipse pie	ellipszisdiagram	!
 ellipse segment	ellipszisszelet	!
 ellipsize	kihagyás (ki...ás)	!
 elliptical arc	elliptikus ív	!
+e-mail address	e-mail cím	!
+E-mail	E-mail	!
 email	e-mail	!
 embed	beágyazni	!
 embedded	beágyazott	!
@@ -1194,25 +697,30 @@ embedded object (ole)	beágyazott objektum (ole)	!
 emblem	matrica	!
 emoticon	hangulatjel	!
 emphasis	kiemelés	!
-empty	Üres	!
 empty recycle bin	lomtár ürítése	!
+empty	Üres	!
 emulation	emuláció	!
 enabled	engedélyezve	!
+Enable	Engedélyezés	!
+Encapsulated PostScript	Encapsulated PostScript	!
 enclosed alphanumerics	csatolt alfanumerikus karakterek	!
 encode (pgp)	titkosítás (pgp)	!
 encoder	kódoló	!
+Encoding	Kódolás	!
 encounter	találni (váratlan értéket)	?
-encrypt	titkosít	!
 encryption	titkosítás	!
-end quote	idézet vége	!
-end value	végérték	!
+encrypt	titkosít	!
 endash	gondolatjel, –	!
 endless	végtelen	!
 endnote	végjegyzet	!
+end quote	idézet vége	!
+end value	végérték	!
 enforce	kikényszeríteni	!
 engine	alrendszer	!
+Engineering	Műszaki tervezés	!
 enhance edges	Élek kiemelése	!
 enlargement	méret növelése	!
+Entity	Entitás	!
 entry	bejegyzés	!
 envelope	boríték	!
 environment variable	környezeti változó	!
@@ -1220,6 +728,8 @@ eps color format	eps-színformátum	!
 eps version	eps-verzió	!
 equal	egyenlő	!
 equalizer	hangszínszabályzó	!
+Equation	Egyenlet	!
+Error	Hiba	!
 error margin	biztonsági ráhagyás	!
 error message	hibaüzenet	!
 error occurred	hiba történt	!
@@ -1227,20 +737,27 @@ escape	levédés, fedés	?
 essential	alapvető	!
 establish	létrehozni	!
 estimate	becsülni	!
+Ethernet	Ethernet	!
 evaluate	kiértékelni	!
 evaluation	kiértékelés	!
 even	páros, akkor is	!
+Event	Esemény	!
 example	példa, például: [lehetséges értékek]	!
 exceed	túllépni, meghaladni	!
 excel documents	excel-dokumentum	!
 excel templates	excel-sablon	!
 exception (-)	kivétel (-)	!
+Exception	Kivétel	!
 excess length	fölös hossz	!
 exclusive access	kizárólagos hozzáférés	!
+Exclusive OR	Kizáró VAGY	!
 executable file	végrehajtható fájl	!
-exist	létezik	!
-existing	meglévő, létező	!
+Execute	Végrehajtás	!
 existing design	meglévő látványterv	!
+existing	meglévő, létező	!
+exist	létezik	!
+Exit	Kilépés	!
+Expanded memory	Kiterjesztett memória	!
 expand	kinyitni (UI elemet), bővíteni (partíciót)	!
 expected location	elvárt hely	!
 expiration	lejárat (dátum)	!
@@ -1248,54 +765,71 @@ expired	lejárt	!
 explorer	aktakukac	!
 exponential function	exponenciális függvény	!
 exponential increasing	exponenciális növekedés	!
+Exponential notation	Exponenciális ábrázolás	!
+Export	Exportálás	!
 export file	fájl exportálása, exportálási fájl	!
 exposure time	Expozíciós idő	!
 expression	kifejezés	!
 extended help	részletes súgó	!
 extended selection on	kiterjeszthető kijelölés be	!
 extended tips	részletes tippek	!
+Extension	Kiterjesztés	!
 extent	kiterjedés	!
 external	külső	!
 extract	kibontani, beolvasni (cd-t, rip)	!
 eyedropper	szemcseppentő	!
 facilitate	megkönnyíteni	!
 facility	szolgáltatás	!
-factor	tényező	!
 factorial	faktoriális	!
+factor	tényező	!
 fade	elhalványulás	!
 failed	nem sikerült (vmit csinálni), meghiúsult (vmi)	!
 fallback	tartalék	!
 false	hamis	!
 favicon	weblapikon	!
+Favorite	Kedvenc	!
 favorites	kedvencek	!
 fax cover	fax fedőlap 	!
-feature	szolgáltatás, funkció, jellemző	!
+Fax	Fax	!
 featureful	funckiógazdag	!
-feed	hírforrás	!
+feature	szolgáltatás, funkció, jellemző	!
 feedback	visszajelzés	!
+feed	hírforrás	!
 fetch	letölteni, lekérni	!
-field	mező	!
 field codes	mezőkódok	!
 field delimiter	mezőelválasztó	!
+field	mező	!
 file browser	Fájlböngésző	!
 file chooser	fájlválasztó	!
+File	Fájl	!
+Filename	Fájlnév	!
+Filesystem	Fájlrendszer	!
 fill color	kitöltőszín	!
 fill data series	adatsor kitöltése	!
+Fill	Kitöltés	!
 filter	szűrő	!
 financial	pénzügyi	!
+Find	Keresés	!
 find replace	keresés és csere	!
 finish	befejezés	!
+Firmware	Firmware	!
 first name	utónév	!
 fit to frame	keretbe illesztés	!
+Fixed Font	Rögzített szélességű betűkészlet	!
 fixed	rögzített	!
 flag	jelző	!
-flash fired	Vakuvillanás	!
 flashcard	tanulókártya	!
+flash fired	Vakuvillanás	!
 flavor	változat	!
 flip horizontally	vízszintes tükrözés	!
 flip vertically	függőleges tükrözés	!
 floating frame	Úszó keret	!
+Float	Lebegő	!
+Floppy	Floppy	!
+Flowchart	Folyamatábra	!
 flow charts	folyamatábrák	!
+Folder	Mappa	!
+Font	Betűkészlet	!
 font color	betűszín	!
 font effects	betűhatások	!
 font size	betűméret	!
@@ -1303,33 +837,43 @@ font weight	betűvastagság	!
 font width	betűszélesség	!
 foo	izé	!
 footer	Élőláb	!
+Footer	Élőláb	!
 footnote	lábjegyzet	!
-for later reference	későbbi használat céljából	!
-for your information	tudnivaló	!
-foreground	előtér	!
+Forecast	Előrejelzés	!
 foreground color	előtérszín	!
+foreground	előtér	!
+Foreground	Előtér	!
 foreground transparence	előtér átlátszósága	!
 fork	indítani (programot), elágazás, továbbfejlesztés (projekt, kb)	!
-form controls	Űrlapelemek	!
-form design	Űrlaptervezés	!
-form letter	körlevél	!
-form letter field	körlevélmező	!
+for later reference	későbbi használat céljából	!
 format	formázni, formátum	!
 formatted	formázott	!
+form controls	Űrlapelemek	!
+form design	Űrlaptervezés	!
+form letter field	körlevélmező	!
+form letter	körlevél	!
+Formula	Képlet	!
+Form	Űrlap	!
+for your information	tudnivaló	!
 fraction bar	törtvonal	!
+Fraction	Tört	!
+Frame	Keret	!
 frame	Keret (web), képkocka (film)	!
 framework 	keretrendszer	!
-free positioning	kötetlen elhelyezés	!
 free/busy	szabad/elfoglalt (naptár)	!
 freecell	admirális	!
 freeform line	szabadkézi vonal	!
 freeform polygon	szabad formájú sokszög	!
+free positioning	kötetlen elhelyezés	!
+Free Software	Szabad szoftver	!
 freeze window	ablak rögzítése	!
+Frequency	Frekvencia	!
 frequency	gyakoriság	!
 frequency scaling	órajelszabályozás	?
 freshen	felfrissít (tömörített fájlt)	!
 from	feladó (e-mail)	!
 frontend	előtétprogram, felület	!
+FTP	FTP	!
 full featured	teljes felszereltségű (~általános BS)	!
 full pathname	teljes elérési út	!
 full screen	teljes képernyő	!
@@ -1338,6 +882,7 @@ fully qualified domain name	teljes képzésű tartománynév	!
 function	függvény (programozói), funkció (felhasználói szemmel)	!
 gallery	képtár, galéria	!
 gamma correction	gamma-korrekció	!
+Gamma	Gamma	!
 gamma value	gamma-érték	!
 gap	hézag	!
 gapless	szünetmentes (lejátszás)	!
@@ -1346,57 +891,94 @@ general	Általános	!
 generate	előállítani	!
 generic	Általános	!
 genre	műfaj	!
+Geometry	Geometria	!
 get	get (FTP), megszerzés (ige)	!
 getting started	kezdeti lépések, mielőtt elkezdi, ... használatának megkezdése	!
 given angle	adott szög	!
+Global	Globális	!
 global settings	Általános beállítások	!
 glue point	csatolópont	!
 glyph	szimbólum	!
-go	Ugrás (gomb)	!
+GNOME	GNOME	!
+GNU	GNU	!
 goal seek	célértékkeresés	!
+go	Ugrás (gomb)	!
+GPL	GPL	!
+Grab	Elkapás	!
 grace time	türelmi idő (lemezkvóta)	!
+Gradient	Színátmenet	!
 grand total	végösszeg	!
 grant	megadni	?
 granular	részletes	?
+Graph	Grafikon	!
 graph	grafikon, gráf	!
+Graphical user interface	Grafikus felhasználói felület	!
 graphic	kép	!
-graphics	kép	!
 graphics card	videokártya	!
+graphics	kép	!
 gravel	kavicsok	!
 grayscale	szürkeárnyalatos	!
 greylist	szürkelista	!
 greyscale	szürkeárnyalatos (NEM: szürkeskálás)	!
+Grid	Rács	!
 grid view	rácsnézet	?
 group box	csoportpanel	!
+Group	Csoport	!
 group policy	csoportházirend	!
 grow	növelni, nagyítani	!
+GTK+	GTK+	!
 guides	vezetővonal	!
+GUI	felület, grafikus felület	!
+Gutter	Kötésmargó	!
+Hacker	Hacker	!
 half-sphere	félgömb	!
 handle	kezelni, Leíró (programozásban), Fogantyú (GUI)	!
 handout	emlékeztető	!
+Handshake	Kézfogás	!
 hanging indent	függő behúzás	!
+Hard Disk	Merevlemez	!
 hard link	hard link	?
 hatching	vonalkázás	!
+Header	Élőfej, Fejléc	!
 header	fejléc, élőfej	!
 heading	címsor	!
 headless	kijelző nélküli	!
 headphone	fejhallgató	!
 heap	kupac (memória)	!
+Hello World	Szia Világ	!
 help about help	a súgó használata	!
 helper	segédprogram	?
+Help	Súgó	!
 heredoc	here-dokumentum	?
+Hex	Hexa	!
 hibernate	hibernálás	!
+Hidden file	Rejtett fájl	!
 hidden	rejtett	!
+Hide	Elrejtés	!
 hierarchy	hierarchia	!
+Highlight...	Kiemelés...	!
 highlight	kiemelés	!
-horizontal	vízszintes	!
+Histogram	Hisztogram	!
+History	Előzmények	!
+Home directory	Saját könyvtár	!
+Home	Kezdőlap	!
+Home Page	Honlap	!
+Homogeneous environment	Homogén környezet	!
 horizontal line	vízszintes vonal	!
 horizontal pitch	vízszintes dőlés	!
+horizontal	vízszintes	!
+Host	Gép	!
+Host name	Gépnév	!
+Hot Key	Gyorsbillentyű	!
+Hotkey	Gyorsbillentyű	!
 hotplug	működés közben cserélhető	?
 hover	rámutatni (egérrel)	!
 html document	html-dokumentum	!
+HTML	HTML	!
 html source	html-forrás	!
+HTTP	HTTP	!
 http proxy	http-proxy	!
+Hue	Árnyalat	!
 hue	színárnyalat	!
 human readable	Emberek által olvasható (fájlméret), közérthető	!
 hyperbolic cosine	koszinusz hiperbolikusz	!
@@ -1407,22 +989,31 @@ hyperlink	hiperhivatkozás	!
 hyphenate	elválasztás	!
 hyphenation	elválasztás	!
 hyphens	elválasztójel	!
-i.e.	azaz	!
+Icon	Ikon	!
+ID	Azonosító	!
+IDE	IDE	!
 identification	azonosítás	!
+Identifier	Azonosító	!
+Idle	Üresjárat	!
+i.e.	azaz	!
 ignore	mellőzés	!
 illegal operation	zugműtét ;), érvénytelen művelet	!
+Illegal	Szabálytalan	!
 illumination	megvilágítás	!
 illustration	Ábra	!
 illustration index	Ábrajegyzék	!
-im	azonnali üzenet	!
+Image	Kép, lemezkép	!
 image map	képtérkép	!
 imap account	imap-fiók	!
+im	azonnali üzenet	!
 imperial	angolszász (mértékrendszer)	!
-implement	megvalósítani	!
+Implementation	Implementáció	!
 implementation	Implementáció, megvalósítás	?
+implement	megvalósítani	!
 import file	fájl importálása, importálási fájl	!
-in order to	[vmi] érdekében	!
+Import	Importálás	!
 inactive	inaktív	!
+Inactive window	Inaktív ablak	!
 inadmissable path	nem engedélyezett útvonal	!
 inbox	beérkezett üzenetek	!
 inch	hüvelyk	!
@@ -1431,136 +1022,202 @@ incoming	bejövő	!
 incoming mail	bejövő levelek	!
 incomplete	befejezetlen	!
 incorrect	helytelen, hibás	!
+Increase	Növelés	!
 increment	növekmény, növelés	!
-index	index, jegyzék, tárgymutató	!
+Indent	Behúzás	!
 index and tables	jegyzékek	!
+index	index, jegyzék, tárgymutató	!
 index mark	tárgymutatójel	!
+Index	Tárgymutató, Index (adatbázisnál)	!
+Indicator	Jelző	!
 indices	indexek	!
 individual	önálló, egyes	?
 individual words	különálló szavak	!
 infinity	végtelen	!
 information	Információk (tsz!)	!
 inherited	Örökölt	!
-initial	kiinduló, eredeti	!
 initialization	előkészítés	!
 initialize	előkészíteni	!
+initial	kiinduló, eredeti	!
 inline	beágyazott	!
 inner join	belső összekapcsolás	!
+Inode	Inode	!
+in order to	[vmi] érdekében	!
+Input	Bemenet	!
 input	bevitel	!
 input field	beviteli mező	!
 input method	beviteli mód	!
+Input/output	Bemenet/kimenet	!
 insert	beszúrás, behelyezés (CD-t)	!
+Insertion point	Beszúrási pont	!
 inspect	megfigyelni	!
 installation	telepítés (kész), telepítő (setup.exe)	!
+Install	Telepítés	!
 instruction pointer	utasításmutató	!
 integer	egész szám	!
 integral	integrál	!
 integration	integráció	!
 intensity	intenzitás	!
 interaction	beavatkozás (emberi), együttműködés (gépi)	!
+Intercept	Metszéspont	!
+Interface	Felület (szoftver), Csatoló (hardver)	!
 interlaced	váltottsoros	!
 internal	belső	!
+Internal bug	Belső hiba	!
+Internal error	Belső hiba	!
+International	Nemzetközi	!
 internet	internet (kisbetű. mindig.)	!
 interpolation	interpoláció	!
+Interrupt	Megszakítás	!
+Intersect	Metszet	!
 interval	időköz, tartomány	!
 introduction	bemutatás, ismertetés	!
 introspect	betekintés	?
+Intuitive	Intuitív	!
+Invalid	Érvénytelen	!
 invert	invertálás, megfordítás	!
+Invert Selection	Kijelölés megfordítása	!
+Invisible	Láthatatlan	!
 invitation	meghívás	!
 invite	meghív	!
+I/O subsystem	I/O alrendszer	!
+IP address	IP-cím	!
+IRC	IRC	!
 iso speed rating	ISO-sebességminősítés	!
 issue	kiállítani	!
 italic	dőlt	!
 item	elem	!
 iterations	iterációk	!
+Jaz Drive	Jaz-meghajtó	!
 jigsaw	kirakó, puzzle	!
+Job	Feladat	!
 job	feladat, (az nem a task?)	?
 journal	napló, folyóirat	!
+JPEG	JPEG	!
 jukebox	zenegép	!
 justified	sorkizárt	!
 justify	sorkizárás	!
+Justify	Sorkizárt	!
+KDE	KDE	!
 keep-alive	kapcsolatfenntartás	!
 keepalive	kapcsolatfenntartás	!
+Kernel	Rendszermag	!
 kerning	alávágás	!
+Key	Billentyű, Kulcs (GConf)	!
+Keyboard	Billentyűzet	!
+Keyboard shortcut	Gyorsbillentyűk	!
 key	kulcs	!
-key word	kulcsszó	!
 keypad	számbillentyűzet	!
-kick	kirúgni	!
+key word	kulcsszó	!
+Keyword	Kulcsszó	!
 kickban	kirúgás és kitiltás	!
+kick	kirúgni	!
+Kill app	Alkalmazás kilövése	!
+Kill	Kilövés	!
+Kilobyte	Kilobájt	!
+Label	Címke	!
 lag	késleltetés	!
+Lambda	Lambda	!
 landscape	fekvő	!
+Landscape	Fekvő	!
+Language	Nyelv	!
 laptop	noteszgép	!
 large circumflex	nagy circumflex	!
 last name	vezetéknév	!
 last used	utoljára használt	!
+LaTeX	LaTeX	!
 latitude	Szélesség	!
 launcher	indító	?
+Launcher	Indítóikon	!
 launch icon	indítóikon	!
 lavender	levendula	!
 layer indicator	rétegjelző	!
+Layer	Réteg	!
 layout	Elrendezés (UI), kiosztás (bill)	!
 ldap server	ldap-kiszolgáló	!
 lead-in	bevezető (szakasz CD-n)	!
 leading	kezdő (karakter)	!
 left join	bal oldali összekapcsolás	!
 legacy	örökölt	?
+Legal	Legal	!
 legend	jelmagyarázat	!
+Length	Hossz	!
 letter	betű, levél, letter (lapméret)	!
+Letter	Letter	!
 letterlike symbols	betűszerű szimbólumok	!
 level	szint	!
 library	függvénytár, programkönyvtár, gyűjtemény (multimédia)	!
-license	licenc	!
+License agreement	Licencegyezmény	!
 license agreement	Licencegyezmény/szerződés?	?
+license	licenc	!
 lightweight	könnyűsúlyú	?
 limit	korlát, határ	!
-line	Vonal, sor	!
+Limits	Korlátok	!
+linear ascending	egyenletesen növekvő	!
+linear	lineáris	!
+linear regression	lineáris regresszió	!
+linear transfer	lineáris átvitel	!
 line break	sortörés	!
 line count	sorok száma	!
 line head	vonalfej	!
-linear	lineáris	!
-linear ascending	egyenletesen növekvő	!
-linear regression	lineáris regresszió	!
-linear transfer	lineáris átvitel	!
 linen	vászon	!
-link	Hivatkozás (weben), Link (fájlrendszeren)	!
+line	Vonal, sor	!
 link frames	keretek összekapcsolása	!
-list	felsorolni, lista	!
+link	Hivatkozás (weben), Link (fájlrendszeren)	!
+Linux	Linux	!
 list box	listamező	!
+list	felsorolni, lista	!
 literal mask	literálmaszk	!
 load	betölteni, terhelés (hw)	!
 locale	területi beállítások, területi beállítás	!
+Local	Helyi	!
+Location	Hely	!
 lockdown	zárolás	!
 locked	zárolt	!
 locking problem	erőforrás-zárolási hiba	!
-log file	naplófájl	!
-log in	bejelentkezni	!
-log out	kijelentkezni	!
+Lock	Zárolás	!
 logarithm	logaritmus	!
 logarithm regression	logaritmikus regresszió	!
+log file	naplófájl	!
+Logical	Logikai	!
+Login	Bejelentkezés	!
+log in	bejelentkezni	!
+Log	Napló	!
 logo	logó	!
+Logout	Kijelentkezés	!
+log out	kijelentkezni	!
 longitude	Hosszúság	!
 look and feel	megjelenés	!
 look feel	megjelenés	!
+Look	Kinézet	!
+Lookup	Keresés	!
 loopback	visszacsatolás	!
-lower	háttérbe küldeni/vinni? (ablakot)	?
+Loop	Hurok, hurokeszköz, Ciklus	!
 lowercase	kisbetűk	!
+lower	háttérbe küldeni/vinni? (ablakot)	?
 luma	fényesség	!
 luminance	fényesség	!
 lyrics	dalszöveg	!
 lzw encoding	lzw-tömörítés	!
 mac graphic	mac-grafika	!
-mac-picture	mac-kép	!
 machine	gép	!
+mac-picture	mac-kép	!
+Macro	Makró	!
 macro organizer	makrószervező	!
 magazine	magazin	!
-mail merge	körlevél	!
+Mailbox	Postafiók	!
+Mail Client	Levelezőkliens	!
 maildir	levélmappa	!
 mailing list	levelezőlista	!
+Mail	Levél	!
+mail merge	körlevél	!
+Mail server	Levelezőkiszolgáló	!
+Main body	Fő törzs	!
 main entry	főbejegyzés	!
 main grid	vezetőrács	!
+maintainer	karbantartó	!
 main title	főcím	!
 main toolbar	fő eszköztár 	!
-maintainer	karbantartó	!
 major axis	főtengely	!
 major interval	főbeosztás	!
 make sure	Győződjön meg róla, hogy	!
@@ -1568,44 +1225,62 @@ malformed	helytelenül formázott	!
 malicious	rosszindulatú	?
 malware	rosszindulatú program	?
 manage	kezelni	!
+Manager	Kezelő	!
 manager	kezelő, menedzser	!
 mandatory	kötelező	!
 manipulate	kezel	!
 manipulation	kezelés	!
+Man Pages	Man oldalak	!
+Manual	Kézikönyv	!
 manually	saját kezűleg	!
+Manual page	Kézikönyvoldal	!
 manufacturer	gyártó	!
 map	leképezni, térkép	!
 margin	margó	!
+Margins	Margók	!
+Mark	Jel	!
 mark	jel, jelölés	!
 markup	jelölő (általános), jelölőkód (konkrét)	?
 masquerading	maszkolás	!
 master document	fődokumentum	!
 master server	elsődleges kiszolgáló	?
 master view	minta nézet	!
-match	illeszkedik (minta), megfelel (kapott-várt érték), találat (keresésnél)	?
 match case	kis- és nagybetűk egyeztetése	!
+match	illeszkedik (minta), megfelel (kapott-várt érték), találat (keresésnél)	?
 matrix	mátrix	!
-max	max	!
 maximize	maximalizálás	!
 maximum	maximum	!
+max	max	!
+MDI	MDI	!
 mean	közép	!
 mean value	középérték	!
-measure unit	mértékegység	!
 measurement unit	mértékegység	!
+measure unit	mértékegység	!
 media	adathordozó	!
+Median	Medián	!
 media type	adathordozó típusa	!
+Meeting	Találkozó	!
 memory cache	memóriabeli gyorsítótár	!
-menu item	menüpont	!
+Memory	Memória	!
 menubar	menüsor	!
+menu item	menüpont	!
+Menu	Menü	!
 merge	egyesítés	!
+Merge	Összefűzés	!
+Message	Üzenet	!
+Metadata	Metaadat	!
+Metafile	Metafájl	!
 metering mode	Mérési mód	!
 method	eljárás, metódus (program), módszer (általános)	!
 metric	metrika (hálózatok), metrikus (mértékrendszer)	!
 microphone	mikrofon	!
 migration	költözés, áttelepítés, átállás	?
 millisecond	ezredmásodperc	!
-min	min	!
+MIME Type	MIME-típus	!
 mini icons	mini ikonok	!
+Minimize	Minimalizálás	!
+MINIX	MINIX	!
+min	min	!
 minor faults	kisebb hibák	!
 minor grid	segédrács	!
 minor interval	albeosztás	!
@@ -1619,12 +1294,25 @@ mixer device	keverőeszköz	!
 mnemonic	hívóbetű	?
 mobile carrier	mobilszolgáltató	!
 modal	kizárólagos	!
+Model	Modell	!
+Modem	Modem	!
+Mode	Mód	!
+Modifier	Módosítóbillentyű	!
+Modify	Módosítás	!
+Module	Modul	!
 monitor	figyelni (rendszert), monitor	!
+Monitor	Monitor	!
 monochrome	fekete-fehér	!
 monospace	rögzített szélességű	!
 more	további (információ), több (gomb)	!
 morphing	morfolás	!
+Mount	csatolás	!
+Mouse Cursor	Egérkurzor	!
+Move	Áthelyezés	!
 movie	film	!
+MSDOS	MS-DOS	!
+MS	MS	!
+MTU	MTU	!
 multi-function	többfunkciós, multifunkciós	?
 multiline input	többsoros bevitel	!
 multipart/alternative	multipart/alternative	!
@@ -1643,134 +1331,182 @@ multitrack	többsávos	!
 music player	zenelejátszó	!
 mute	némítani	!
 my documents	dokumentumok	!
-n-th root	n-edik gyök	!
 nabla	nabla	!
-name	név	!
 name html design	html-terv neve	!
+name	név	!
 namespace	névtér	!
 naming conflict	névütközés	!
 native sql	natív sql	!
 natural logarithm	természetes alapú logaritmus	!
 natural numbers set	természetes számok halmaza	!
 natural spline	természetes spline	!
+Nautilus	Nautilus	!
 navigate	navigálás	!
 navigation	navigálás	!
 navigator	navigátor	!
 necessary	szükséges	!
-net	hálózat	!
 net access	hálózati hozzáférés	!
+net	hálózat	!
+Netmask	Hálózati maszk	!
+Netscape	Netscape	!
+Network	Hálózat	!
 networking	hálózatkezelés	!
 new	Új	!
 next	tovább (gomb), következő	!
-no	nem	!
-no icon	nincs ikon	!
+NO-DAEMON	NO-DAEMON	!
 node	csomópont	!
+no icon	nincs ikon	!
 nominal interest	névleges kamat	!
-non profit	nonprofit	?
-non-breaking spaces	nem törhető szóköz	!
-non-profit	nonprofit	?
-non-recoverable	helyrehozhatatlan	!
 noname	névtelen	!
+non-breaking spaces	nem törhető szóköz	!
+no	nem	!
 none	nincs	!
 nonexistent	nem létező	!
 nonprinting characters	nem nyomtatható karakter	!
+non profit	nonprofit	?
+non-profit	nonprofit	?
+non-recoverable	helyrehozhatatlan	!
 normal	normál	!
 not available	nem érhető el	!
-not enough memory	nincs elég memória	!
-not found	nem található	!
-not implemented	nincs megvalósítva	!
+Notebook	noteszgép	!
 note	jegyzet	!
-numbering	számozás	!
+not enough memory	nincs elég memória	!
+Note that	Ne feledje, hogy	!
+not found	nem található	!
+Notification	Értesítés	!
+not implemented	nincs megvalósítva	!
+n-th root	n-edik gyök	!
+Numbered List	Számozott lista	!
 numbering / bullets	számozás / felsorolás	!
+numbering	számozás	!
+Number	Szám	!
 numerator	számláló	!
 numeric field	számmező	!
+Numeric	Numerikus	!
+Object code	Tárgykód	!
 object	objektum	!
-oblique	rézsút	!
 oblique italic	erősen dőlt	!
+oblique	rézsút	!
+Observations	Megfigyelések	!
+Obsolete	Elavult	!
 occasion	alkalom	!
 occurrence	előfordulás	!
 odd	páratlan	!
 offline	kapcsolat nélkül	!
+Offline	Offline	!
 offline (transacted)	kapcsolat nélkül (tranzakció után)	!
 offset	eltolás	!
 ok	ok	!
-old value	korábbi érték	!
 older	régebbi, korábbi	?
-ole	ole	!
+old value	korábbi érték	!
 ole automation error	ole automatizációs hiba	!
 ole object	ole-objektum	!
-on-screen	képernyőn megjelenő (utasítások)	!
-online	on-line	!
+ole	ole	!
 online layout	megjelenítés weblapként	!
+online	on-line	!
+Online	Online	!
+On Screen Display	OSD, képernyőkijelzés (OSD)	!
+on-screen	képernyőn megjelenő (utasítások)	!
+Opacity	Átlátszatlanság	!
 opaque	Átlátszatlan	!
 open as template	megnyitás sablonként	!
+Open	Megnyitás	!
+Open Source	Nyílt forrású	!
+Operating System	Operációs rendszer	!
+Operation	Művelet	!
 operations	művelet	!
 operator	operátor	!
 optimal	optimális	!
-optimize	optimalizálás	!
 optimized	optimalizált	!
-option	lehetőség, beállítás, kapcsoló	!
+optimize	optimalizálás	!
+optional hyphens	feltételes elválasztójel	!
+optional line break	feltételes sortörés	!
+optional	nem kötelező, elhagyható, opcionális	!
 option bar	beállítások eszköztár 	!
 option button	beállítások gomb	!
 option fields	rádiógombok	!
-optional	nem kötelező, elhagyható, opcionális	!
-optional hyphens	feltételes elválasztójel	!
-optional line break	feltételes sortörés	!
+option	lehetőség, beállítás, kapcsoló	!
 options	beállítások	!
 order	rendezni, sorrend	!
 organization	szervezet	!
-organize	szervez, rendszerez	!
 organizer	szervező	!
+organize	szervez, rendszerez	!
+Orientation	Tájolás	!
 original	eredeti	!
+Origin	Eredet	!
 orphan control	Árvasorok kezelése	!
+OR	VAGY	!
 other settings	egyéb beállítások	!
 outbox	postázandó levelek	!
 outgoing	kimenő	!
 outgoing mail	kimenő levelek	!
 outline	körvonal	!
+Output	Kimenet	!
 overall	összesen	?
 overclocking	?túlhajtás	?
 overflow	túlcsordulás	!
 overhead	túlterhelés, ráhagyás	!
 overlap	Átfedés	!
 overview	Áttekintés	!
+Overwrite	Felülírás	!
+Owner	Tulajdonos	!
+Package	Csomag	!
+Pack	Csomag	!
+Packet	Csomag	!
 packetizer	daraboló	!
+Padding	Kitöltés	!
 page break	oldaltörés	!
+Page	Oldal	!
+Pager	Személyhívó	!
 page setup	oldalbeállítás	!
-pair kerning	betűpár alávágása 	!
 paired	párosított (Bluetooth)	!
+pair kerning	betűpár alávágása 	!
+Palette	Paletta	!
 palettes	paletták	!
 pane	ablaktábla	!
-paper	papír	!
+Panel	Panel	!
 paper feed	papíradagoló	!
 paper jam	papírelakadás	!
+paper	papír	!
 paragraph	bekezdés	!
+Parameter	Paraméter	!
 parameters	paraméter	!
+Parcel	Csomag	!
 parental control	szülői felügyelet	!
+Parse	Feldolgozni	!
 parser	feldolgozó	?
 partial	részleges	!
 participants	résztvevők	!
 partition	particionálni, partíció	!
 partition table	partíciós tábla	!
-pass count	menetek száma	!
 passcode	jelkód, titkos kombináció	?
+pass count	menetek száma	!
+Password	Jelszó	!
 password protected	jelszóval védett	!
+Paste	Beillesztés	!
 paste special	irányított beillesztés	!
-patch	javítócsomag, folt	!
 patch bay	dugasztábla 	!
+patch	javítócsomag, folt	!
+Path	Útvonal	!
+Pattern	Minta	!
 pause	szünet	!
 pdf file	pdf-fájl	!
 peer	partner	!
 peer-to-peer	egyenrangú	!
-pending	függőben	!
 pending deletion	törlésre vár	!
+pending	függőben	!
 pendrive	pendrive	?
-perform	végrehajtani	!
 performance	teljesítmény	!
+perform	végrehajtani	!
+Periodic	Periodikus	!
 period	időszak	!
-permanent	végleges	!
+Period	Időtartam	!
+Perl	Perl	!
+Perl Script	Perl-parancsfájl	!
 permanently	véglegesen	!
+permanent	végleges	!
 permission denied	Hozzáférés megtagadva	!
+Permission	Jogosultság	!
 permit	engedélyezni, engedély	!
 personal	személyes	!
 perspective shadow	perspektivikus árnyék	!
@@ -1779,162 +1515,232 @@ phone/cellphone/fax	telefon/mobil/fax	!
 phonetic symbols	fonetikus szimbólumok	!
 physical memory	fizikai memória	!
 pica	pica	!
-pick	kiválasztás	?
 picker button	pipettagomb	!
+Picker Settings	Pipetta beállításai	!
+pick	kiválasztás	?
 picture placeholders	kép helye	!
+PID	PID	!
 pie	tortadiagram	!
+Pilot device	Pilot eszköz	!
 pin	rögzíteni (UI elemet)	!
+Pipe	Adatcsatorna, átirányítani	!
 pipeline	adatcsatorna	!
 pixbuf	kép	?
+Pixel	Képpont	!
 pixels	képpont	!
+Pixmap	Kép	!
+Place	Hely	!
 placeholder	helykitöltő	!
 plain	egyszerű (szöveg)	!
 plan	tarifa (mobiltelefon)	!
-play in full	végigjátszás	!
 playback	lejátszás (multimédiát)	!
+play in full	végigjátszás	!
+Play	Lejátszás	!
 playlist	lejátszólista	!
 please	-	!
 please wait	kis türelmet	!
 plot	ábrázolás	?
 plot area	ábrázolási terület	?
-plug-in	bővítőmodul	!
+Plug-in	Bővítmény	!
 plugin	bővítmény	!
+plug-in	bővítőmodul	!
 pointer	mutató	!
 pointing device	mutatóeszköz	!
+Point	Pont	!
 polarization	polarizáció	!
 policy	házirend	!
+Policy	Szabály	!
+Polygon	Sokszög	!
+Polyline	Töröttvonal	!
 pool	tároló (erőforrásoké)	?
 pop3 account	pop3-fiók	!
 populate	feltölteni	!
 popup menu	helyi menü	!
 popup window	felugró ablak, felbukkanó ablak	!
-port	port	!
 portable	hordozható	!
-position	pozíció, elhelyezkedés	!
+port	port	!
+Portrait	Álló	!
 position not protected	pozíció módosítható	!
+position	pozíció, elhelyezkedés	!
 position protected	pozíció nem módosíható	!
 position x	x pozíció	!
 possible values	lehetséges értékek	!
-poster	poszter	!
+Postal Box	Postafiók	!
 poster colors	poszterszínek	!
 posterize	poszterizálás	!
+poster	poszter	!
 postpone	elhalasztani	!
 postprocess	utófeldolgozás	!
-power management	energiagazdálkodás, energiakezelés	?
+PostScript	PostScript	!
 powerful	hatékony	!
+power management	energiagazdálkodás, energiakezelés	?
 powerpoint documents	powerpoint-dokumentum	!
+PPP	PPP	!
 preceding	megelőző	!
 precision	pontosság	!
+Preferences	Beállítások	!
 preference tool	beállítóeszköz	!
 preferred	alapértelmezett (alkalmazás), elsődleges (beállítás)	?
 prefix	előtag	!
+Prefix	Előtag	!
 prefix symbol	előtagjel	!
 preformatted text	előformázott szöveg 	!
 preload	előtöltés, előbetöltés	?
 prepare	előkészíteni	!
 presence	jelenlét, állapot	!
-present	jelen van	!
 presentation	bemutató	!
+present	jelen van	!
 preset	előre beállított	?
 prevent	megakadályozni	!
 preview	Előnézet	!
+Preview	Előnézet	!
 previous	előző	!
+Primary Colors	Elsődleges színek	!
 primary domain controller	Elsődleges tartományvezérlő (PDC)	!
 primary key	elsődleges kulcs	!
 primary y axis	elsődleges y tengely 	!
 principal	elsődleges, résztvevő (kerberos)	!
 principle	alapelv	!
-print	Nyomtatás, kiírni (képernyőre)	!
+Print area	Nyomtatási terület	!
+Printer	Nyomtató	!
 print monitor	nyomtatás felügyelete	!
+Print	Nyomtatás	!
+print	Nyomtatás, kiírni (képernyőre)	!
 print preview	nyomtatási kép	!
+Priority	Prioritás	!
+Privacy	Adatvédelem	!
 private data	személyes adat 	!
+Private key	Személyes kulcs	!
+Private Messages	Személyes üzenetek	!
 privilege	jogosultság	!
+Problem	Probléma	!
 proceed	folytatni, tovább[lépni]	!
 process	feldolgozni, folyamat	!
+Process	Folyamat	!
+Process ID	Folyamatazonosító	!
 processing	feldolgozás	!
-product	termék	!
+Processor	Processzor	!
 product information	termékinformáció	!
 production	éles (átv.)	!
 productivity	irodai (alkalmzás)	!
+product	termék	!
 profile	profil	!
-program	Program, műsor (média)	!
 program module	programmodul	!
-project	projekt	!
+program	Program, műsor (média)	!
+Progress Bar	Folyamatjelző	!
+Progress	Folyamat	!
 projection x	x irányú vetület	!
+project	projekt	!
 promote	előléptetés	!
 prompt	parancssor, felszólít, kérdés	!
+Properties	Tulajdonságok	!
 property	tulajdonság	!
 proportional	arányos	!
+Proportional font	Proporcionális betűkészlet	!
 proprietary	zárt, nem nyilvános, szabadalomvédett	!
 protect cells	cellavédelem	!
 protect document	dokumentumvédelem	!
-protect sheet	munkalapvédelem	!
+Protected	Védett	!
 protected workbooks	védett munkafüzetek	!
+Protection	Védelem	!
+protect sheet	munkalapvédelem	!
+Protocol	Protokoll	!
 provide	biztosítani	!
 provider	szolgáltató	!
 province	tartomány	!
+Proxy	Proxy	!
 proxy server	proxykiszolgáló	!
-public holidays	munkaszüneti napok	!
 publication	kiadvány	!
-publish	közzétenni	!
+public holidays	munkaszüneti napok	!
+Public Key	Nyilvános kulcs	!
+Public	Nyilvános	!
 publisher	kiadó	!
+publish	közzétenni	!
 pull	lekérni (dvcs)	?
 purpose	cél	!
-push	megnyomni, elküldeni (dvcs)	?
 push button	nyomógomb	!
+push	megnyomni, elküldeni (dvcs)	?
 puzzle	kirakó, fejtörő, logikai (játék)	?
 pv	jelenérték	!
+Query	Lekérdezés	!
+Queue	Várólista	!
 quirk	kerülő megoldás	!
+Quit	Kilépés	!
 quota	kvóta	!
 quotation	idézet	!
 quote	idézet	!
 radial	sugárirányú	!
 radio button	rádiógomb	!
+Radio Button	Választógomb	!
+Radio	Rádió	!
 radius	sugár	!
 radix	számrendszer	!
 raise	előtérbe hozni (ablakot)	!
+Random	Véletlen	!
+Range	Tartomány	!
+Rank	Sorrend	!
 rate	osztályzás, sebesség	?
-re-enable	újraengedélyezni	!
+Rating	Értékelés	!
+Ratio	Arány	!
+Raw data	Nyers adat	!
+Raw memory	Nyers memória	!
 read	olvasás	!
 read only	csak olvasható, írásvédett	!
-ready	kész	!
 ready...	kész...	!
+ready	kész	!
+Real Memory	Valós memória	!
+realm	tartomány	!
 real numbers set	valós számok halmaza	!
 real part	valós rész	!
 real path	valós útvonal	!
 real time strategy	valósidejű stratégia[i játék]	!
-realm	tartomány	!
+Real time	Valós idejű	!
+Reboot	Újraindítás	!
 recalculate	Újraszámolás	!
+Receive	Fogadás	!
 recently	legutóbb, nemrég	!
+Receptivity	Érzékenység	!
 recipient	címzett	!
 recommend	ajánlani	!
 reconnect	újracsatlakozás	!
 record	felvenni, rekord (DB), felvétel (média)	!
 recover	helyrehozni, helyreállítani	!
+Rectangle	Téglalap	!
+Recurrence	Ismétlődés	!
+Recursion	Rekurzió	!
 recursive	rekurzív	!
 recycle bin	lomtár	!
-red	vörös	!
 redial	újrahívás	!
 redirect	átirányítani	!
+Redisplay	Újrarajzolás	!
+Redo	Újra	!
 redraw	Újrarajzolás	!
+red	vörös	!
+re-enable	újraengedélyezni	!
 refactoring	újraírás	?
-refer	hivatkozni	!
 reference	hivatkozás	!
+refer	hivatkozni	!
+Refresh	Frissítés	!
 refuse	visszautasítani	!
+Region	Régió	!
 register	regisztrálás	!
 register-true	soregyen	!
-registration	regisztráció, regisztráció	!
 registration marks	Passzerjelek	?
+registration	regisztráció, regisztráció	!
 registry	rendszerleíró adatbázis (Windows), nyilvántartás (általános)	!
 regression curve	regressziós görbe	!
-regular	szabályos, normál	!
+Regular expression	Reguláris kifejezés	!
 regular file	normál fájl	?
+regular	szabályos, normál	!
+Regulate	Szabályozás	!
 rehearse timings	időzítés elpróbálása	!
 reinstall	újratelepíteni	!
-reject	visszautasítás	!
 rejected	visszautasítva	!
+reject	visszautasítás	!
 relation	reláció	!
+Relationship	Kapcsolat	!
 relay	továbbítani	!
+Release	Kiadás	!
 relief	dombormű, kiemelés	?
 reload	Újratöltés	!
 relocate	áthelyezni	!
@@ -1943,70 +1749,98 @@ remarks	megjegyzések	!
 remember password	jelszó tárolása	!
 remind again later	figyelmeztetés később	!
 reminder	emlékeztető	!
+Remote	Távoli	!
 removable	cserélhető, eltávolítható (eszköz)	!
-render	megjelenítés	?
+Remove	Eltávolítás	!
+Rename	Átnevezés	!
 renderer	megjelenítő	?
+render	megjelenítés	?
 renew	megújítani	!
 reorder	átrendezni, újrarendezni	!
 reorganize	Átszervezés	!
 repaginate	Újratördelés	!
 repair installation	telepítés helyreállítása	!
+Repeat	Ismétlés	!
+Repetitive Strain Injury (RSI)	ismétlődő mozgásból eredő izomhúzódás	!
 replace all	mindet cseréli	!
+Replace	Csere	!
 replication consumer	replikációfogadó	?
-reply	válasz	!
 reply to	válaszcím (e-mail)	!
+reply	válasz	!
 report	jelentés	!
+Reports	Jelentések	!
 represent	ábrázolni	!
 request	kérés	!
 required	szükséges	!
 resend	Újraküldés	!
-reserve	védeni, fenntartani, lefoglalni	!
 reserved blocks	lefoglalt blokkok	!
+reserve	védeni, fenntartani, lefoglalni	!
 reset	alapállapot	!
+Reset	Visszaállítás	!
+Resident memory	Rezidens memória	!
+Resident	Rezidens	!
+Resize	Átméretezés	!
+Resolution	Felbontás	!
 resolve	megoldani (ütközést; problémát), feloldani (címet)	?
 resource	erőforrás	!
 resource exhausted	az erőforrás kimerült	!
 respectively	rendre	?
 response	válasz	!
 responsible	felelős	!
+Restart	Újraindítás	!
 restore	visszaállítás	!
 restricted	zárt, korlátozott	!
 restrictions	korlátozások	!
 result	eredmény, találat (keresésé)	!
 result_vector	eredményvektor	!
+Resume	Folytatás	!
 retract	visszavonás	!
 retrieve	letölteni (fájlt, levelet), lekérni (adatot)	!
+Retry	Újra	!
 return	Enter (billentyű)	!
-reverse	fordított	!
 reverse circumflex	hacsek	!
+reverse	fordított	!
+Revert	Visszaállítás	!
 review	áttekinteni, értékelés	!
 revoke	visszavonni	!
 rewrap	újratördelés	?
 rewrite	újraírni	!
-rgb	rgb	!
 rgb colors	rgb-színek	!
+rgb	rgb	!
 rhombus	rombusz	!
 ringtone	csengőhang	!
 rip	beolvasni (cd-t)	!
 roaming profile	központi profil (smb)	!
-role	szerep	!
 role playing game	szerepjáték	!
+role	szerep	!
+Root Directory	Gyökérkönyvtár	!
 root	root (felhasználó), rendszergazdai (jogosultság)	!
 roster	partnerlista (IM)	!
+Rotate	Forgatás	!
 round bracket	kerek zárójel	!
-round robin	körbeforgó	!
-rounded	lekerekített	!
 rounded edges	lekerekített élek	!
+rounded	lekerekített	!
+round robin	körbeforgó	!
 router	router, útválasztó	?
+Row	Sor	!
 row spacing	sorköz	!
-rule	szabály	!
+RPM package	RPM-csomag	!
 ruler	vonalzó	!
+rule	szabály	!
+Run	Futtatás	!
 salvage	maradványérték	!
+Sample	Minta	!
 sample rate	mintavételezési gyakoriság	!
 sans	talpatlan	!
 saturation	színtelítettség	!
+Saturation	Telítettség	!
 save all	Összes mentése	!
+Save As	Mentés másként	!
+Save	Mentés	!
+Scalable	Skálázható	!
+Scalar	Skaláris	!
 scaled	kifeszített (háttérkép)	!
+Scale	Méretezés	!
 scan	lapolvasás, beolvasás (adatot), keresés (eszközt), vizsgálat	!
 scanner	szkenner	!
 scenario	eset	!
@@ -2016,257 +1850,355 @@ schedule	ütemezni, műsorújság (TV)	?
 schema	séma	!
 scope	hatáskör	!
 scrape	lekérdezés (http://en.wikipedia.org/wiki/Tracker_scrape)	!
-screen	képernyő	!
 screencast	képernyővideó	?
+screen	képernyő	!
+Screensaver	Képernyővédő	!
 screenshot	Képernyőkép	!
+Screenshot	Képernyőkép	!
 scripting	parancsfájlok	!
+Script	Parancsfájl	!
 scrobble	továbbítani (last.fm-re)	?
 scroll bar	görgetősáv	!
+Scrollbars	Görgetősávok	!
+Scroll	Görgetés	!
 scroll wheel	[egér]görgő	!
+SCSI	SCSI	!
 search criteria	keresési feltételek	!
 search direction	keresés iránya	!
+Search Domains	Keresési tartomány	!
+Search	Keresés	!
 search results	Találatok	!
 search string	keresendő karakterlánc	!
 search term	keresőkifejezés	!
 search vector	keresővektor	!
 seat	munkaállomás	!
 secondary axis	másodlagos tengely	!
+Secondary Colors	Másodlagos színek	!
 section	szakasz	!
 sector	szektor	!
 secure	biztonságos	!
+Secure channel	Biztonságos csatorna	!
+Security	Biztonság	!
 seed	megosztani (torrenten), forrás (torrent)	!
 seek	tekerés (hang/videó), pozicionálás (fájl)	?
+Segmentation Fault	Szegmentációs hiba	!
 segment	szakasz	!
-select	Válasszon (ablakcím), Kijelölés, Kiválasztás	!
 selection box	választómező	?
+Selection	Kijelölés	!
+select	Válasszon (ablakcím), Kijelölés, Kiválasztás	!
 self extracting	önkibontó	!
 self-signed certificate	önaláírt tanúsítvány (MS)	?
 self-test	önellenőrzés	!
 semiautomatic	félautomata	!
 semicolon	pontosvessző	!
+Send	Küldés	!
 send to back	háttérbe küldés	!
+Sensitive	Érzékeny	!
 sensor	érzékelő	!
 sent messages	elküldött üzenetek	!
-sequence	sorozat	!
+Separator	Elválasztó	!
 sequencer	szekvenszer	!
-serial	soros, sorozatszám	!
+sequence	sorozat	!
 serialize	sorbafejtés, sorosítás	?
+serial	soros, sorozatszám	!
 series	sorozat	!
 serif	talpas	!
+Server	Kiszolgáló	!
 service	szolgáltatás	!
 session	Munkafolyamat, munkamenet, szakasz (CD-n)	?
 set as default	beállítás alapértelmezettként	!
-set tab order	bejárási sorrend megadása	!
+Set	Beállítás	!
 set-operations	halmazműveletek	!
+set tab order	bejárási sorrend megadása	!
 setting	beállítás	!
-setup	telepítés	!
+Settings	Beállítások	!
+Setup	Beállítás	!
 setup server	telepítőkiszolgáló	!
+setup	telepítés	!
+Severity	Súlyosság	!
 shader	árnyékoló	!
 shading	Árnyalás	!
 shadow	Árnyék	!
 shadowing	Árnyékolás	!
 shape	alak	!
+Shared Memory	Osztott memória	!
+Share	Megosztás	!
 sharpen	Élesítés	!
 sharpness	Élesség	!
 shear angle	nyírás szöge	!
 sheet	munkalap	!
 shell	parancsértelmező	!
 shift	eltolás	!
+Shift key	Shift billentyű	!
 shortcut	parancsikon (windows), gyorsbillentyű (ctrl+*)	!
+Show	Megjelenítés	!
 show	Megjelenítés (NEM: mutatás)	!
 shrink	zsugorítani, csökkenteni	!
 shuffle	keverés	!
+Shut Down	Leállítás	!
 shutdown	leállítás	!
 shutter speed	Zársebesség	!
 side pane	oldalsáv	!
-sign up	feliratkozni (NEM: előfizetni)	!
+Signal	Szignál	!
 signature	aláírás	!
 significance	szignifikancia	!
 significant	jelentős	!
+sign up	feliratkozni (NEM: előfizetni)	!
 simple	egyszerű	!
-single	egyetlen, egyedi	!
 single click	egyszeres kattintás	!
+single	egyetlen, egyedi	!
 single line spacing	egyszeres sorköz	!
 single player	egyrésztvevős	!
 size	méret	!
+Skip	Kihagyás	!
 slant	ferdítés	!
 slave	szolga	!
 slide	dia	!
-slide show	diavetítés	!
 slider	csúszka	!
+slide show	diavetítés	!
+SLIP	SLIP	!
 slogan	jelmondat	!
 slot ids	tárolóhely-azonosítók	!
 slow key	lassú billentyűk	!
 slow terminals	lassú terminálok	!
+Smart	Okos	!
+Smart terminal	Okos terminál	!
 smiley	hangulatjel	?
 smooth	sima	!
 smooth transition	sima átmenet	!
 smtp	SMTP	!
+SMTP	SMTP	!
 snap grid	illesztőrács	!
 snap line/point	illesztővonal és -pont	!
-snap to grid	rácshoz illesztés	!
 snapshot	pillanatkép	!
+snap to grid	rácshoz illesztés	!
+Socket	Foglalat	!
+SOCKS Server	SOCKS-kiszolgáló	!
 software bug	szoftverhiba	!
+Software Foundation	Szoftver Alapítvány	!
 solarization	fakítás	!
 solid color	homogén szín	!
 solid-state drive	SSD	!
 solitaire	pasziánsz	!
 sorry	Elnézést (NEM: sajnálom/juk, bocs, stb)	!
-sound	hang	!
+Sort	Rendezés	!
 sound card	hangkártya	!
 sound files	hangfájlok	!
-space	hely (háttértáron), szóköz	!
+sound	hang	!
+Source code	Forráskód	!
+Source	Forrás	!
 space bar	szóköz	!
+Space character	Szóköz karakter	!
+space	hely (háttértáron), szóköz	!
 spacing	térköz	!
+Spam	Levélszemét	!
 spawn	indítani (programot)	!
 speaker	hangszóró	!
 special character	különleges karakter	!
+Special character	Speciális karakter	!
 special functions	speciális funkciók	!
 specific	sajátos, különleges, egyedi	!
 specify	megadás, adja meg	!
 speech	beszéd	!
 speed	sebesség	!
+Spell Checker	Helyesírás-ellenőrző	!
 spellcheck	helyesírás-ellenőrzés	!
 sphere	gömb	!
 spin button	léptetőgomb	!
 splash	indítókép	!
-split	felosztás	!
 split cells	cellák felosztása	!
+split	felosztás	!
 spool	várólista (nyomtató, levelező)	!
 spreadsheet	munkafüzet	!
 sql mode	sql-mód	!
 square bracket	szögletes zárójel	!
 squiggle	cikkcakkos	!
 stack trace	veremkiíratás, veremkövetési lista, veremkivonat	?
+Stack	Verem	!
 stagger even	páratlan címke eltolása	!
 stagger odd	páros címke eltolása 	!
 stale	elavult	!
 standalone	önálló	!
-standard	standard	!
 standard deviation	szórás	!
 standard filter	standard szűrő	!
 standard input	szabványos bemenet	!
 standard installation	szokásos telepítés	!
 standard output	szabványos kimenet	!
-start	kezdeni (tevékenységet), indítás (programot)	!
-start value	kezdőérték	!
+standard	standard	!
+Standard	Szabványos	!
+Standby	Készenlét	!
 starter	próbamóka	!
+Start	Indítás	!
+start	kezdeni (tevékenységet), indítás (programot)	!
 startup	Indítás	!
+Startup	Indulás	!
+start value	kezdőérték	!
 stash	félretenni, félretett változat (git)	?
-stat	statisztika, elérni (stat(1) hívása)	!
+State	Állapot	!
 state	állapot, állam	!
 stateful	állapottartó	!
 statement	utasítás, állítás, nyilatkozat (jogi)	!
-status bar	Állapotsor	!
+Statistics	Statisztika	!
+stat	statisztika, elérni (stat(1) hívása)	!
+Status	Állapot	!
 statusbar	állapotsor	!
+status bar	Állapotsor	!
 stderr	szabványos hibakimenet	!
 stdin	szabványos bemenet	!
 stdout	szabványos kimenet	!
+Stereotype	Előítélet	!
 stick	tapadás, mindig látható (ablak)	?
 sticky keys	ragadós billentyűk	!
 sticky notes	ragadós cetlik	!
 stock chart	Árfolyamdiagram	!
+Stock Ticker	Részvényfigyelő	!
 stop	leállítás	!
 storage options	tárolási lehetőségek	!
+Storage	Tároló	!
 straight connector	egyenes összekötő	!
 straight line	egyenes vonal	!
 stream	szórni? (műsort), adatfolyam, műsor (multimédia)	?
-stretch	nyújtás	!
 stretched	nyújtott (háttérkép)	!
+stretch	nyújtás	!
 strict format	kötött formátum	!
 strike-out	áthúzott	!
+Strikethrough	Áthúzott	!
+String	Karakterlánc	!
 strings	karakterláncok	!
 stroke	vonás (ecset, toll)	!
 stub	csonk	!
 stylesheet	stíluslap	!
+Style	Stílus	!
 stylist	stílussegéd	!
-sub-	rész- (és nem: al-)	!
+Subdirectory	Alkönyvtár	!
 subdivision	albeosztás	!
+Subject	Tárgy	!
+Submenu	Almenü	!
+Submit	Elküldés	!
+Subnet	Alhálózat	!
 subpixel	Képponton belüli	!
+sub-	rész- (és nem: al-)	!
 subscribe	feliratkozni (Nem: előfizetni)	!
+Subscript	Alsó index	!
 subscription	feliratkozás	!
 subset	részhalmaz	!
 substitution	helyettesítés	!
 subtotals	részösszeg	!
 subtract	kivonás	!
 subwoofer	mélysugárzó	!
+Suffix	Utótag	!
 suggestions	javaslatok	!
 suite	alkalmazáscsomag	?
-sum	Összeg	!
 summary	Összegzés	!
 summary slide	Összefoglaló dia	!
+sum	Összeg	!
 superscript	felső index	!
+Superscript	Felső index	!
 superset	tartalmazó halmaz	!
+Support	Támogatás	!
 suppress	elnyomni	?
+Suspend	Felfüggesztés	!
+Swap	Lapozás (swap)	!
 swap	Lapozás, swap (partíció)	?
 swipe	pöccintés	?
 swiping from right edge	csúsztassa ujját a jobb élről	?
+SYLK file	SYLK-fájl	!
+Symbolic link	Szimbolikus link	!
+Symbol	Szimbólum	!
+Synchronize	Szinkronizálás	!
 sync	szinkronizálás	!
 syndicate	tartalom megosztása	!
+Syndication	Tartalommegosztás (RSS)	!
 synonym	szinonima	!
 synopsis	áttekintés, használat (kapcsolólista előtt)	!
+Syntax error	Szintaktikai hiba	!
 syntax	szintaxis	!
 system administrator	rendszergazda	!
+System Configuration	Rendszerbeállítás	!
+System	Rendszer	!
 system settings	rendszerbeállítások	!
-tab	tabulátor (billentyű), fül (mindig látszik), lap (fülre kattintva látszik)	!
-tab order	bejárási sorrend	!
-tab stop	tabulátor	!
-tab stop position	tabulátorpozíció	!
-table	táblázat, tábla (DB)	!
 table of contents	tartalomjegyzék	!
+table	táblázat, tábla (DB)	!
 tabloid	tabloid	!
+tab order	bejárási sorrend	!
+tab stop position	tabulátorpozíció	!
+tab stop	tabulátor	!
+tab	tabulátor (billentyű), fül (mindig látszik), lap (fülre kattintva látszik)	!
 tabulator	tabulátor	!
 tag	címke	!
 take advantage	kihasznál (vmit)	!
+Talk	Csevegés	!
 tapping	koppintás	!
 tar archive	tar-archívum	!
 tarball	kátránygolyó ;)	!
 target	cél	!
 target file	célfájl	!
 task	feladat	!
+TCLASS	TCLASS	!
+TCP/IP	TCP/IP	!
 technology	technológia, technika	!
+Telnet	Telnet	!
 temp file	átmeneti fájl	!
+Template	Sablon	!
 temporary	Átmeneti	!
 temporary buffer	átmeneti puffer	!
+Terminal	Terminál	!
+Terminate	Megszakítás	!
 term	Kifejezés, feltétel (licenc)	!
 terms of use	felhasználási feltételek	?
+TERM variable	TERM-változó	!
+Test Module	Teszt-modul	!
+Test	Teszt	!
 text area	szövegterület	!
 text body	szövegtörzs	!
 text box	szövegdoboz	!
 text flow	szövegfolyam	!
-text wrap	szöveg törése	!
+Text only	Csak szöveg	!
+Text	Szöveg	!
 textual name	szöveges név	!
 texture	mintázat	!
+text wrap	szöveg törése	!
+Theme	Téma	!
 thesaurus	szókincstár	!
 thesis	szakdolgozat	!
-thick	vastag	!
 thickness	vastagság	!
+thick	vastag	!
 thin	vékony	!
 third party	harmadik féltől származó	!
 thousands separator	ezreselválasztó	!
-thread	szál	!
 threaded	szálakra bontott	!
+thread	szál	!
+Threshold	Küszöb	!
 threshold value	küszöbérték	!
 thumbnail	Bélyegkép, Előnézet (pl. betűtípus)	!
-tick mark	pipa	!
+Thumb Nails	Bélyegkép, Előnézet (pl. betűtípus)	!
 ticker	futószöveg 	!
+tick mark	pipa	!
 tilde	tilde	!
-tile fill	mozaikszerű kitöltés	!
+Tile	Csempe	!
 tiled	mozaik (háttérkép)	!
+tile fill	mozaikszerű kitöltés	!
 timed out	túllépte az időkorlátot (művelet, program)	!
+Time format	Időformátum	!
 timeout	Időtúllépés (esemény), időkorlát (30 mp)	!
 timestamp	időbélyeg	!
+Timezone	Időzóna	!
 tip	tipp	!
+Title	Cím	!
 title/position	beosztás	!
-to mux	egyesíteni	!
 todo	teendő	?
 toggle	átváltás	!
 token	jelsor, token	?
 tolerance	tolerancia	!
+Tolerance	Tűréshatár	!
+to mux	egyesíteni	!
 toner low	kevés a festék	!
-tool menu	eszközmenü	!
+Toolbar	Eszköztár	!
+Tool	Eszköz	!
 toolkit	eszközkészlet	!
+tool menu	eszközmenü	!
 tools	eszközök	!
+Tooltip	Buboréksúgó	!
 topic	téma	!
 torus	tórusz	!
 total	Összeg	!
@@ -2279,26 +2211,36 @@ trailing	záró (karakter)	!
 transaction	tranzakció	!
 transcode	átkódolni (multimédiát)	!
 transcript	átirat	!
+Transfer	Átvitel	!
 transition	Átmenet	!
+Translate	Fordítás	!
 translation	fordítás	!
 transmission channel	átviteli csatorna	!
 transparency	Átlátszóság	!
 transparency color	Átlátszó szín	!
+Transparent	Átlátszó	!
 transpose	felcserélés	!
+Trash	Kuka	!
 traversal	bejárás	!
+Tree	Fa	!
 trigger	trigger (DB), eseményindító (DB), aktiváló	?
+Trim	Levágás	!
 tristate	háromállapotú	!
 troubleshooting	hibaelhárítás	!
 true	igaz	!
 truncate	csonkítani	!
-trust	megbízhatóság	!
 trusted	megbízható	!
+trust	megbízhatóság	!
 try again	próbálja újra	!
+Tty	Tty	!
 tubes	csövek	!
 tune	hangolni (alkalmazást)	!
+Turing Machine	Turing gép	!
 tutorial	ismertető	!
 tweak	finomhangolni	!
 typed	típusos	!
+Type mismatch	Nem megfelelő típus	!
+Type	Típus	!
 ui	felület	!
 umount	leválasztás	!
 unallocated	lefoglalatlan	!
@@ -2308,15 +2250,23 @@ uncheck	törölje (jelölőnégyzetet)	!
 uncompress	kibontani	!
 unconfigured	beállítatlan	!
 uncover	felfedés	!
-under the hood	a felszín alatt	!
+Undelete	Törlés visszavonása	!
 underflow	alulcsordulás	!
 underline	aláhúzás	!
+Underline	Aláhúzott	!
+under the hood	a felszín alatt	!
+Undo	Visszavonás	!
 unexpected error	váratlan hiba	!
 unformatted	formázatlan	!
 ungroup	csoport szétbontása	!
+Unicode	Unicode	!
+Uninstall	Eltávolítás	!
 unique	egyedi	!
+UNIX	UNIX	!
+Unknown host	Ismeretlen kiszolgáló	!
 unknown	ismeretlen	!
 unlink	szétbontás, törlés (unlink())	!
+Unload	Eltávolítás	!
 unlock	feloldás	!
 unmount	leválasztás	!
 unmute	visszahangosítás	!
@@ -2332,66 +2282,116 @@ unspecif	nincs megadva	!
 unsupported	nem támogatott	!
 unsure	bizonytalan	!
 untitled	cím nélkül	!
+Untitled	Névtelen	!
 unzip	kibontani (archívumot)	!
 upcoming	következő	!
+Update	Frissítés	!
+Upgrade	Frissítés	!
 upload	feltölteni	!
+Uptime	Működési idő	!
+URI	Egységes erőforrás-azonosító, URI cím	!
+URL	URL, Egységes erőforrás-hivatkozás, URL-cím	!
+USB	USB	!
 user agent	Felhasználói ügynök	?
+User defined	Felhasználó által megadott, Egyéni	!
 user directory	felhasználói könyvtár	!
+User	Felhasználó	!
+User Interface	Felhasználói felület	!
+Username	Felhasználónév	!
 user's guide	felhasználói kézikönyv	!
 utility	segédprogram	!
-valid	érvényes	!
 validation	ellenőrizni, jóváhagyás, javaslat	!
+Valid chars	Érvényes karakterek	!
+valid	érvényes	!
 validity	Érvényesség	!
+Value	Érték	!
+Variable	Változó	!
 variance	szórásnégyzet	!
+Vector Graphics	Vektorgrafika	!
 vectorized image	vektorizált kép	!
+Vendor	Gyártó	!
 venue	helyszín	!
 verbose	részletes	!
+VERBOSE	VERBOSE	!
+Verify	Ellenőrzés	!
 version control system	verziókezelő rendszer	!
-video	Video- (előtag), videó (önállóan)	!
+Version	Verzió	!
+Vertical Alignment	Függőleges igazítás	!
+Vertical	Függőleges	!
+VFS	VFS	!
 video file	videofájl	!
+Video	Video	!
+video	Video- (előtag), videó (önállóan)	!
 viewer	megjelenítő (nem: nézegető)	!
+View	Nézet	!
+Viewport	Munkalap	!
 violation	-sértés	?
 virtual desktop	Virtuális asztal	!
 virtualization	virtualizáció	!
+Virtual	Virtuális	!
 visibility	láthatóság	!
 visible	látható	!
 visit	felkeresni (weboldalt)	!
+Visualization	Képi megjelenítés	!
 voice	hang	!
 voicemail	hangposta	!
 volume	hangerő, kötet	!
 vulnerability	sebezhetőség	!
 vulnerable	sebezhető	!
 wakeup	ébredés	!
+Wallpaper	Háttérkép	!
+Warning	Figyelmeztetés	!
 watch	figyelés	!
+Watch file	Fájl figyelése	!
 watermark	vízjel	!
-web	web	!
 web application	webalkalmazás, webes alkalmazás	!
+Web Page	Weboldal	!
 web search	webkeresés	!
 web service	webszolgáltatás	!
 web site	webhely (ált.), weboldal (konkrét www)	!
 web view	webnézet	!
+web	web	!
+Weight	Vastagság	!
 welcome	üdvözöljük	!
 while trying	... tett kísérlet során	!
 whitelist	fehérlista	!
 whitespace	üres hely (karakter)	?
+Widget	Elem, Felületi elem	!
 widow control	fattyúsorok kezelése	!
+Width	Szélesség	!
 wildcard	helyettesítő karakter	!
+Window	Ablak	!
+Window Manager	Ablakkezelő	!
 wireless	vezeték nélküli	!
+Word	Szó	!
 workaround	kerülő megoldás	!
+Workbook	Munkafüzet	!
 workflow	munkafolyamat	!
 working directory	munkakönyvtár	!
+Work	Munka	!
 workspace	munkaterület	!
-wrap	sortörés, körbefuttatás (objektum körül) 	!
+Work With	... kezelése	!
 wrap contour on	körvonal megjelenítése	!
 wrap off	körbefuttatás ki	!
 wrap optimal	optimális körbefuttatás	!
-wrap through	keresztülfuttatás	!
-wrap transparent	Átlátszó körbefuttatás	!
 wrapper	átalakító	!
+wrap	sortörés, körbefuttatás (objektum körül) 	!
+wrap through	keresztülfuttatás	!
+Wrap	Tördelés	!
+wrap transparent	Átlátszó körbefuttatás	!
+Write	Írás	!
 wrong	hibás	!
+WVLAN	WVLAN	!
+X Align	X-igazítás	!
+XDMCP socket	XDMCP foglalat	!
+XML	XML	!
+X server	X-kiszolgáló	!
 y main grid	y tengely fő vezetőrács	!
 y minor grid	y tengely segédrács	!
 zero	nulla	!
+Zigzagline	Cikcakk vonal	!
 zip code	irányítószám	!
+Zip Drive	Zip-meghajtó	!
 zoom in	nagyítás	!
+Zoom	Nagyítás	!
 zoom out	kicsinyítés	!
