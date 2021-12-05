@@ -2,7 +2,7 @@
 
 main() {
   which dictfmt >/dev/null && which dictzip >/dev/null || {
-    echo "warning: dictfmt or dictzip - skipping dictionary generation" >&2
+    echo "warning: missing dictfmt or dictzip - skipping dictionary generation" >&2
     exit
   }
 
