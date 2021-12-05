@@ -16,7 +16,7 @@ addons:
 script:
 - script/generate-site.sh
 after_success:
-- script/deploy.sh
+- script/github-deploy.sh
 env:
   global:
   - GH_USER: bkil
