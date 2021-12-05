@@ -9,34 +9,79 @@ main() {
 }
 
 filters() {
-  filter \
-    "Missing translation" \
-    '^[^\t]+\t[^\t]'
+  filter_neg \
+    "Missing English word" \
+    '^\t'
 
-  filter \
-    "Missing status" \
-    '^[^\t]*\t\t|^([^\t]*\t){3,}|^([^\t]*\t){2}[?\!]$'
+  filter_pos \
+    "Missing Hungarian translation" \
+    '^[^\t]+\t[^\t]*\t[^\t]'
 
-  filter \
+  filter_pos \
    "Invalid column count" \
-   '^([^\t]*\t){2}[^\t]*$'
+   '^([^\t]*\t){4}[^\t]*$'
 
+  filter_neg \
+    "Double space" \
+    '  '
+
+  filter_neg \
+    "Underscore (_) used instead of asterisk (*)" \
+    '_'
+
+  filter_neg \
+    "Space around asterisk (*)" \
+    ' [*] '
+
+  filter_neg \
+    "Leading or trailing space" \
+    ' \t|\t '
+
+  filter_neg \
+    "Double hyphen" \
+    '--'
+
+  filter_neg \
+    "HTML chars (<>&)" \
+    '[<>&]'
+
+  filter_neg \
+    "Uncommon characters" \
+    "^[^][0-9a-zA-Zʌˈ'.,?!~;*+=→/:()„”\t _–-]*$"
+
+  filter_neg \
+    "Header row" \
+    '(^|\t)([eE]nglish|[aA]ngolul|[sS]ófaj|[mM]agyar(ul)?|[kK]ontextus)(\t|$)'
 }
 
-filter() {
+filter_neg() {
+  filter_generic "$@" "T"
+}
+
+filter_pos() {
+  filter_generic "$@" "t"
+}
+
+filter_generic() {
   local MSG="$1"
   local REGEXP="$2"
+  local BRANCH="$3"
 
-  echo "$MSG:" >&2
+  echo "- $MSG" >&2
 
   sed -rn "
     s/$REGEXP/&/
-    t e
+    $BRANCH e
     p
     :e
     " \
-    ../szotar/glosar.txt |
-  cat -A
+    ../szotar/glosar.csv |
+  while read ERROR; do
+    printf " %s\n" "$ERROR" >&2
+
+    printf "  %s\n" "$ERROR" |
+    cat -A
+  done
 }
 
 main "$@"
