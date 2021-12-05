@@ -3,21 +3,21 @@ set -e
 
 main() {
   cd `dirname "$0"`
-  local OUT="../dist/"
+  ./bad-lines.sh
 
-  ./template2html.sh
+  local DIST="../dist/"
+  mkdir -p "$DIST" || exit 1
 
-  mkdir -p "$OUT/js" "$OUT/css"
+  ./make-nojs-index.sh
+  ./make-js-index.sh
+  ./make-dict.sh
 
   cp -a \
-    -t $OUT \
+    -t $DIST \
     ../LICENSE \
-    ../szotar/glosar.txt
+    ../szotar/glosar.csv
 
-  cp -t "$OUT/js/" ../web/js/*
-  cp -t "$OUT/css/" ../web/css/*
-
-  touch $OUT/exported.po
+  touch $DIST/exported.po
 }
 
 main "$@"
