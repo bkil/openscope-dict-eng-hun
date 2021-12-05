@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang=hu class=nojs>
+<head>
+  <meta charset=utf-8>
+  <title>OpenScope English-Hungarian dictionary</title>
+  <link rel='shortcut icon' type=image/x-icon href=data:image/x-icon;,>
+  <meta name=viewport content='width=device-width, initial-scale=1.0'>
+
+  <script>
+    document.getElementsByTagName('html')[0].removeAttribute('class');
+  </script>
+
+  <style>
+td, th {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: dotted;
+  border-right-width: 1px;
+  padding: 4px;
+}
+
+#_searchBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+form {
+  display: inline;
+}
+  </style>
+
+  <style>
+table {
+  padding-top: 40px;
+}
+
+.ifnojs, .nojs .ifjs {
+  display: none;
+}
+
+tbody>tr {
+  display: none;
+}
+
+tbody>tr[id^="0"],
+tbody>tr[id^="1"],
+tbody>tr[id^="2"],
+tbody>tr[id^="3"],
+tbody>tr[id^="4"],
+tbody>tr[id^="5"],
+tbody>tr[id^="6"],
+tbody>tr[id^="7"],
+tbody>tr[id^="8"],
+tbody>tr[id^="9"],
+tbody>tr[id^=a i] {
+  display: table-row;
+}
+  </style>
+
+  <style id=_filterStyle>
+    .nojs .ifnojs {
+      display: initial;
+    }
+    .nojs > body, html[class=nojs] {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div class=ifnojs>
+  You could access many more features if you enabled JavaScript.
+  Please visit the simplified variant not needing JavaScript here:
+  <a href=nojs.html>nojs.html</a>.
+</div>
+
+<div class=ifjs>
+  <nav id=_searchBar>
+    <form id=_searchForm>
+      <label>
+        <strong>K</strong>eresés:
+        <input id=_search accesskey=k autofocus>
+      </label>
+      <input value=törlés accesskey=t type=reset>
+    </form>
+
+    <label>
+      <input id=_partialMatch accesskey=s type=checkbox>
+      <strong>S</strong>zövegrészlet egyezés
+    </label>
+
+  <a href="https://gitlab.com/bkil/openscope-dict-eng-hun">Felhasználási feltételek</a>
+  </nav>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Angolul
+        <th>Szófaj
+        <th>Magyarul
+        <th>Kontextus
+        <th>Megjegyzés
+    <tbody>
+  </table>
+</div>
+
+<script>
+(function() {
+  function onSearchChanged() {
+    searchBox = document.getElementById('_search');
+    search = searchBox.value.trimStart().replaceAll(' ', '_');
+    window.location.hash = encodeURIComponent(search);
+    if (search) {
+      filter = 'tbody > tr { display: table-row; }';
+      if (document.getElementById('_partialMatch').checked) {
+        filter += 'tbody > tr:not([id*="' + search + '" i]) { display: none; }';
+      } else {
+        filter += 'tbody > tr:not([id^="' + search + '" i]) { display: none; }';
+      }
+    } else {
+      history.replaceState('', document.title, window.location.pathname);
+      filter = '';
+    }
+    style = document.getElementById('_filterStyle').innerHTML = filter;
+    searchBox.focus();
+  }
+
+  function onReset() {
+    document.getElementById('_search').value = '';
+    onSearchChanged();
+  }
+
+  function onHashChangedMaybe(onlyNonEmpty) {
+    search = document.getElementById('_search')
+    next = decodeURIComponent(window.location.hash.substring(1));
+    next = next.replaceAll('_', ' ');
+    if ((next != search.value) && (!onlyNonEmpty || next)) {
+      search.value = next;
+      onSearchChanged();
+    }
+  }
+
+  function onHashChanged() {
+    onHashChangedMaybe(false);
+  }
+
+  document.getElementById('_search').oninput = onSearchChanged;
+  document.getElementById('_searchForm').onreset = onReset;
+  document.getElementById('_partialMatch').oninput = onSearchChanged;
+  window.onhashchange = onHashChanged;
+  onHashChangedMaybe(true);
+  onSearchChanged();
+})();
+</script>
+
+<script>
+(function() {
+  function downloadTable() {
+    script = document.createElement('script');
+    script.src = 'db.js';
+    document.getElementsByTagName('body')[0].appendChild(script);
+    console.log('table will be downloaded and regenerated');
+  }
+
+  function loadCachedTable() {
+    cache = null;
+    try {
+      cache = window.localStorage.getItem('dict');
+    } catch (e) {
+      if (e instanceof SecurityError) {
+        console.log('localStorage denied: not caching table');
+        return false;
+      } else {
+        throw e;
+      }
+    }
+
+    if (!cache)
+      return false;
+    i = cache.indexOf("\n");
+    if (i < 0)
+      return false;
+    version = cache.slice(0, i);
+    if (version != "((dbVersion))")
+      return false;
+    dict = cache.slice(i + 1);
+    document.getElementsByTagName('tbody')[0].innerHTML = dict;
+    console.log('table loaded from local storage: ' + version);
+    return true;
+  }
+
+  if (!loadCachedTable())
+    downloadTable();
+})();
+</script>
+
+</body>
+</html>

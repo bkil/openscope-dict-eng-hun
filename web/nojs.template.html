@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang=hu>
+<head>
+  <meta charset=utf-8>
+  <title>dict</title>
+  <link rel='shortcut icon' type=image/x-icon href=data:image/x-icon;,>
+  <meta name=viewport content='width=device-width, initial-scale=1.0'>
+
+  <style>
+    td, th {
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-right-style: dotted;
+      border-right-width: 1px;
+    }
+
+    input[type=radio] {
+      margin-right: 10px;
+    }
+    input[type=radio]:after {
+      content: attr(id);
+      margin-left: 15px;
+    }
+
+#a:checked ~ table > tbody > tr:not([id^=a i]) { display: none; }
+#b:checked ~ table > tbody > tr:not([id^=b i]) { display: none; }
+#c:checked ~ table > tbody > tr:not([id^=c i]) { display: none; }
+#d:checked ~ table > tbody > tr:not([id^=d i]) { display: none; }
+#e:checked ~ table > tbody > tr:not([id^=e i]) { display: none; }
+#f:checked ~ table > tbody > tr:not([id^=f i]) { display: none; }
+#g:checked ~ table > tbody > tr:not([id^=g i]) { display: none; }
+#h:checked ~ table > tbody > tr:not([id^=h i]) { display: none; }
+#i:checked ~ table > tbody > tr:not([id^=i i]) { display: none; }
+#j:checked ~ table > tbody > tr:not([id^=j i]) { display: none; }
+#k:checked ~ table > tbody > tr:not([id^=k i]) { display: none; }
+#l:checked ~ table > tbody > tr:not([id^=l i]) { display: none; }
+#m:checked ~ table > tbody > tr:not([id^=m i]) { display: none; }
+#n:checked ~ table > tbody > tr:not([id^=n i]) { display: none; }
+#o:checked ~ table > tbody > tr:not([id^=o i]) { display: none; }
+#p:checked ~ table > tbody > tr:not([id^=p i]) { display: none; }
+#q:checked ~ table > tbody > tr:not([id^=q i]) { display: none; }
+#r:checked ~ table > tbody > tr:not([id^=r i]) { display: none; }
+#s:checked ~ table > tbody > tr:not([id^=s i]) { display: none; }
+#t:checked ~ table > tbody > tr:not([id^=t i]) { display: none; }
+#u:checked ~ table > tbody > tr:not([id^=u i]) { display: none; }
+#v:checked ~ table > tbody > tr:not([id^=v i]) { display: none; }
+#w:checked ~ table > tbody > tr:not([id^=w i]) { display: none; }
+#x:checked ~ table > tbody > tr:not([id^=x i]) { display: none; }
+#y:checked ~ table > tbody > tr:not([id^=y i]) { display: none; }
+#z:checked ~ table > tbody > tr:not([id^=z i]) { display: none; }
+
+#_:checked ~ table > tbody > tr:not([class*=_ i]) { display: none; }
+#A:checked ~ table > tbody > tr:not([class*=a i]) { display: none; }
+#B:checked ~ table > tbody > tr:not([class*=b i]) { display: none; }
+#C:checked ~ table > tbody > tr:not([class*=c i]) { display: none; }
+#D:checked ~ table > tbody > tr:not([class*=d i]) { display: none; }
+#E:checked ~ table > tbody > tr:not([class*=e i]) { display: none; }
+#F:checked ~ table > tbody > tr:not([class*=f i]) { display: none; }
+#G:checked ~ table > tbody > tr:not([class*=g i]) { display: none; }
+#H:checked ~ table > tbody > tr:not([class*=h i]) { display: none; }
+#I:checked ~ table > tbody > tr:not([class*=i i]) { display: none; }
+#J:checked ~ table > tbody > tr:not([class*=j i]) { display: none; }
+#K:checked ~ table > tbody > tr:not([class*=k i]) { display: none; }
+#L:checked ~ table > tbody > tr:not([class*=l i]) { display: none; }
+#M:checked ~ table > tbody > tr:not([class*=m i]) { display: none; }
+#N:checked ~ table > tbody > tr:not([class*=n i]) { display: none; }
+#O:checked ~ table > tbody > tr:not([class*=o i]) { display: none; }
+#P:checked ~ table > tbody > tr:not([class*=p i]) { display: none; }
+#Q:checked ~ table > tbody > tr:not([class*=q i]) { display: none; }
+#R:checked ~ table > tbody > tr:not([class*=r i]) { display: none; }
+#S:checked ~ table > tbody > tr:not([class*=s i]) { display: none; }
+#T:checked ~ table > tbody > tr:not([class*=t i]) { display: none; }
+#U:checked ~ table > tbody > tr:not([class*=u i]) { display: none; }
+#V:checked ~ table > tbody > tr:not([class*=v i]) { display: none; }
+#W:checked ~ table > tbody > tr:not([class*=w i]) { display: none; }
+#X:checked ~ table > tbody > tr:not([class*=x i]) { display: none; }
+#Y:checked ~ table > tbody > tr:not([class*=y i]) { display: none; }
+#Z:checked ~ table > tbody > tr:not([class*=z i]) { display: none; }
+
+    table > tbody > tr:target {
+      display: table-row !important;
+      font-weight: bold;
+      font-size: larger;
+    }
+
+  </style>
+</head>
+<body>
+
+<p>
+  Example for deep anchor linking to words:
+  <a href=#script__noun>nojs.html#script__noun</a>.
+  JavaScript variant with caching and more features:
+  <a href=index.html>index.html</a>.
+</p>
+
+<input type=radio name=a id=a accesskey=a checked autofocus>
+<input type=radio name=a id=b accesskey=b>
+<input type=radio name=a id=c accesskey=c>
+<input type=radio name=a id=d accesskey=d>
+<input type=radio name=a id=e accesskey=e>
+<input type=radio name=a id=f accesskey=f>
+<input type=radio name=a id=g accesskey=g>
+<input type=radio name=a id=h accesskey=h>
+<input type=radio name=a id=i accesskey=i>
+<input type=radio name=a id=j accesskey=j>
+<input type=radio name=a id=k accesskey=k>
+<input type=radio name=a id=l accesskey=l>
+<input type=radio name=a id=m accesskey=m>
+<input type=radio name=a id=n accesskey=n>
+<input type=radio name=a id=o accesskey=o>
+<input type=radio name=a id=p accesskey=p>
+<input type=radio name=a id=q accesskey=q>
+<input type=radio name=a id=r accesskey=r>
+<input type=radio name=a id=s accesskey=s>
+<input type=radio name=a id=t accesskey=t>
+<input type=radio name=a id=u accesskey=u>
+<input type=radio name=a id=v accesskey=v>
+<input type=radio name=a id=w accesskey=w>
+<input type=radio name=a id=x accesskey=x>
+<input type=radio name=a id=y accesskey=y>
+<input type=radio name=a id=z accesskey=z>
+<input type=radio name=a id=/ accesskey=/>
+
+<br>
+
+<input type=radio name=b id=A>
+<input type=radio name=b id=B>
+<input type=radio name=b id=C>
+<input type=radio name=b id=D>
+<input type=radio name=b id=E>
+<input type=radio name=b id=F>
+<input type=radio name=b id=G>
+<input type=radio name=b id=H>
+<input type=radio name=b id=I>
+<input type=radio name=b id=J>
+<input type=radio name=b id=K>
+<input type=radio name=b id=L>
+<input type=radio name=b id=M>
+<input type=radio name=b id=N>
+<input type=radio name=b id=O>
+<input type=radio name=b id=P>
+<input type=radio name=b id=Q>
+<input type=radio name=b id=R>
+<input type=radio name=b id=S>
+<input type=radio name=b id=T>
+<input type=radio name=b id=U>
+<input type=radio name=b id=V>
+<input type=radio name=b id=W>
+<input type=radio name=b id=X>
+<input type=radio name=b id=Y>
+<input type=radio name=b id=Z>
+<input type=radio name=b id=_>
+<input type=radio name=b id=/ checked>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Angolul
+        <th>Szófaj
+        <th>Magyarul
+        <th>Kontextus
+        <th>Megjegyzés
+    <tbody>
+
+((db))
+
+  </table>
+
+</body>
+</html>
