@@ -160,7 +160,7 @@ authentication	noun	hitelesítés		**Nem** autentikáció, authentikáció
 author	noun	szerző		
 authorization	verb	felhatalmazni		
 authorization	noun	jogosultság		
-auto 	adjective	automatikus		**Nem** automata.
+auto	adjective	automatikus		**Nem** automata.
 autodetect	noun	automatikus felismerés		
 autodiscovery	noun	automatikus feltérképezés		
 autofill	noun	automatikus kitöltés		
@@ -344,8 +344,8 @@ child	noun	gyermek
 child process		gyermekfolyamat		
 chipset	noun	lapkakészlet		
 choose	verb	választani		Feliratként *Válasszon*
-chroma	noun	színesség 		
-chrominance	adjective	színesség 		
+chroma	noun	színesség		
+chrominance	adjective	színesség		
 cipher	noun	titkosító		
 circle	noun	kör		
 circle arc		körív		
@@ -425,7 +425,7 @@ confidence level		konfidenciaszint
 confidential	adjective	bizalmas		
 confidentiality level		bizalmassági szint		
 config file		konfigurációs fájl		
-configuration	noun	beállítás		Előfordulhat, hogy _konfiguráció_ lesz magyarul, például _configuration options_ (konfigurációs beállítások).
+configuration	noun	beállítás		Előfordulhat, hogy *konfiguráció* lesz magyarul, például *configuration options* (konfigurációs beállítások).
 configure	verb	beállítani		
 confine	verb	korlátozni		
 confirm	verb	megerősíteni		
@@ -671,7 +671,7 @@ drag	verb	húzni
 drag and drop		fogd és vidd		
 drag and drop		fogd és vidd		
 draw	verb	rajzolni		
-draw functions		rajzolóműveletek 		
+draw functions		rajzolóműveletek		
 draw object		rajzobjektum		
 draw object bar		rajzobjektum eszköztár		
 drawer	noun	fiók		
@@ -806,7 +806,7 @@ false	adjective	hamis
 favicon	noun	weblapikon		
 favorite	adjective	kedvenc		
 fax	noun	fax		
-fax cover		fax fedőlap 		
+fax cover		fax fedőlap		
 feature	noun	szolgáltatás		
 feature	noun	funkció		
 featureful	adjective	funkciógazdag		
@@ -872,7 +872,7 @@ formula	noun	képlet
 fraction	noun	tört		
 fraction bar		törtvonal		
 frame	noun	keret		HTML elem.
-framework 	noun	keretrendszer		
+framework	noun	keretrendszer		
 free positioning		kötetlen elhelyezés		
 free software		szabad szoftver		**Nem** ingyenes szoftver.
 free/busy		szabad/elfoglalt		Állapotok egy naptárban.
@@ -1229,7 +1229,7 @@ main body		fő törzs
 main entry		főbejegyzés		
 main grid		vezetőrács		
 main title		főcím		
-main toolbar		fő eszköztár 		
+main toolbar		fő eszköztár		
 maintainer	noun	karbantartó		
 major axis		főtengely		
 major interval		főbeosztás		
@@ -1424,7 +1424,7 @@ optimized	adjective	optimalizált	matematika
 option	noun	lehetőség		
 option	noun	kapcsoló	parancssor	
 option	noun	beállítás		
-option bar		beállítások eszköztár 		
+option bar		beállítások eszköztár		
 option button		beállítások gomb		
 option fields		rádiógombok		
 optional	adjective	nem kötelező		
@@ -1464,7 +1464,7 @@ page	noun	oldal
 page break		oldaltörés		
 page setup		oldalbeállítás		
 pager	noun	személyhívó		*Csipogó* néven is ismert.
-pair kerning		betűpár alávágása 		
+pair kerning		betűpár alávágása		
 paired	adjective	párosított		Bluetooth
 palette	noun	paletta		
 pane	noun	ablaktábla		
@@ -1489,7 +1489,7 @@ password protected		jelszóval védett
 paste	verb	beilleszteni		
 paste special		irányított beillesztés		
 patch	noun	javítócsomag		Avagy folt.
-patch bay		dugasztábla 		
+patch bay		dugasztábla		
 path	noun	útvonal		
 pattern	noun	minta		
 pause		szünet		
@@ -1580,7 +1580,7 @@ preferred		alapértelmezett (alkalmazás)
 prefix	noun	előtag		
 prefix	noun	előtag		
 prefix symbol		előtagjel		
-preformatted text		előformázott szöveg 		
+preformatted text		előformázott szöveg		
 preload	noun	előtöltés		
 prepare	verb	előkészíteni		
 presence	noun	jelenlét		
@@ -1594,7 +1594,7 @@ previous	adverb	előző
 primary colors		elsődleges színek		
 primary domain controller		elsődleges tartományvezérlő		
 primary key		elsődleges kulcs		
-primary y axis		elsődleges Y tengely 		
+primary y axis		elsődleges Y tengely		
 principal	adjective	elsődleges		
 principle	noun	alapelv		
 print	verb	kiírni		Karakteres alkalmazások esetén *kiírjuk* a konzolra.
@@ -1606,7 +1606,7 @@ printer	noun	nyomtató
 priority	noun	prioritás		
 privacy	noun	adatvédelem		
 privacy	noun	magánszféra		
-private data		személyes adat 		
+private data		személyes adat		
 private key		személyes kulcs		
 private messages		személyes üzenetek		
 privilege	noun	jogosultság		
@@ -1987,7 +1987,7 @@ squiggle	noun	cikkcakkos
 stack	noun	verem	programozás	
 stack trace		veremkiíratás		
 stagger even		páratlan címke eltolása		
-stagger odd		páros címke eltolása 		
+stagger odd		páros címke eltolása		
 stale	adjective	elavult		
 standalone	adjective	önálló		
 standard	noun	szabvány		
@@ -2136,7 +2136,7 @@ threshold value		küszöbérték
 thumbnail	noun	bélyegkép		
 thumbnail	noun	bélyegkép		
 tick mark		pipa		
-ticker	noun	futószöveg 		
+ticker	noun	futószöveg		
 tile	noun	csempe		
 tile fill		mozaikszerű kitöltés		
 tiled	adjective	mozaik		A háttérkép elhelyezésének egyik módja.
