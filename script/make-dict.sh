@@ -1,5 +1,11 @@
 #!/bin/sh
+
 main() {
+  which dictfmt >/dev/null && which dictzip >/dev/null || {
+    echo "warning: dictfmt or dictzip - skipping dictionary generation" >&2
+    exit
+  }
+
   IN="../szotar/glosar.csv"
   BASE="OpenScope-szotar2"
 
