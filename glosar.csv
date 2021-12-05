@@ -1,0 +1,2361 @@
+32-bit	adjective	32 bites		
+64-bit	adjective	64 bites		
+abbreviated	adjective	rövidített		
+abbreviation	noun	rövidítés		
+abort	verb	megszakítani		
+about X		A(z) X névjegye		
+absence of sg		vmi hiánya		
+absent	adjective	hiányzó		
+absolute record		abszolút hivatkozás		
+absolute value		abszolút érték		
+abstract	adjective	elvont		
+abstract	adjective	elvonatkoztatott		
+abstract	adjective	absztrakt	programozás	
+abstract	noun	kivonat		
+AC	noun	hálózati tápellátás		Szó szerint Alternating Current, vagyis váltóáram.
+acceleration	noun	gyorsítás		Olyan értelemben, mint a hardveres gyorsítás.
+accelerator	noun	hívóbetű		Az Alt billentyűvel használhatók a grafikus alkalmazásokban.
+accent	noun	ékezet		
+accept	verb	elfogadni		
+accept changes		változások elfogadása		
+accept or discard		elfogadás vagy elutasítás		
+accepted	adjective	elfogadva		
+access	noun	hozzáférés		
+access control list		hozzáférés-vezérlési lista		
+access denied		hozzáférés megtagadva		
+access key		hívóbetű		A Microsoft így nevezi a saját terminológiában.
+access point		hozzáférési pont		
+accessibility	noun	akadálymentesítés		**Nem** kisegítő lehetőségek.
+accessories	noun	kellékek		
+accessories	noun	kiegészítők		
+accessory	noun	kiegészítő		
+account	noun	fiók		Esetleg felhasználói fiók.
+accuracy	noun	pontosság		
+acronym	noun	betűszó		Angolul nincs külön szó a betűszavakra és mozaikszavakra.
+acronym	noun	mozaikszó		Angolul nincs külön szó a betűszavakra és mozaikszavakra.
+action	noun	művelet		
+activate	verb	bekapcsolni		
+active	adjective	aktív		
+actual	adjective	tényleges		**Nem** aktuális.
+ad-hoc	adjective	eseti		
+add	verb	hozzáadni		
+add-in		kiegészítő		
+additional parameter		további paraméter		
+addon		bővítmény		
+address	noun	cím		
+address book	noun	címjegyzék		
+address field		címmező		
+address space		címtér (IP)		
+addressee		címzett		
+adhoc		eseti		
+adjust	verb	módosítani		
+adjust	verb	igazítani		
+administration	noun	adminisztráció		
+administration	noun	adminisztráció		
+administration	noun	felügyelet		
+administrator	noun	rendszergazda		
+advance slides		dia továbbítása		
+advanced	adjective	fejlett		**Nem** haladó
+advanced	adjective	speciális		Legtipikusabb példa: *advanced options* – *speciális beállítások*.
+advanced	adjective	tapasztalt		Legtipikusabb példa: *advanced user* – *tapasztalt felhasználó*.
+advantage	noun	előny		
+affiliation	noun	kapcsolat		
+agenda	noun	napirend		
+agent	noun	ügynök		
+aggregate	noun	összetett		
+aggregate	adjective	aggregálás		
+airbrush	noun	festékszóró		
+alarm	noun	figyelmeztetés		
+album art		albumgrafika		
+alert	noun	riasztás		
+alert	noun	értesítés		
+alert	noun	figyelmeztetés		
+alias	noun	álnév		
+align	verb	igazítani		
+alignment	noun	igazítás		
+allocate	verb	lefoglalni		
+allow	verb	engedélyezni		
+allow	verb	lehetővé tenni		
+alpha	adjective	alfa		
+alpha channel		alfa csatorna		
+alphabet	noun	ábécé		**Nem** ABC.
+alphabetical delimiter		alfabetikus határoló		
+alphabetical index		tárgymutató		
+alphabetical order		betűrend		
+alternate	adjective	alternatív		
+alternating	adjective	váltakozó		
+alternatively	adverb	ennek alternatívájaként		
+altitude	noun	magasság		
+ambient light		háttérfény		
+amount	noun	mennyiség		
+amount	noun	összeg		
+analog	adjective	analóg		
+analysis	noun	analízís	matematika	
+analysis	noun	elemzés		
+anchor	noun	horgony		
+and more!		és sok más(t)!		
+angle	noun	szög		
+angled connector line		cikkcakkos összekötő vonal		
+animation	noun	animáció		
+annotation	noun	magyarázat		
+announce	verb	bejelenteni		
+announcement	noun	bejelentés		
+anonymous	adjective	névtelen		
+answer mode		válaszadási mód		
+antialiasing	noun	élsimítás		
+anyway	adverb	mindenképp		
+aperture value		apertúraérték		
+appearance	noun	megjelenés		
+append	verb	hozzáfűzni		
+appendix	noun	függelék		
+applet	noun	kisalkalmazás		
+appliance	noun	készülék		
+appliance	noun	eszköz		
+application	noun	alkalmazás		
+application launcher		alkalmazásindító		
+apply	verb	alkalmazni		Feliratként *alkalmaz*, az *alkalmazással* egybeesés elkerülése miatt.
+appointment	noun	értekezlet		
+approve	verb	elfogadni		
+arc	noun	ív		
+arcade	noun	ügyességi		Játékkategória.
+arcade	noun	játékterem		A játéktermi gépeket is ugyanígy hívják.
+architecture	noun	architektúra	hardver	Például: *x86 utasításkészlet-architektúra* vagy *3 rétegű szoftverarchitektúra*
+archive	noun	archívum		
+archive file		archívumfájl		
+arctangent	noun	arkusz tangens		
+arcsine	noun	arkusz szinusz		
+are you sure?		biztos benne?		
+area	noun	terület		
+argument	noun	argumentum		
+arrange	verb	elrendezni		
+array	noun	tömb		
+arrow	noun	nyíl		
+arrow key		nyílbillentyű		
+arrowheads	noun	nyílhegyek		
+article	noun	cikk		
+article	noun	cikkely	jog	
+artist	noun	előadó	zene	
+artwork	noun	grafika		
+ascending	adjective	növekvő		
+ascending	adjective	növekvő		
+aspect ratio		méretarány		
+assertion failure		érvényesítési hiba		
+assessment	noun	felmérés		
+assign	verb	hozzárendelni		
+assignment	noun	hozzárendelés		
+assistant	noun	segéd		
+assistant	noun	asszisztens	GNOME	A GTK egyik felületi eleme, l. GtkAssistant
+asynchronous	adjective	aszinkron		
+attach	verb	csatolni		
+attach	verb	mellékelni		
+attachment	noun	melléklet		**Nem** csatolmány.
+attribute	noun	attribútum		
+audio	noun	hang		
+audio feature		hangszolgáltatás		
+audio file		hangfájl		
+audiobook	noun	Hangoskönyv		
+audit	noun	audit		
+audit	verb	auditálni		
+authentication	noun	hitelesítés		**Nem** autentikáció, authentikáció
+author	noun	szerző		
+authorization	verb	felhatalmazni		
+authorization	noun	jogosultság		
+auto	adjective	automatikus		**Nem** automata.
+autodetect	noun	automatikus felismerés		
+autodiscovery	noun	automatikus feltérképezés		
+autofill	noun	automatikus kitöltés		
+automatic	adjective	automatikus		
+availability	noun	elérhetőség		
+available	adjective	elérhető		
+avatar	noun	profilkép		
+average	noun	átlag		
+axial	adjective	tengelyirányú		
+axis	noun	tengely		
+B-spline	noun	B-spline		A spline egy olyan görbe, amely polinommal írható le.
+backend	noun	háttér-		
+backend	noun	háttérprogram	programozás	
+background	noun	háttér		
+background color		háttérszín		
+background fill		háttérkitöltés		
+backport	verb	visszaportolni		Folt alkalmazása egy korábbi szoftververzión.
+Backspace	noun	Backspace		A billentyűk nevét nem jellemzően nem fordítjuk le.
+backup	noun	biztonsági mentés		
+backup	noun	tartalék		
+backup copy		biztonsági mentés		
+backup domain controller		tartalék tartományvezérlő		
+backward	adjective	vissza		
+balance	noun	egyensúly		
+balance	noun	egyenleg		
+balance columns		oszlopok kiegyensúlyozása		
+ban	verb	kitiltani		
+banner	noun	kísérőoldal		Nyomdai szakkifejezés.
+banner	noun	reklámcsík		Weboldalakon található elem.
+bar	noun	bigyó		A *foo*, *bar* és *baz* ilyen töltelékszavak.
+base	noun	alap		
+base line		alapvonal		
+BASE64		BASE64-kódolás		
+based	suffix	-alapú		Például *Java-alapú*
+batch file		parancsfájl		
+battery	noun	akkumulátor		Nem **telep**, az nem tölthető.
+baud rate		átviteli sebesség		
+BCC	noun	rejtett másolat		Levelezésnél, eredeti jelentése *Blind Carbon Copy*.
+behavior	noun	viselkedés		
+benchmark	noun	teljesítményteszt		
+best viewed with		megtekintéshez javasolt:		
+bibliography	noun	irodalomjegyzék		
+binary	adjective	bináris		
+binary file		bináris fájl		
+binary operator		bináris operátor		
+binding	noun	kötés		
+bit	noun	bit		
+bitmap	noun	bitkép		
+bitmask	noun	bitmaszk		
+bitrate	noun	bitsebesség		
+black white		fekete-fehér		
+blacklist	noun	feketelista		
+blank	noun	üres		
+blank	verb	törölni		
+blank	noun	üres		
+bleed marks		kifutójelek		
+blind copy		rejtett másolat		
+blinking cursor		villogó kurzor		
+block	noun	blokk	fájlrendszer	
+block	noun	tiltás		
+block	verb	letiltani		
+block buffer		blokkpuffer		
+block device		blokkeszköz		
+blocked	adjective	blokkolt		
+blur image		kép elmosása		
+board game		táblajáték		
+body	noun	törzs		
+bold	adjective	félkövér		
+bonding devices		nyalábolt eszközök		
+book	noun	könyv		
+book excerpt	noun	könyvkivonat		
+bookmark	noun	könyvjelző		
+boolean	adjective	logikai		
+boolean and		logikai és		
+boolean not		logikai nem		
+boolean or		logikai vagy		
+boolean value		logikai érték		
+boolean xor		logikai kizáró vagy		
+boot	verb	indítani		
+boot	noun	rendszerindítás		A folyamat a gép bekapcsolásától az operációs rendszer elindításáig.
+boot sector		boot szektor	fájlrendszer	
+bootloader	noun	rendszerbetöltő		Például GRUB, LILO
+bopomofo	noun	bopomofo		Kínai átírási rendszer
+border	noun	szegély		
+bottleneck	noun	szűk keresztmetszet		
+bounce key		billentyűszűrés		
+box	noun	doboz		
+brace	noun	kapcsos zárójel		
+bracket	noun	szögletes zárójel		
+bracket matching		zárójelek párosítása		
+branch	noun	ág		
+brand	noun	márka		
+break	noun	törés		
+breakpoint	noun	töréspont		
+breve	noun	breve		Diakritikus jel
+brightness	noun	fényerő		
+broadcast	noun	adás		
+brochure	noun	brosúra		
+broken	adjective	sérült		
+brownstone	noun	homokkő		
+browse	verb	böngészni		A felhasználó böngészik a weblapok között.
+browse	verb	tallózni		A felhasználó tallóz a fájlok között.
+browser	noun	böngésző		
+brush	noun	ecset		
+buddy	noun	partner	azonnali üzenetküldés	
+buffer	noun	puffer		
+bug	noun	hiba		
+build	verb	összeállítani		
+build	noun	összeállítás		
+built-in	adjective	beépített		
+bullet	noun	felsorolásjel		
+bulletin board	noun	hirdetőtábla		
+bullets and numberings		felsorolás és számozás		
+bus	noun	busz		
+bus	noun	sín		
+busy	adjective	foglalt		
+button	noun	gomb		
+byte		bájt		Az AkH. szerint helytelen, de megegyezés alapján így fordítjuk.
+cache	noun	gyorsítótár		
+calculate		számítás		
+calculation template group		számítássablon-csoport		
+calculator	noun	számológép		
+calendar	noun	naptár		
+call	noun	hívás		
+call stack		hívási verem		
+callback	noun	visszahívás		
+callout	noun	felirat		
+camera	noun	fényképezőgép		
+camera position		kamerapozíció		
+can not		nem lehet		
+can't		nem lehet		
+cancel	verb	megszakítani		Gombfeliratként *Mégse*.
+canceled by user		felhasználói megszakítás		
+canonicalize	verb	normalizálni		
+canvas	noun	rajzvászon		
+capability	noun	képesség		
+capitals		nagybetűk		
+captcha	noun	captcha		Completely Automated Public Turing test to tell Computers and Humans Apart
+caption	noun	felirat		
+capture	verb	rögzíteni		
+caret	noun	kurzor		
+caret	noun	kalap		Más néven háztető karakter.
+cartoon	noun	rajzfilm		
+cartridge	noun	kazetta		
+cascade windows		lépcsőzetes ablakelrendezés		
+case sensitive		kis- és nagybetű		A tömörség miatt fordítjuk így.
+catalog	noun	katalógus		
+category	noun	kategória		
+CC		másolatot kap		
+CD		CD		Compact Disk, CD-lemez
+CD-ROM drive		CD-meghajtó		
+cell	noun	cella		
+cellular	noun	mobil		
+center	noun	közép		Jellemzően középre igazításkor, ilyenkor „középre”
+centered	adjective	középre helyezett (háttérkép)		
+centralize	verb	központosítani		
+certificate	noun	tanúsítvány		
+certificate authority		hitelesítésszolgáltató		
+certificate issuer		tanúsítvány kiállítója		
+change	verb	módosítani		Egyéb lehetőségek: változtat
+change	noun	módosítás		Egyéb lehetőségek: változás, változtatás
+changelog	noun	változások listája		Egyéb lehetőségek: változásnapló
+channel	noun	csatorna		
+chapter	noun	fejezet		
+char cell		karaktercella		
+character	noun	karakter		
+character device		karakteres eszköz		
+character set		karakterkészlet		
+characteristics	noun	jellemző		
+charcoal sketch		szénvázlat		
+chart	noun	diagram		
+chat	noun	csevegés		Alkalmazás esetén „csevegőprogram”
+check	verb	ellenőrizni		
+check bit		ellenőrző bit		
+checkbox	noun	jelölőnégyzet		
+checkered	adjective	kockás		Egyéb lehetőségek: sakktáblás
+checkered diagonal		rombuszos		
+checkpoint	noun	ellenőrzőpont		
+cherry-pick	verb	mazsolázni	verziókezelés	
+child	noun	gyermek		
+child process		gyermekfolyamat		
+chipset	noun	lapkakészlet		
+choose	verb	választani		Feliratként *Válasszon*
+chroma	noun	színesség		
+chrominance	adjective	színesség		
+cipher	noun	titkosító		
+circle	noun	kör		
+circle arc		körív		
+circle pie		kördiagram		
+circle sector		körcikk		
+circle segment		körszelet		
+circumflex	noun	kalap		Más néven háztető karakter.
+city	noun	város		
+CJK compatibility		távol-keleti kompatibilitás		
+class	noun	osztály		
+class id		osztályazonosító		
+classic	adjective	klasszikus		
+classification	noun	besorolás		
+classification	noun	osztályozás	matematika	
+clean	verb	tisztítani		
+clear	verb	törölni		
+click	verb	kattintani		
+click	noun	kattintás		
+client	noun	ügyfél		
+client	noun	kliens		
+clipart	noun	clipart		
+clipboard	noun	vágólap		
+clipboard id		vágólap azonosítója		
+close	verb	bezárni		
+cloud computing		számítási felhő		
+CMYK		CMYK		Színkeverési mód: cián, bíbor, sárga és fekete
+coarse grained		durva felbontású		
+code	noun	kód		
+code map		karakterkiosztás		
+code segment		kódszegmens		
+codec	noun	kodek		Kódoló-dekódoló
+coefficient	noun	együttható		
+collaboration	noun	együttműködés		
+collapse	verb	összecsukni		
+collate	verb	szétválogatni		
+collision	noun	ütközés		
+color	noun	szín		
+color bars		színellenőrző csíkok		
+colorblind	adjective	színtévesztő		
+column	noun	oszlop		
+column spacing		hasábtávolság		
+combo box		legördülő menü		
+comes into effect		életbe lép		
+comma	noun	vessző		
+command	noun	parancs		
+command	noun	parancs		
+command line		parancssor		
+command line options		parancssori kapcsolók		
+comment	noun	megjegyzés		
+commit	verb	véglegesíteni	verziókezelés	
+common	noun	általános		
+common file		közös fájl		
+common name		általános név	LDAP	
+common properties		általános tulajdonságok		
+company	noun	cég		
+compare	verb	összehasonlítani		
+comparison	noun	összehasonlítás		
+compile	verb	fordítani		
+complete	adjective	kész		
+completion	noun	kiegészítés		
+compliant	adjective	megfelelő		
+compose	verb	összeállítani		
+compress	verb	tömöríteni		
+compressed	adjective	tömörített		
+concatenate	verb	összefűzni		
+concatenation	noun	összefűzés		
+concordance file		szómutatófájl		
+condition	noun	feltétel		
+conditional formatting		feltételes formázás		
+conditional style		feltételes stílus		
+conditional text		feltételes szöveg		
+conduit	noun	csatoló		
+cone	noun	kúp		
+conference proceedings		konferencia-jegyzőkönyv		
+conference report		konferenciabeszámoló		
+confidence level		konfidenciaszint		
+confidential	adjective	bizalmas		
+confidentiality level		bizalmassági szint		
+config file		konfigurációs fájl		
+configuration	noun	beállítás		Előfordulhat, hogy *konfiguráció* lesz magyarul, például *configuration options* (konfigurációs beállítások).
+configure	verb	beállítani		
+confine	verb	korlátozni		
+confirm	verb	megerősíteni		
+confirm delete		törlés megerősítése		
+confirm receipt		kézhezvétel megerősítése		
+confirmation	noun	megerősítés		
+connect	verb	kapcsolódni		Egyes kontextusokban összeköt, csatlakoztat.
+connection	noun	kapcsolat		
+connector	adjective	összekötő		
+connector attributes		összekötő attribútumai		
+connector reserved 2		2. fenntartott összekötő		
+consecutive numbering		folyamatos számozás		
+consolidate	verb	összesíteni		
+constraint	noun	megszorítás		
+contact	noun	névjegy		
+contain	verb	tartalmazni		
+content	noun	tartalom		
+content negotiation		tartalomegyeztetés		
+contents	noun	tartalomjegyzék		
+context	noun	környezet		
+context menu		helyi menü		A jobb egérgombbal előhozható környezeti menü.
+continue	verb	folytatni		
+continuous	adjective	folytonos		
+contour	noun	körvonal		
+contrast	noun	kontraszt		
+contribute	verb	közreműködni		
+contributor	noun	közreműködő		
+control	verb	vezérelni		
+control	noun	vezérlés		
+control	noun	vezérlőelem		
+convened by		összehívta:		
+conversation	noun	társalgás		
+conversation	noun	beszélgetés		
+conversion	noun	átalakítás		
+convert	verb	átalakítani		Fájl átalakítása más formátumba.
+cookie	noun	süti		
+coordinate	noun	koordináta		
+coprocess	noun	társfolyamat		
+copy	verb	másolni		
+copy	noun	másolat		
+copyright	noun	copyright		
+CORBA	noun	CORBA		Common Object Request Broker Architecture, lásd Wikipédia 
+core file		core fájl		
+correct	verb	javítani		
+correlation	noun	korreláció		
+corrupt	adjective	sérült		
+cos	noun	koszinusz		
+cost	noun	költség		
+could not		nem sikerült		
+couldn't		nem sikerült		
+count	noun	mennyiség		
+count	noun	darabszám		
+country	noun	ország		
+covariance	noun	kovariancia		
+cover	noun	borító	zene	Lemezborító.
+CPU	noun	CPU		Central Processing Unit, központi processzor
+CPU	noun	processzor		
+CR	noun	CR		Kocsi vissza karakter.
+CR LF		CR LF		Kocsi vissza és új sor karakter.
+crash	noun	összeomlás		
+crawl	verb	bejárni		A tartalomindexelők bejárják a webet.
+CRC	noun	ellenőrzőösszeg		
+create	verb	létrehozni		
+creation		létrehozás		
+creator		létrehozó		
+credential	noun	hitelesítési adatok		
+credit	noun	köszönet		
+credits	noun	köszönet		
+criteria	noun	feltételek		
+critical error		kritikus hiba		
+crop	verb	levágni		
+crop marks	noun	vágójelek		
+cross site scripting		webhelyközi parancsfájl		
+cross-reference	noun	kereszthivatkozás		
+crossplatform	verb	keresztplatformos		
+crypto	prefix	titkosítási-		Egyes esetekben nem fordítjuk, például *kriptovaluta*.
+Ctrl		Ctrl		A billentyűk nevét nem jellemzően nem fordítjuk le .
+cube	noun	kocka		
+cubic spline		harmadfokú spline		Más néven köbös spline.
+curly bracket		kapcsos zárójel		
+currency	noun	pénznem		
+current	adjective	jelenlegi		
+current context		jelenlegi környezet		
+currently	adverb	pillanatnyilag		
+currently	adverb	jelenleg		
+cursor	noun	kurzor		
+cursor type		kurzortípus		
+curve	noun	görbe		
+curve integral		vonalintegrál		
+custom	adjective	egyéni		**Nem** egyedi
+custom	adjective	egyéni		**Nem** egyedi.
+custom dictionaries		saját szótár		
+custom window		egyéni ablak		
+customization	noun	testreszabás		
+customize	verb	testreszabni		A hunspell aláhúzza, de helyes az egybeírás. Egyéb lehetőség: személyre szabás.
+cut	verb	kivágni		
+cycle	noun	körforgás		
+cylinder	noun	henger		
+cyrillic	adjective	cirill		
+daemon	noun	démon		
+data	noun	adat		Jellemzően többes számban fordítjuk, angolul megszámlálhatatlan.
+data	noun	adatok		Jellemzően többes számban fordítjuk, angolul megszámlálhatatlan.
+database	noun	adatbázis		
+databuffer	noun	adatpuffer		
+date	noun	dátum		
+day	noun	nap		
+DDE	noun	DDE		
+DDE error		DDE-hiba		
+DDE field		DDE-mező		
+DDE link		DDE-kapcsolat		
+deactivate	verb	kikapcsolni		
+deblocking	noun	blokkbontás		
+debug	verb	hibakeresés		Az angolban ige, akként nincs közvetlen magyar megfelelője.
+debugger	noun	hibakereső		
+decimal	adjective	decimális		
+decimal accuracy		tizedes pontosság		
+decimal places		tizedeshelyek		
+decimal separator		tizedesjel		
+decoder	noun	dekódoló		
+decompress	verb	kibontani		
+decorative	adjective	díszes		
+decrease	verb	csökkenteni		
+decrease indent		behúzás csökkentése		
+decrease spacing		helykihagyás csökkentése		
+decrypt	verb	visszafejteni		
+decryption	noun	visszafejtés		
+default	adjective	alapértelmezett		
+define	verb	meghatározni		
+definition	noun	meghatározás		
+degree	noun	fok		
+degrees of freedom		szabadsági fok		
+deinstall	verb	eltávolítani		
+deinstallation	noun	eltávolítás		
+deinterlace	verb	váltottsorosság megszüntetése		
+delay	noun	késleltetés		
+delete	verb	törölni		
+demote	verb	lefokozni		
+denominator	noun	nevező	matematika	A törtszám nevezője.
+denote	verb	jelezni		
+deny	verb	megtagadni		
+department	noun	részleg		
+depth	noun	mélység		
+descending	adjective	csökkenő		
+descending	adjective	csökkenő		
+description	noun	leírás		
+descriptor	noun	leíró		
+deselect all		kijelölések megszüntetése		
+deserialize	verb	visszafejteni		
+design	noun	látványterv		
+design view		terv nézet		
+desktop	noun	asztal		A számítógép asztala.
+desktop background		háttér		
+desktop environment		asztali környezet		
+desktop publishing		kiadványszerkesztés		
+destination	noun	cél		
+destroy	verb	kilőni		Egy program kilövése (kényszerített leállítása)
+detail	noun	részlet		
+detect	verb	felismerni		Például egy hardverelemet.
+detection	noun	felismerés		
+detection	noun	észlelés		
+detective	noun	detektív		
+determine	noun	meghatároz		
+development	noun	fejlesztés		
+device	noun	eszköz		
+diacritic	noun	mellékjel		
+diagnostic	adjective	diagnosztikai		
+diagonal	noun	átló		
+diagonal	adjective	átlós		
+diagram	noun	diagram		
+dial	verb	tárcsázni		
+dial-up	adjective	betárcsázós		Betárcsázós internet.
+dialing	noun	tárcsázás		
+dialog	noun	párbeszédablak		
+dialout	noun	kitárcsázás		
+dialout device		kitárcsázó eszköz		
+dictionary	noun	szótár		
+digest	noun	kivonat		
+digit	noun	számjegy		
+digital	adjective	digitális		
+dimension	noun	dimenzió		
+dimension line		méretvonal		
+dimensioning	noun	méretezés		
+direct column break		közvetlen hasábtörés		
+direct cursor		közvetlen kurzor		
+direct line break		közvetlen sortörés		
+direct page break		közvetlen oldaltörés		
+direction	noun	irány		
+directive	noun	direktíva		
+directly	adverb	közvetlenül		
+directory	noun	könyvtár		
+directory	noun	címtár	LDAP	
+directory	noun	könyvtár		
+directory	noun	könyvtár		
+directory tree	noun	könyvtárstruktúra		
+disable	verb	tiltani		
+disabled	adjective	letiltott		
+discard	verb	eldobni		
+discard	verb	elvetni		
+disconnect	verb	leválasztani		Az eszközöket leválasztjuk, de a kapcsolatot bontjuk.
+disconnected	adjective	szétkapcsolva		
+discover	verb	feltérképezni		Például hálózat feltérképezése.
+discrete	noun	diszkrét		
+disk	noun	lemez		
+dismiss	verb	eltüntetni		
+dispatcher	noun	kézbesítő		
+display	verb	megjeleníteni		
+dissertation	noun	értekezés		
+dissolve	verb	áttűnik		
+distance	noun	távolság		
+distinct values		különböző értékek		
+distinguished name		megkülönböztető név	LDAP	
+distort	verb	torzítani		
+distribute	verb	elosztani		
+distributed	adjective	elosztott		
+distribution	noun	elosztás		
+distribution	noun	disztribúció		A különböző GNU/Linux-alapú operációs rendszereket Linux-disztribúcióknak nevezzük. 
+distribution	noun	eloszlás	matematika	
+dithering	noun	színszórás		
+dithering	noun	árnyalás		
+dithering	noun	színközelítés		
+divide	verb	osztani		
+dividend	noun	osztandó	matematika	
+division by zero		osztás nullával		
+divisor	noun	osztó	matematika	
+DMA		DMA		Direct Memory Access
+DNS		DNS		Domain Name Service, névkiszolgáló
+dockapp	noun	dokkalkalmazás		
+document	noun	dokumentum		
+domain	noun	tartomány		
+domain	noun	domain		A webcímek esetén nincs meghonosodott magyar elnevezés.
+dot	noun	pont		
+dot dash		pont vonás		
+dotted underline		pontozott aláhúzás		
+double click		dupla kattintás		
+double curve integral		kettős vonalintegrál		
+double integral		kettős integrál		
+double quotes		kettős idézőjelek		
+double-angled line		kettős cikkcakkos vonal		
+downgrade	verb	visszafejleszteni		
+download	verb	letölteni		
+download	noun	letöltés		
+drag	verb	húzni		
+drag and drop		fogd és vidd		
+drag and drop		fogd és vidd		
+draw	verb	rajzolni		
+draw functions		rajzolóműveletek		
+draw object		rajzobjektum		
+draw object bar		rajzobjektum eszköztár		
+drawer	noun	fiók		
+drawing	noun	rajz		
+drawing area		rajzterület		
+drive	noun	meghajtó		
+driver	noun	illesztőprogram		Egyéb lehetőségek: eszközmeghajtó
+drop	verb	ejteni		
+drop caps		iniciálé		
+dropdown	noun	legördülő		
+dropdown menu		legördülő menü		
+droplet	noun	csepp		
+dummy	adjective	üres		
+duplicate	verb	kétszerezni		
+duplicate	noun	ismétlődő		
+duration	noun	időtartam		
+dwell click		elidőzési kattintás		
+dynamic	adjective	dinamikus		
+e-mail	noun	e-mail		
+e-mail address		e-mail-cím		
+e.g.		például		Ha csak lehet, nem rövidítjük, hanem kiírjuk.
+easy	adjective	egyszerű		
+echo	noun	visszhang		
+edge	noun	szél		
+edit	verb	szerkeszteni		
+edit	noun	szerkesztés		
+editing time		szerkesztés ideje		
+edition	noun	kiadás		
+editor	noun	szerkesztő		
+effect	noun	hatás		
+eject	verb	kiadni		CD-lemez kiadása.
+elapsed	adjective	eltelt		
+element	noun	elem		
+eliminate points		pontok eltávolítása		
+ellipse	noun	ellipszis		
+ellipse pie		ellipszisdiagram		
+ellipse segment		ellipszisszelet		
+ellipsize	noun	kihagyás		Rövidítés egy szövegben, például *kih...ás*
+elliptical arc		elliptikus ív		
+email	noun	e-mail		
+embed	verb	beágyazni		
+embedded	adjective	beágyazott		
+embedded object (OLE)		beágyazott objektum (OLE)		
+emblem	noun	matrica		
+emoticon	noun	hangulatjel		
+emphasis	noun	kiemelés		
+empty	adjective	üres		
+empty recycle bin		lomtár ürítése	Windows	
+emulation	noun	emuláció		
+enable	verb	engedélyezni		
+enabled	adjective	engedélyezett		
+enabled	adjective	engedélyezve		
+enclosed alphanumerics		csatolt alfanumerikus karakterek		
+encode	verb	titkosítani	PGP	
+encoder	noun	kódoló		
+encoding	noun	kódolás		
+encounter	verb	találni		Például az alkalmazás váratlan hibát talált.
+encrypt	verb	titkosítani		
+encryption	noun	titkosítás		
+end quote		idézet vége		
+end value		végérték		
+endash	noun	gondolatjel		
+endless	adjective	végtelen		
+endnote	noun	végjegyzet		
+enforce	verb	kikényszeríteni		
+engine	noun	alrendszer		
+engineering	noun	műszaki tervezés		
+engineering	noun	mérnöki tudomány		
+enhance edges		élek kiemelése		
+enlargement	noun	méret növelése		
+entity	noun	entitás		
+entry	noun	bejegyzés		
+envelope	noun	boríték		
+environment variable		környezeti változó		
+equal	verb	egyenlő [vmivel]		
+equalizer	noun	hangszínszabályzó		
+equation	noun	egyenlet		
+error	noun	hiba		
+error margin		biztonsági ráhagyás		
+error message		hibaüzenet		
+error occurred		hiba történt		
+essential	adjective	alapvető		
+establish	verb	létrehozni		
+estimate	verb	becsülni		
+Ethernet	noun	Ethernet		
+evaluate	verb	kiértékelni		
+evaluation	noun	kiértékelés		
+even	adjective	páros		
+event	noun	esemény		
+example	noun	példa		
+exceed	verb	túllépni		
+exception	noun	kivétel		
+exception	noun	kivétel		
+excess length		fölös hossz		
+exclusive access		kizárólagos hozzáférés		
+exclusive OR		kizáró VAGY		
+executable file		végrehajtható fájl		
+execute	verb	végrehajtani		
+execution	noun	végrehajtás		
+exist	verb	létezik		
+existing	noun	meglévő		
+existing design		meglévő látványterv		
+exit	verb	kilépni		
+expand	verb	kibontani		Például felületi elemnél.
+expanded memory		kiterjesztett memória		
+expected location		elvárt hely		
+expiration	noun	lejárat		
+expired	adjective	lejárt		
+exponential function		exponenciális függvény		
+exponential increase		exponenciális növekedés		
+exponential notation		exponenciális ábrázolás		
+export	verb	exportálni		
+export file		fájl exportálása		
+exposure time		expozíciós idő		
+expression	noun	kifejezés		
+extended help		részletes súgó		
+extended selection on		kiterjeszthető kijelölés be		
+extended tips		részletes tippek		
+extension	noun	kiterjesztés		Egy fájl kiterjesztése
+extension	noun	kiegészítő	Mozilla	A Mozilla termékekben így fordítjuk, mert a régi *add-onokat* felváltották az ún. *WebExtensionök*.
+extent	noun	kiterjedés		
+external	adjective	külső		
+extract	verb	kibontani		Például tömörített fájlok kibontása.
+facilitate	verb	megkönnyíteni		
+facility	noun	szolgáltatás		
+factor	noun	tényező		Például prímtényezős felbontás
+factorial	noun	faktoriális		
+fade	verb	elhalványulni		
+failed	verb	nem sikerült [vmit csinálni]		Mondatban jellemzően sikertelen.
+fallback	adjective	tartalék		
+false	adjective	hamis		
+favicon	noun	weblapikon		
+favorite	adjective	kedvenc		
+fax	noun	fax		
+fax cover		fax fedőlap		
+feature	noun	szolgáltatás		
+feature	noun	funkció		
+featureful	adjective	funkciógazdag		
+feed	noun	hírforrás		Jellemzően RSS-hírforrás
+feedback	noun	visszajelzés		
+fetch	verb	lekérni		
+field	noun	mező		
+field codes		mezőkódok		
+field delimiter		mezőelválasztó		
+file	noun	fájl		**Nem** állomány.
+file browser		fájlböngésző		
+file chooser		fájlválasztó		
+filename	noun	fájlnév		
+filesystem	noun	fájlrendszer		
+fill	verb	kitölteni		
+fill color		kitöltőszín		
+fill data series		adatsor kitöltése		
+filter	noun	szűrő		
+financial	adjective	pénzügyi		
+find	verb	keresni		
+finish	verb	befejezni		
+firmware	noun	firmware		Nincs meghonosodott magyar elnevezés.
+first name		utónév		
+fit to frame		keretbe illesztés		
+fixed	adjective	rögzített		
+fixed font		rögzített szélességű betűkészlet		
+flag	noun	jelző		
+flashcard	noun	tanulókártya		
+flavor	noun	változat		Például: a Xubuntu egy Ubuntu változat
+flip horizontally		vízszintes tükrözés		
+flip vertically		függőleges tükrözés		
+float	noun	lebegőpontos szám		
+floating frame		úszó keret		
+floppy	noun	floppy		**Nem** hajlékonylemez. (Szvsz. a flopi szó mára meghonosodott – meskobalazs)
+flowchart	noun	folyamatábra		
+folder	noun	mappa		Grafikus felületek metaforája a fájlrendszer könyvtáraira.
+font	noun	betűkészlet		
+font color		betűszín		
+font effects		betűhatások		
+font size		betűméret		
+font weight		betűvastagság		Szó szerint *súly*, de betűkészleteknél a vastagságot jelenti.
+font width		betűszélesség		
+foo	noun	izé		
+footer	noun	élőláb		
+footer	noun	élőláb	LibreOffice	Más dokumentumszerkesztőkből örökölt kifejezés
+footnote	noun	lábjegyzet		
+for later reference		későbbi használat céljából		
+for your information		tudnivaló		
+forecast	noun	előrejelzés		
+forecast	verb	előrejelezni		
+foreground	noun	előtér		
+foreground color		előtérszín		
+foreground transparence		előtér átlátszósága		
+fork		indítani (programot)		Szó szerint *villa*, de a folyamatok indítása a fork hívással történik.
+form	noun	űrlap		
+form controls		űrlapelemek		
+form design		űrlaptervezés		
+form letter		körlevél		
+form letter field		körlevélmező		
+format	verb	formázni		**Nem** formatálni vagy formattálni.
+formatted	adjective	formázott		
+formula	noun	képlet		
+fraction	noun	tört		
+fraction bar		törtvonal		
+frame	noun	keret		HTML elem.
+framework	noun	keretrendszer		
+free positioning		kötetlen elhelyezés		
+free software		szabad szoftver		**Nem** ingyenes szoftver.
+free/busy		szabad/elfoglalt		Állapotok egy naptárban.
+freecell	noun	admirális		Kártyajáték
+freeform line		szabadkézi vonal		
+freeform polygon		szabad formájú sokszög		
+freeze window		ablak rögzítése		
+frequency	noun	frekvencia		
+frequency	noun	gyakoriság		Egy érték gyakorisága egy sokaságban (populációban).
+frequency	noun	órajel		A processzorok esetén az órajelet és a frekvenciát is használjuk.
+frequency	noun	gyakoriság		
+frequency scaling		órajel-szabályozás	hardver	
+freshen	verb	felfrissíteni		Egy tömörített fájl felfrissítése.
+from		feladó		Az e-mailek egyik fejléce.
+frontend	noun	előtétprogram		
+FTP	noun	FTP		File Transfer Protocol, fájlátviteli protokoll
+full featured		teljes felszereltségű (~általános BS)		
+full pathname		teljes elérési út		
+full screen		teljes képernyő		
+fully featured		teljes felszereltségű (~általános BS)		
+function	noun	függvény	programozás	
+gallery	noun	képtár		
+gallery	noun	galéria		
+gamma	noun	gamma		
+gamma correction		gamma-korrekció		
+gamma value		gamma-érték		
+gap	noun	hézag		
+gapless	adjective	szünetmentes		Például szünetmentes lejátszás.
+gateway	noun	átjáró		
+general	adjective	általános		
+generate	verb	előállítani		
+generic	noun	általános		
+genre	noun	műfaj		
+geometry	noun	geometria		
+getting started		kezdeti lépések		
+global	adjective	globális		
+global settings		általános beállítások		
+glue point		csatolópont		
+glyph	noun	szimbólum		
+GNOME		GNOME		Asztali környezet, (már) nem rövidítés.
+GNU		GNU		GNU's Not Unix
+go	verb	ugrani		Feliratként *ugrás*.
+goal seek		célértékkeresés		
+GPL	noun	GPL		GNU General Public License, „általános nyilvános licenc”
+grab	verb	elkapni		
+grace time		türelmi idő (lemezkvóta)		
+gradient	noun	színátmenet		
+grand total		végösszeg		
+grant	verb	megadni		
+granular	adjective	részletes		
+graph	noun	grafikon		
+graph	noun	gráf		
+graph	noun	grafikon		
+graphic	noun	kép		
+graphical user interface		grafikus felhasználói felület		
+graphics	noun	kép		
+graphics card	noun	videokártya		
+grayscale	adjective	szürkeárnyalatos		
+greylist	noun	szürkelista		
+greyscale	adjective	szürkeárnyalatos		
+grid	noun	rács		
+group	noun	csoport		
+group box		csoportpanel		
+group policy		csoportházirend		
+grow	verb	növelni		
+GTK	noun	GTK		GIMP ToolKit
+GUI	noun	felület		Graphical User Interface, grafikus felhasználói felület
+guide	noun	vezetővonal	grafika	
+gutter	noun	kötésmargó		
+hacker	noun	hacker		
+half-sphere	noun	félgömb		
+handle	verb	kezelni		
+handout	noun	emlékeztető		
+handshake	noun	kézfogás		Protokollok jellemző lépése.
+hanging indent		függő behúzás	LibreOffice	
+hard disk		merevlemez		
+hard link		hard link		A szimbolikus linkkel ellentétben egyáltalán nem fordítjuk.
+hatching	adjective	vonalkázás		
+header	noun	élőfej		
+header	noun	fejléc		
+heading	noun	címsor		
+headless	adjective	kijelző nélküli		
+headphone	noun	fejhallgató		
+heap	noun	kupac	programozás	A verem (stack) és a kupac (heap) a memóriaterületek egy fajtája.
+help	noun	súgó		Történeti okok miatt **nem** segítség.
+help about help		a súgó használata		
+helper	noun	segédprogram		
+heredoc		here-dokumentum		
+hex	noun	hexa		
+hibernate	verb	hibernálni		
+hidden	adjective	rejtett		
+hidden file		rejtett fájl		
+hide	verb	elrejteni		
+hierarchy	noun	hierarchia		
+highlight	verb	kiemelni		
+histogram	noun	hisztogram		
+history	noun	előzmények		
+home	noun	kezdőlap		
+home directory		saját könyvtár		
+home page		kezdőoldal		
+homogeneous environment		homogén környezet		
+horizontal	adjective	vízszintes		
+horizontal line		vízszintes vonal		
+horizontal pitch		vízszintes dőlés		
+host	noun	gép		
+host name		gépnév		
+hotkey	noun	gyorsbillentyű		
+hotplug	adjective	működés közben cserélhető		
+hover	verb	rámutatni		Például *hover over the button* = *rámutatni a gombra (a kurzorral)*
+HTML	noun	HTML		HyperText Markup Language, hiperszöveges leírónyelv
+HTML document		HTML-dokumentum		
+HTML source		HTML-forrás		
+HTTP	noun	HTTP		HyperText Transfer Protokoll, hiperszöveg-átviteli protokoll
+HTTP proxy		HTTP-proxy		
+hue	noun	árnyalat		Színárnyalat, HSL színmodell esetén az egyik összetevő.
+human readable		emberek által olvasható		
+hyperbolic cosine		hiperbolikus koszinusz		
+hyperbolic cotangent		hiperbolikus kotangens		
+hyperbolic sine		hiperbolikus szinusz		
+hyperbolic tangent		hiperbolikus tangens		
+hyperlink	noun	hiperhivatkozás		
+hyphen	noun	kötőjel		
+hyphenate	verb	elválasztani		
+hyphenation	noun	elválasztás		
+i.e.	conjunction	azaz		A latin *id est* rövidítése, kiolvasása angolul: *that is*.
+I/O subsystem		I/O alrendszer		
+icon	noun	ikon		
+ID	noun	azonosító		
+IDE	noun	IDE		Integrated Drive Electronics, csatolótípus
+identification	noun	azonosítás		
+identifier	noun	azonosító		
+idle	adjective	üresjárat		A számítógép tétlen állapota.
+idle	adjective	tétlen		
+ignore	verb	mellőzni		Vagy figyelmen kívül hagyás
+illegal	adjective	szabálytalan		A számítógép kontextusában, például szabálytalan művelet, hozzáférés.
+illegal operation		érvénytelen művelet		
+illumination	noun	megvilágítás		
+illustration	noun	ábra		
+illustration index		ábrajegyzék		
+IM	noun	azonnali üzenetküldés		Az *instant messaging* rövidítése
+image	noun	kép		
+image map		képtérkép		
+imap account		IMAP-fiók		
+imperial	adjective	angolszász		Mértékegységrendszer
+implement	verb	megvalósítani		
+implementation	noun	megvalósítás		
+import	verb	importálni		
+in order to		[vmi] érdekében		
+inactive	adjective	inaktív		
+inactive window		inaktív ablak		
+inadmissable path		nem engedélyezett útvonal		
+inbox	noun	beérkezett üzenetek		
+inch	noun	hüvelyk		
+include		felvenni		Kontextustól függően belevenni, tartalmazni, felvenni, része vminek
+incoming	adjective	bejövő		
+incoming mail		bejövő levelek		
+incomplete	adjective	befejezetlen		
+incorrect	adjective	helytelen		
+increase	verb	növelni		
+increment	noun	növekmény		
+indent	verb	behúzni		
+indentation	noun	behúzás		**Nem** indentálás.
+index	noun	tárgymutató		
+index	noun	index	adatbázis	
+indicator	noun	jelző		
+individual	adjective	önálló		
+individual words		különálló szavak		
+infinity	noun	végtelen		
+information	noun	információk (tsz!)		
+inherited	adjective	örökölt		
+initial	adjective	kiinduló		
+initialization	noun	előkészítés		**Nem** inicializálás
+initialize	verb	előkészíteni		**Nem** inicializál
+inline	adjective	beágyazott		
+inner join		belső összekapcsolás		
+inode	noun	inode		
+input	noun	bemenet		
+input	noun	bevitel		Egy felületi elem.
+input field		beviteli mező		
+input method		beviteli mód		
+input/output		bemenet/kimenet		
+insert	verb	beszúrni		
+insertion point		beszúrási pont		
+inspect	verb	megfigyelni		
+install	verb	telepíteni		**Nem** installál.
+installation	noun	telepítés		
+installation	noun	telepítés		
+instruction pointer		utasításmutató		
+integer	noun	egész szám		
+integral	noun	integrál		
+integration	noun	integráció		
+integration	noun	integrálás	matematika	
+intensity	noun	intenzitás		
+interaction	noun	beavatkozás		Például emberi beavatkozás.
+interaction	noun	interakció		Például felhasználói interakció.
+intercept	noun	metszéspont		
+interface	noun	felület		
+interface	noun	csatoló	hardver	
+interface	noun	interfész	programozás	
+interlaced	adjective	váltottsoros		
+internal	adjective	belső		
+internal bug		belső hiba		
+internal error		belső hiba		
+international	adjective	nemzetközi		
+internationalization	noun	nemzetköziesítés		I18N: folyamat, mely során a fejlesztők honosíthatóvá teszik a szoftvert.
+internet	noun	internet		Kisbetűvel!
+interpolation	noun	interpoláció		
+interrupt	noun	megszakítás		
+intersection	noun	metszet		
+interval	noun	időköz		
+interval	noun	intervallum	matematika	
+introduction	noun	bemutatás		
+introduction	noun	bevezetés		
+intuitive	adjective	intuitív		
+invalid	adjective	érvénytelen		
+invert	verb	invertálás	matematika	
+invert selection		kijelölés megfordítása		
+invisible	adjective	láthatatlan		
+invitation	noun	meghívás		
+invitation	noun	meghívó		
+invite	verb	meghívni		
+IP address		IP-cím		
+IRC	noun	IRC		Internet Relay Chat
+iso speed rating		ISO-sebességminősítés		
+issue	verb	kiállítani		
+issue	noun	probléma		
+issue	noun	jegy		
+italic	noun	dőlt		
+item	noun	elem		
+iteration	noun	iteráció	programozás	
+Jaz drive		Jaz-meghajtó		
+jigsaw	noun	kirakó		
+job	noun	feladat		
+journal	noun	napló		
+JPEG	noun	JPEG		Joint Photographic Experts Group
+jukebox	noun	zenegép		
+justified	adjective	sorkizárt		
+justify	verb	sorkizárás		Angolul ige, de magyarul nincs rá egyszavas fordítás.
+KDE	noun	KDE		Asztali környezet, (már) nem rövidítés.
+keep-alive	noun	kapcsolatfenntartás		
+keepalive	noun	kapcsolatfenntartás		
+kernel	noun	rendszermag		Magyarul is használjuk a kernel szót, használata nem helytelen.
+kerning	noun	alávágás		
+key	noun	billentyű		
+key	noun	kulcs		
+keyboard	noun	billentyűzet		
+keyboard shortcut	noun	gyorsbillentyű		
+keypad	noun	számbillentyűzet		
+keyword	noun	kulcsszó		
+kick	verb	kirúgni		
+kickban	verb	kirúgás és kitiltás		
+kill	verb	kilőni		
+kill app		alkalmazás kilövése		
+label	noun	címke		
+lag	noun	késleltetés		
+lambda	noun	lambda		
+landscape	noun	fekvő	hardver	A kijelző fekvő állapota.
+language	noun	nyelv		
+large circumflex		nagy circumflex		
+last name		vezetéknév		
+last used		utoljára használt		
+LaTeX	noun	LaTeX		LaTeX szövegszedő rendszer, a X ejtése a technika szóban szereplő ch-hoz hasonlít.
+latitude	noun	szélesség		
+launch icon		indítóikon		
+launcher	noun	indítóikon		
+lavender	noun	levendula		
+layer	noun	réteg		
+layer indicator		rétegjelző		
+layout	noun	elrendezés		
+ldap server		LDAP-kiszolgáló		
+lead-in		bevezető		A CD lemez egy szakasza
+leading		kezdő		Kezdő karakter.
+left join		bal oldali összekapcsolás		
+legacy	adjective	örökölt		
+Legal	noun	Legal		Hagyományos amerikai papírformátum.
+legend	noun	jelmagyarázat		
+length	noun	hossz		
+Letter	noun	Letter		Hagyományos amerikai papírformátum.
+letter	noun	betű		
+letterlike symbols		betűszerű szimbólumok		
+level	noun	szint		
+library	noun	programkönyvtár	programozás	
+license	noun	licenc		
+license agreement		lincencmegállapodás		
+license agreement		licencszerződés		
+lightweight	adjective	könnyűsúlyú		
+limit	noun	határérték	matematika	
+limit	noun	korlát		
+limits	noun	korlátok		
+line	noun	vonal		
+line break		sortörés		
+line count		sorok száma		
+line head		vonalfej		
+linear	adjective	lineáris	matematika	
+linear ascending		egyenletesen növekvő		
+linear regression		lineáris regresszió	matematika	
+linear transfer		lineáris átvitel		
+linen	noun	vászon		
+link	noun	hivatkozás		**Nem** link, de fájlrendszerek esetén történetii okok miatt a terminológia: *hard* vagy *szimbolikus link*
+link	noun	link	fájlrendszer	Fájlrendszerek esetén történeti okok miatt *hard* vagy *szimbolikus linkekről* beszélünk.
+link	noun	hivatkozás		Ez alól kivételt képeznek a fájlrendszer *szimbolikus* és *hard linkjei*.
+link frames		keretek összekapcsolása		
+Linux	noun	Linux		
+list	verb	felsorolni		
+list box		listamező		
+literal mask		literálmaszk		
+load	verb	betölteni		
+local	adjective	helyi		
+locale	noun	területi beállítások		Magyarul egy szóval nem fordítható, így körülírjuk.
+location	noun	hely		
+lock	noun	zár		
+lock	verb	zárolni		
+lockdown	noun	zárolás		
+locked	adjective	zárolt		
+locked	adjective	zárolt		
+locking problem		erőforrás-zárolási hiba		
+log	noun	napló		
+log file		naplófájl		
+log in	verb	bejelentkezni		
+log out	verb	kijelentkezni		
+logarithm	noun	logaritmus	matematika	
+logarithm regression		logaritmikus regresszió	matematika	
+logical	adjective	logikai		
+login	noun	bejelentkezés		
+logo	noun	logó		
+logout	noun	kijelentkezés		
+longitude	noun	hosszúság		
+look	noun	kinézet		
+look and feel		megjelenés		
+look feel		megjelenés		
+lookup	noun	keresés		
+loop	noun	hurok		
+loop	noun	ciklus	programozás	
+loop device		hurokeszköz		
+loopback	noun	visszacsatolás		
+lower	verb	háttérbe küldeni		
+lowercase	adjective	kisbetűk		
+luma	noun	fényesség		
+luminance	noun	fényesség		
+LZW encoding		LZW-tömörítés		
+lyrics	noun	dalszöveg		
+machine	noun	gép		
+macro	noun	makró		
+macro organizer		makrószervező	LibreOffice	
+magazine	noun	magazin		
+mail	noun	levél		
+mail client		levelezőprogram		
+mail merge		körlevél	LibreOffice	
+mail server		levelezőkiszolgáló		
+mailbox	noun	postafiók		
+maildir	noun	levélmappa		
+mailing list		levelezőlista		
+main body		fő törzs		
+main entry		főbejegyzés		
+main grid		vezetőrács		
+main title		főcím		
+main toolbar		fő eszköztár		
+maintainer	noun	karbantartó		
+major axis		főtengely		
+major interval		főbeosztás		
+make sure		győződjön meg róla, hogy		
+malformed	adjective	helytelenül formázott		
+malicious	adjective	rosszindulatú		
+malware	adjective	rosszindulatú program		
+man pages		man oldalak		A man a manual rövidítése, a unixos/linuxos parancsok leírásai man oldalakon szerepelnek.
+manage	verb	kezelni		
+manager	noun	kezelő		
+manager	noun	kezelő		
+mandatory	adjective	kötelező		
+manipulate	verb	kezelni		
+manipulation	noun	kezelés		
+manual	noun	kézikönyv		
+manual page	noun	kézikönyvoldal		
+manually	adverb	saját kezűleg		Rövidebben *kézzel*. **Nem** manuálisan.
+manufacturer	noun	gyártó		
+map	verb	leképezni		
+margin	noun	margó		
+margin	noun	margó		
+mark	noun	jel		
+mark	noun	jel		
+markup	noun	jelölő		Például az XML egy jelölőnyelv.
+masquerading	noun	maszkolás		
+master document		fődokumentum		
+master server		elsődleges kiszolgáló		
+master view		minta nézet		
+match	verb	illeszteni		
+match	verb	illeszkedik [vmire]		
+match	verb	megfelel [vminek]		
+match	verb	egyezik [vmivel]		
+match case		kis- és nagybetűk egyeztetése		
+matrix	noun	mátrix	matematika	
+maximize	verb	maximalizálni		
+maximum	noun	maximum		
+MDI	noun	MDI		Multiple Document Interface
+mean	noun	közép		
+mean value		középérték		
+measure unit		mértékegység		
+measurement unit		mértékegység		
+media	noun	adathordozó		
+media type		adathordozó típusa		
+median	noun	medián	matematika	
+meeting	noun	találkozó		
+memory	noun	memória		
+memory cache		memóriabeli gyorsítótár		
+menu	noun	menü		
+menu item		menüpont		
+menubar	noun	menüsor		
+merge	noun	összefűzés		
+merge	noun	egyesítés	verziókezelés	
+merge	verb	egyesíteni		
+message	noun	üzenet		
+metadata	noun	metaadatok		Jellemzően többes számban fordítjuk, angolul megszámlálhatatlan.
+metafile	noun	metafájl		
+metering mode		mérési mód		
+method	noun	eljárás	matematika	
+metric	noun	metrika		
+microphone	noun	mikrofon		
+migration	noun	átállás		
+migration	noun	átköltöztetés		
+millisecond	noun	ezredmásodperc		
+MIME type		MIME-típus		
+minimize	verb	minimalizálni		Ablak kis méretűre állítása (jellemzően tálcára tevés).
+MINIX	noun	MINIX		
+minor faults		kisebb hibák		
+minor grid		segédrács		
+minor interval		albeosztás		
+minor x grid		x tengely segédrácsa		
+mirror	noun	tükör		
+misc	adjective	egyéb		
+miscellaneous	adjective	egyebek		
+miscellaneous options		egyéb beállítások		
+missing	adjective	hiányzik		
+mixer device		keverőeszköz		
+mnemonic	noun	hívóbetű		
+mobile carrier		mobilszolgáltató		
+modal	adjective	kizárólagos		Jellemzően a párbeszédablakok szoktak ilyenek lenni.
+mode	noun	módusz	matematika	
+mode	noun	mód		
+model	noun	modell		
+modem	noun	modem		Modulátor-demodulátor.
+modification	noun	módosítás		
+modifier	noun	módosítóbillentyű		A Ctrl, Alt, Shift és a Win/Meta/Super ilyen.
+modify	verb	módosítani		
+module	noun	modul		
+monitor	noun	monitor		
+monitor	verb	figyelni		Rendszer állapotának nyomon követése
+monochrome	adjective	fekete-fehér		
+monospace	adjective	rögzített szélességű		
+more		további (információ)		
+mount	verb	csatolni		Csatol egy külső meghajtón lévő fájlrendszert.
+mouse cursor		egérkurzor		
+move	verb	áthelyezni		**Nem** mozgat.
+movie	noun	film		
+MS		MS		
+MS-DOS		MS-DOS		
+MTU		MTU		Maximum Transmission Unit, legnagyobb átviteli egység
+multi-function	adjective	többfunkciós		
+multiline input		többsoros bevitel		
+multiplayer	adjective	többjátékos		
+multiple	adjective	többszörös		
+multiply	verb	szorozni		
+multiselection	noun	többszörös kijelölés		
+multitrack	adjective	többsávos		
+music player		zenelejátszó		
+mute	verb	némítani		
+mux	verb	egyesíteni		
+my documents		dokumentumok		
+n-th root		n-edik gyök		
+name	noun	név		
+namespace	noun	névtér		
+naming conflict		névütközés		
+native SQL		natív SQL		
+natural logarithm		természetes alapú logaritmus		
+natural numbers set		természetes számok halmaza		
+natural spline		természetes spline		
+navigate	verb	navigálni		
+navigation	noun	navigáció		
+navigator	noun	navigátor		
+necessary	adjective	szükséges		
+net	noun	hálózat		
+net access		hálózati hozzáférés		
+netmask	noun	hálózati maszk		
+network	noun	hálózat		
+networking	noun	hálózatkezelés		
+new	adjective	új		
+next		tovább		Például gombfeliratként
+no		nem		
+no icon		nincs ikon		
+node	noun	csomópont		
+node	noun	csúcs	matematika	A gráfok csúcsokból és élekből állnak.
+nominal interest		névleges kamat		
+non-breaking spaces		nem törhető szóköz		
+non-recoverable	adjective	helyrehozhatatlan		
+noname	adjective	névtelen		
+none		nincs		
+nonexistent	adjective	nem létező		
+nonprinting character		nem nyomtatható karakter		
+normal	adjective	normál		
+not available		nem érhető el		
+not enough memory		nincs elég memória		
+not found		nem található		
+not implemented		nincs megvalósítva		
+note	noun	jegyzet		
+note that		ne feledje, hogy		
+notebook	noun	jegyzetfüzet		
+notebook	noun	noteszgép		
+notification	noun	értesítés		
+number	noun	szám		
+numbered list		számozott lista		
+numbering	noun	számozás	LibreOffice	
+numbering / bullets		számozás / felsorolás	LibreOffice	
+numerator		számláló		
+numeric	adjective	numerikus		
+numeric field		számmező		
+object	noun	objektum		
+object code		tárgykód		A fordítóprogramok tárgykódot készítenek a forráskódból.
+oblique	adjective	rézsútos		
+oblique italic	adjective	erősen dőlt		
+observation	noun	megfigyelés		
+obsolete	adjective	elavult		
+occasion	noun	alkalom		
+occurrence	noun	előfordulás		
+odd	adjective	páratlan		
+offline	adjective	offline		
+offline		kapcsolat nélkül		
+offset	noun	eltolás		
+OK		OK		
+old value		korábbi érték		
+OLE		OLE		
+OLE automation error		OLE automatizációs hiba		
+OLE objektum		OLE-objektum		
+on screen display		képernyőkijelzés		Az OSD rövidítést is használjuk.
+on-screen	adjective	képernyőn megjelenő (utasítások)		
+online	adjective	online		
+online	adjective	online		
+online layout		megjelenítés weblapként		
+opacity	noun	átlátszatlanság		
+opaque	adjective	átlátszatlan		
+open	adjective	nyílt		
+open as template		megnyitás sablonként	LibreOffice	
+open source		nyílt forráskódú		
+operating system		operációs rendszer		
+operation	noun	művelet		
+operation	noun	művelet		
+operator	noun	operátor	matematika	
+optimal	adjective	optimális	matematika	
+optimize	verb	optimalizálni	matematika	
+optimized	adjective	optimalizált	matematika	
+option	noun	lehetőség		
+option	noun	kapcsoló	parancssor	
+option	noun	beállítás		
+option bar		beállítások eszköztár		
+option button		beállítások gomb		
+option fields		rádiógombok		
+optional	adjective	nem kötelező		
+optional hyphens		feltételes elválasztójel		
+optional line break		feltételes sortörés		
+order	verb	rendezni		
+order	noun	rendezés		
+organization	noun	szervezet		
+organize	verb	szervezni		
+organizer	noun	szervező		
+orientation	noun	tájolás		
+origin	noun	eredet		
+original	adjective	eredeti		
+orphan control		árvasorok kezelése	LibreOffice	
+other settings		egyéb beállítások		
+outbox	noun	postázandó levelek	levelezés	
+outgoing		kimenő	levelezés	
+outgoing mail		kimenő levelek	levelezés	
+outline	noun	körvonal		
+output	noun	kimenet		
+overall	adverb	összesen		
+overclocking	noun	túlhajtás		
+overflow	noun	túlcsordulás		Például *stack overflow* = *veremtúlcsordulás*
+overhead	noun	túlterhelés		
+overlap	noun	átfedés		
+overview	noun	áttekintés		
+overwrite	verb	felülírni		
+owner	noun	tulajdonos		
+pack	verb	csomagolni		
+pack	noun	csomag		
+package	verb	csomagolni		
+package	noun	csomag		
+packet	noun	csomag		
+packetizer	noun	daraboló		
+padding	noun	kitöltés		
+page	noun	oldal		
+page break		oldaltörés		
+page setup		oldalbeállítás		
+pager	noun	személyhívó		*Csipogó* néven is ismert.
+pair kerning		betűpár alávágása		
+paired	adjective	párosított		Bluetooth
+palette	noun	paletta		
+pane	noun	ablaktábla		
+panel	noun	panel		
+paper	noun	papír		
+paper feed		papíradagoló		
+paper jam		papírelakadás		
+paragraph	noun	bekezdés		
+parameter	noun	paraméter		
+parameter	noun	paraméter		
+parcel	noun	csomag		
+parental control		szülői felügyelet		
+parse	verb	feldolgozni		
+parser	noun	feldolgozó		
+partial	adjective	részleges		
+participant	noun	résztvevő		
+partition	verb	particionálni		Rövid i-vel
+partition table		partíciós tábla		
+pass count		menetek száma		
+password	noun	jelszó		
+password protected		jelszóval védett		
+paste	verb	beilleszteni		
+paste special		irányított beillesztés		
+patch	noun	javítócsomag		Avagy folt.
+patch bay		dugasztábla		
+path	noun	útvonal		
+pattern	noun	minta		
+pause		szünet		
+PDF fájl		PDF-fájl		
+peer	noun	partner		
+peer-to-peer	adjective	egyenrangú		
+pending	adjective	függőben		
+pending deletion		törlésre vár		
+perform	verb	végrehajtani		
+performance	noun	teljesítmény		
+period	noun	időtartam		
+period	adjective	ismétlődő		
+period	noun	időszak		
+periodic	adjective	periodikus		
+permanent	adjective	végleges		
+permanently	adverb	véglegesen		
+permission	noun	jogosultság		
+permission	noun	engedély	android	Az Android magyar fordítása így hívja, ezért azt követjük.
+permission denied		hozzáférés megtagadva		
+permit	verb	engedélyezni		
+personal	adjective	személyes		
+perspective shadow		perspektivikus árnyék		
+pertain		vonatkozik		
+phone/cellphone/fax		telefon/mobil/fax		
+phonetic symbols		fonetikus szimbólumok		
+physical memory		fizikai memória		
+pica	noun	pica		Mértékegység
+picker	noun	pipetta	grafika	
+picker button		pipettagomb		
+picture placeholders		kép helye		
+PID		PID		Process Identifier, feladatazonosító.
+pie	noun	tortadiagram		
+pin	verb	rögzíteni		
+pipe	verb	átirányítani		
+pipe	noun	adatcsatorna		
+pipeline	noun	adatcsatorna		
+pixbuf	noun	képpuffer		
+pixel	noun	képpont		
+pixmap	noun	kép		
+place	noun	hely		
+placeholder	noun	helykitöltő		
+plain	adjective	egyszerű		Például egyszerű szöveges fájl
+plan	noun	tarifa		Például mobiltelefon-tarifa
+play	verb	lejátszani		
+play in full		végigjátszás		
+playback	noun	lejátszás (multimédiát)		
+playlist	noun	lejátszólista		
+please		-		A magyar fordításba nem tesszük bele, felesleges modoroskodás.
+please wait		kis türelmet		
+plug-in	noun	bővítmény		
+plug-in	noun	bővítőmodul		
+plugin	noun	bővítmény		
+point	noun	pont		
+pointer	noun	mutató	programozás	
+pointing device		mutatóeszköz		
+polarization	noun	polarizáció		
+policy	noun	szabály		
+policy	noun	házirend		
+policy	noun	házirend		
+polygon	noun	sokszög		
+polyline	noun	töröttvonal		
+pool	noun	tároló		Különböző erőforrások tárolója, például adatbázis-kapcsolatok
+POP3 account		POP3-fiók		
+populate	verb	feltölteni		Például egy űrlapot.
+popup menu		helyi menü		
+popup window		felugró ablak		
+port	noun	port		
+portable	adjective	hordozható		
+portrait	noun	álló		A kijelző álló állapota.
+position		pozíció	LibreOffice	
+position not protected		pozíció módosítható	LibreOffice	
+position protected		pozíció nem módosítható	LibreOffice	
+position X		X pozíció		
+possible values		lehetséges értékek		
+postal box		postafiók		
+poster	noun	poszter		
+poster colors		poszterszínek		
+posterize	verb	poszterizálás	nyomda	
+postpone	verb	elhalasztani		
+postprocess	noun	utófeldolgozás		
+power management		energiagazdálkodás		
+powerful	adjective	hatékony		
+preceding	adjective	megelőző		
+precision	noun	pontosság		
+preference	noun	beállítás		
+preference tool		beállítóeszköz		
+preferred		alapértelmezett (alkalmazás)		
+prefix	noun	előtag		
+prefix	noun	előtag		
+prefix symbol		előtagjel		
+preformatted text		előformázott szöveg		
+preload	noun	előtöltés		
+prepare	verb	előkészíteni		
+presence	noun	jelenlét		
+present	verb	jelen van		
+presentation	noun	bemutató		
+preset	noun	előbeállítás		
+preset	adjective	előre beállított		
+prevent	verb	megakadályozni		
+preview	noun	előnézet		
+previous	adverb	előző		
+primary colors		elsődleges színek		
+primary domain controller		elsődleges tartományvezérlő		
+primary key		elsődleges kulcs		
+primary y axis		elsődleges Y tengely		
+principal	adjective	elsődleges		
+principle	noun	alapelv		
+print	verb	kiírni		Karakteres alkalmazások esetén *kiírjuk* a konzolra.
+print	verb	nyomtatni		
+print area		nyomtatási terület		
+print monitor		nyomtatás felügyelete		
+print preview		nyomtatási kép		
+printer	noun	nyomtató		
+priority	noun	prioritás		
+privacy	noun	adatvédelem		
+privacy	noun	magánszféra		
+private data		személyes adat		
+private key		személyes kulcs		
+private messages		személyes üzenetek		
+privilege	noun	jogosultság		
+problem	noun	probléma		
+proceed	verb	folytatni		
+process	noun	folyamat		
+process	verb	feldolgozni		
+process id		folyamatazonosító		
+processing	noun	feldolgozás		
+processor	noun	processzor		
+product	noun	termék		
+product information		termékinformáció		
+production	adjective	éles		Átvitt értelemben, éles üzemben működő.
+productivity	adjective	irodai		Irodai alkalmazások.
+profile	noun	profil		
+program	noun	program		
+program module		programmodul		
+progress	noun	folyamat		
+progress bar		folyamatjelző		
+project	noun	projekt		
+projection X		X irányú vetület		
+promote	verb	előléptetni		
+prompt	noun	parancssor		
+property	noun	tulajdonság		
+proportional	adjective	arányos		
+proportional font		proporcionális betűkészlet		
+proprietary	noun	zárt		Zárt vagy tulajdonosi szoftver, a szabad szoftver ellentéte.
+protect cells		cellavédelem		
+protect document		dokumentumvédelem		
+protect sheet		munkalapvédelem		
+protected	adjective	védett		
+protected workbooks		védett munkafüzetek		
+protection	noun	védelem		
+protocol	noun	protokoll		
+provide	verb	biztosítani		
+provider	noun	szolgáltató		
+province	noun	tartomány		
+proxy	noun	proxy		
+proxy server		proxykiszolgáló		
+public	noun	nyilvános		
+public holidays		munkaszüneti napok		
+public key		nyilvános kulcs		
+publication	noun	kiadvány		
+publish	verb	közzétenni		
+publisher	noun	kiadó		
+pull	verb	lekérni	verziókezelés	Elosztott verziókezelők funkciója.
+purpose	noun	cél		
+push	verb	megnyomni		
+push button		nyomógomb		
+query	verb	lekérdezni		
+query	noun	lekérdezés		
+queue	noun	várólista		
+queue	noun	sor	programozás	
+quirk	noun	kerülőmegoldás		
+quit	verb	kilépni		
+quota	noun	kvóta		
+quotation	noun	idézet		
+quote	noun	idézet		
+radial	adjective	sugárirányú		
+radio	noun	rádió		
+radio button	noun	választógomb		
+radius	noun	sugár		
+radix	noun	számrendszer		
+raise	verb	előtérbe hozni		Ablak előtérbe hozása.
+random	adjective	véletlen		
+range	noun	tartomány		
+rank	noun	sorrend		
+rate	noun	sebesség		Szó szerint *arány*, de pl. bitrate = bitsebesség, framerate = képkockasebesség.
+rate	noun	arány		
+rating	noun	értékelés		
+ratio	noun	arány		
+raw data		nyers adatok		
+raw memory		nyers memória		
+re-enable	verb	újraengedélyezni		
+read	verb	olvasni		
+read only		csak olvasható		Avagy írásvédett.
+ready	adjective	kész		
+real memory		valós memória		
+real numbers set		valós számok halmaza	matematika	
+real part		valós rész	matematika	
+real path		valós útvonal	matematika	
+real time		valós idejű		
+real time strategy		valósidejű stratégia[i játék]		
+realm	noun	tartomány		
+reboot	verb	újraindítani		
+recalculate	verb	újraszámolni		
+receive	verb	fogadni		
+recently	adverb	legutóbb		
+receptivity	noun	érzékenység		
+recipient	noun	címzett		
+recommend	verb	ajánlani		
+reconnect	verb	újracsatlakozni		
+record	verb	felvenni		
+recover	verb	helyrehozni		
+rectangle	noun	téglalap		
+recurrence	noun	ismétlődés		
+recursion	noun	rekurzió		
+recursive	adjective	rekurzív		
+recycle bin		lomtár	Windows	
+red	adjective	vörös		
+redial	verb	újrahívni		
+redirect	verb	átirányítani		
+redisplay	verb	újrarajzolni		
+redo	verb	újra		Angolul ige, de magyarul nincs rá egyszavas fordítás.
+redraw	verb	újrarajzolni		
+refer	verb	hivatkozni		
+reference	noun	hivatkozás		
+refresh	verb	frissíteni		
+refuse	verb	visszautasítani		
+region	noun	régió		
+register	verb	regisztrálni		
+register-true		soregyen		
+registration	noun	regisztráció		
+registration mark		passzerjel	nyomda	
+registry	noun	rendszerleíró adatbázis	Windows	
+regression curve		regressziós görbe		
+regular	adjective	szabályos		
+regular expression		reguláris kifejezés		**Nem** szabályos kifejezés.
+regular file		normál fájl		
+regulate	verb	szabályozni		
+rehearse timings		időzítés elpróbálása		
+reinstall	verb	újratelepíteni		
+reject	verb	visszautasítani		
+rejected	adjective	visszautasított		
+relation	noun	reláció	matematika	
+relation	noun	kapcsolat		
+relationship	noun	kapcsolat		
+relay	verb	továbbítani		
+release	noun	kiadás		
+relief	noun	dombormű		
+reload	verb	újratölteni		
+relocate	verb	áthelyezni		
+remaining time		fennmaradó idő		
+remark	noun	megjegyzés		
+remind again later		figyelmeztetés később		
+reminder	noun	emlékeztető		
+remote	adjective	távoli		
+removable	adjective	cserélhető		
+remove	verb	eltávolítani		
+rename	verb	átnevezni		
+renew	verb	megújítani		
+reorder	verb	átrendezni		
+reorganize	verb	átszervezni		
+repaginate	verb	újratördelni		
+repair installation		telepítés helyreállítása		
+repeat	verb	ismételni		
+Repetitive Strain Injury (RSI)		ismétlődő mozgásból eredő izomhúzódás		
+replace	verb	cserélni		Feliratként *csere*.
+replace all		összes cseréje		
+replication consumer		replikációfogadó		
+reply	noun	válasz		
+reply to		válaszcím		Az egy e-mail-fejléc
+report	noun	jelentés		
+report	noun	jelentés		
+represent	verb	ábrázolni		
+request	noun	kérés		
+required	adjective	szükséges		
+resend	verb	újraküldeni		
+reset	verb	visszaállítani		
+resident	adjective	rezidens		
+resident memory		rezidens memória		
+resize	verb	átméretez		
+resolution	noun	felbontás		
+resolve	verb	megoldani		Például megoldani egy ütközést a Gitben.
+resource	noun	erőforrás		
+respectively	adverb	rendre		
+response	noun	válasz		
+responsible	adjective	felelős		
+restart	verb	újraindítani		
+restore	verb	helyreállítani		
+restricted	adjective	zárt		
+restriction	noun	korlátozás		
+result	noun	eredmény		
+resume	verb	folytatni		
+retract	verb	visszavonni		
+retry	verb	újra		Angolul ige, de magyarul nincs rá egyszavas fordítás.
+return	noun	enter		A billentyűzet gombja.
+reverse	adverb	fordított		
+reverse circumflex		hacsek		Diakritikus jel
+revert	verb	visszaállítani		
+review	verb	áttekinteni		
+revoke	verb	visszavonni		
+rewrite	verb	újraírni		
+rhombus	noun	rombusz	matematika	
+ringtone	noun	csengőhang		
+rip	verb	beolvasni		Például egy zenei CD-lemez beolvasása MP3-ban.
+roaming profile		központi profil	Windows	Ez az SMB kifejezése.
+role	noun	szerep		
+role playing game		szerepjáték		
+root	noun	root		A UNIX rendszerek legmagasabb jogosultságú felhasználója.
+root directory		gyökérkönyvtár		
+roster	noun	partnerlista		Azonnali üzenetküldőkben használt kifejezés.
+rotate	verb	forgatni		
+round bracket		kerek zárójel		
+round robin		körbeforgó		
+rounded	adjective	lekerekített		
+rounded edges		lekerekített élek		
+router	noun	router		Avagy útválasztó.
+row	noun	sor		
+row spacing		sorköz		
+rule	noun	szabály		
+ruler	noun	vonalzó		
+run	verb	futtatni		
+salvage	noun	maradványérték		
+sample	noun	minta		
+sample rate		mintavételezési gyakoriság		
+sans (serif)		talpatlan		A betűkészletek egyik fő típusa.
+saturation	noun	telítettség		Színtelítettség, HSL színmodell esetén az egyik összetevő.
+saturation	noun	színtelítettség		
+save	verb	menteni		
+save all		összes mentése		
+save as		mentés másként		
+scalable	adjective	skálázható		
+scalar	adjective	skaláris		
+scale	verb	méretezni		
+scaled	adjective	kifeszített		A háttérkép elhelyezésének egyik módja.
+scan	verb	lapolvasás		
+scanner	noun	szkenner		Avagy lapolvasó.
+scenario	noun	eset		
+scenario manager		esetkezelő		
+scenario name		eset neve		
+schedule	verb	ütemezni		
+schema	noun	séma		
+scope	noun	hatáskör		Avagy hatókör.
+screen	noun	képernyő		
+screencast	noun	képernyővideó		
+screensaver	noun	képernyővédő		
+screenshot	noun	képernyőkép		
+screenshot	noun	képernyőkép		
+script	noun	parancsfájl		
+scrobble	verb	továbbítani		A Last.fm funkciója.
+scroll	verb	görgetni		
+scroll wheel		[egér]görgő		
+scrollbar	noun	görgetősáv		
+SCSI		SCSI		Small Computer System Interface (ejtsd: /ˈskʌzi/), avagy „kis számítógépes rendszerfelület”
+search	verb	keresni		
+search criteria		keresési feltételek		
+search direction		keresés iránya		
+search domain		keresési tartomány		
+search results	noun	találatok		**Nem** eredmények.
+search string		keresendő karakterlánc		
+search term		keresőkifejezés		
+search vector		keresővektor		
+seat	noun	munkaállomás		
+secondary axis		másodlagos tengely		
+secondary colors		másodlagos színek		
+section	noun	szakasz		
+sector	noun	szektor		
+secure	adjective	biztonságos		
+secure channel		biztonságos csatorna		
+security	noun	biztonság		
+seed	verb	megosztani		A bittorrentben használt kifejezés.
+seek	verb	tekerni		Hang- és videofájlokban.
+segment	noun	szakasz		
+segmentation fault		szegmentációs hiba		
+select	verb	kijelölni		Egyes kontextusokban kiválaszt.
+select	verb	válasszon		Ablakcímként így fordítjuk.
+selection	noun	kijelölés		Egyes kontextusokban kiválasztás.
+selection box		választómező		
+self extracting		önkibontó		
+self-signed certificate		önaláírt tanúsítvány		
+self-test	noun	önellenőrzés		
+semiautomatic	adjective	félautomata		
+semicolon	noun	pontosvessző		
+send	verb	küldeni		
+send to back		háttérbe küldés		
+sensitive	adjective	érzékeny		
+sensor	noun	érzékelő		
+sent messages		elküldött üzenetek		
+separator	noun	elválasztó		
+sequence	noun	sorozat		
+sequencer	noun	szekvenszer		
+serial	adjective	soros		
+serialize	verb	sorbafejteni		
+series	noun	sorozat		
+serif	noun	talpas		A betűkészletek egyik fő típusa.
+server	noun	kiszolgáló		
+service	noun	szolgáltatás		
+session	noun	munkafolyamat		
+session	noun	munkamenet		
+set	verb	beállítani		
+set as default		beállítás alapértelmezettként		
+set tab order		bejárási sorrend megadása		
+set-operations		halmazműveletek		
+setting	noun	beállítás		
+setup	noun	beállítás		
+setup server		telepítőkiszolgáló		
+severity	noun	súlyosság		
+shader	noun	árnyaló		
+shading	noun	árnyalás		
+shadow	noun	árnyék		
+shadowing	noun	árnyékolás		
+shape	noun	alak		
+share	verb	megoszt		
+shared memory		osztott memória		
+sharpen	verb	élesítés		
+sharpness	adjective	élesség		
+shear	verb	nyírás	matematika	
+sheet	noun	munkalap		
+shell	noun	parancsértelmező		
+Shift		Shift		A billentyűk nevét nem jellemzően nem fordítjuk le .
+shift	noun	eltolás		
+shortcut	noun	parancsikon	Windows	
+show	verb	megjeleníteni		**Nem** mutatás.
+shrink	verb	zsugorítani		
+shuffle	verb	keverni		
+shut down		leállít		
+shutdown	noun	leállítás		
+shutter speed		zársebesség		
+side pane		oldalsáv		
+sign up		feliratkozni		Egyes kontextusokban *regisztrálni*. **Nem** előfizetni.
+signal	noun	jel		
+signal	noun	szignál	programozás	Például a SIGTERM egy olyan szignál, mely megállítja egy program futását.
+signature	noun	aláírás		
+significance	noun	szignifikancia	matematika	
+significant	adjective	jelentős		
+simple	adjective	egyszerű		
+single	adjective	egyetlen		
+single click		egyszeres kattintás		
+single line spacing		egyszeres sorköz		
+single player		egyjátékos		
+size	noun	méret		
+skip	verb	kihagyni		
+slant	verb	ferdíteni		
+slave	noun	szolga		
+slide	noun	dia		
+slide show		diavetítés		
+slider	noun	csúszka		
+SLIP		SLIP		Serial Line Internet Protocol, avagy soros vonalas internetprotokoll
+smart	adjective	okos		
+smart terminal		okos terminál		
+smiley	noun	hangulatjel		
+smooth	adjective	sima		
+smooth transition		sima átmenet		
+SMTP		SMTP		Simple Mail Transfer Protocol, avagy egyszerű levélátviteli protokoll
+snap grid		illesztőrács		
+snap line/point		illesztővonal és -pont		
+snap to grid		rácshoz illesztés		
+snapshot	noun	pillanatkép		
+socket	noun	foglalat		
+software bug		szoftverhiba		
+software foundation		szoftver alapítvány		
+solarization	noun	fakítás		
+solid color		homogén szín		
+solitaire	noun	pasziánsz		
+sort	verb	rendezni		
+sound	noun	hang		
+sound card		hangkártya		
+sound files		hangfájlok		
+source	noun	forrás		Ha a kontextus alapján kódról van szó, akkor fordítsuk forráskódnak.
+source code		forráskód		
+Space		Szóköz		
+space	noun	hely		A merevlemezen lévő hely.
+space bar		szóköz		
+spacing	noun	térköz		
+spam	noun	levélszemét		Ha nem levelezésről van szó, akkor *kéretlen tartalom*.
+spawn	verb	indítani		Egy program/folyamat elindítása.
+speaker	noun	hangszóró		
+special character		speciális karakter		
+special character		különleges karakter		
+special functions		speciális funkciók		
+specific	adverb	sajátos		
+specify	verb	megadni		
+speech	noun	beszéd		
+speed	noun	sebesség		
+spell checker		helyesírás-ellenőrző		
+spell checking		helyesírás-ellenőrzés		
+spellcheck	noun	helyesírás-ellenőrzés		
+sphere	noun	gömb		
+spinbutton	noun	léptetőgomb	GNOME	Egy felületi elem.
+splash	noun	indítókép		
+split	noun	felosztás		
+split cells		cellák felosztása		
+spool	noun	várólista		A nyomtató várakozási sora.
+spreadsheet	noun	munkafüzet		
+square bracket		szögletes zárójel		
+squiggle	noun	cikkcakkos		
+stack	noun	verem	programozás	
+stack trace		veremkiíratás		
+stagger even		páratlan címke eltolása		
+stagger odd		páros címke eltolása		
+stale	adjective	elavult		
+standalone	adjective	önálló		
+standard	noun	szabvány		
+standard	adjective	szabványos		
+standard	adjective	standard		
+standard deviation		szórás	matematika	
+standard filter		standard szűrő		
+standard input		szabványos bemenet		
+standard installation		szokásos telepítés		
+standard output		szabványos kimenet		
+standby	noun	készenlét		
+start	verb	indítani		
+start	verb	kezdeni		
+start value		kezdőérték		
+startup	noun	indulás		
+startup	noun	indítás		
+stash	verb	félretenni		
+stat	noun	statisztika		
+state	noun	állapot		
+stateful	adjective	állapottartó		
+statement	noun	utasítás	programozás	
+statistics	noun	statisztika		
+status	noun	állapot		
+status bar		állapotsor		
+stderr	noun	szabványos hibakimenet		
+stdin	noun	szabványos bemenet		
+stdout	noun	szabványos kimenet		
+stereotype	noun	előítélet		
+sticky keys		ragadós billentyűk		
+sticky notes		ragadós cetlik		
+stock chart		árfolyamdiagram		
+stock ticker		részvényfigyelő		
+stop	verb	leállítani		
+storage	noun	tároló		
+storage options		tárolási lehetőségek		
+straight connector		egyenes összekötő		
+straight line		egyenes vonal		
+stream	verb	közvetíteni		
+stretch	verb	nyújtani		
+stretched	adjective	nyújtott		A háttérkép elhelyezésének egyik módja.
+strict format		kötött formátum		
+strike-out	noun	áthúzott		
+strikethrough	noun	áthúzás		
+strikethrough	adjective	áthúzott		
+string	noun	karakterlánc		
+string	noun	karakterlánc		
+stroke	noun	vonás		Ecsetvonás egy grafikai programban.
+stub	noun	csonk		
+style	noun	stílus		
+stylesheet	noun	stíluslap		
+stylist	noun	stílussegéd		
+subdirectory	noun	alkönyvtár		
+subdivision	noun	albeosztás		
+subject	noun	tárgy		
+submenu	noun	almenü		
+submit	verb	elküldeni		
+subnet	noun	alhálózat		
+subpixel	noun	képponton belüli		
+subscribe	verb	feliratkozni [vmire]		Csak akkor előfizetni, ha valóban fizetni kell érte.
+subscript	noun	alsó index		
+subscription	noun	feliratkozás		Csak akkor előfizetés, ha valóban fizetni kell érte.
+subset	noun	részhalmaz	matematika	
+substitution	noun	[be]helyettesítés		
+subtotals	noun	részösszeg		
+subtract	verb	kivonni	matematika	
+subwoofer	noun	mélysugárzó		
+suffix	noun	utótag		
+suffix	noun	posztfix	programozás	Például az (a++) kifejezésben a ++ *posztfix operátor*
+suggestion	noun	javaslat		
+suite	noun	alkalmazáscsomag		
+sum	noun	összeg		
+summary	noun	összegzés		
+summary slide		összefoglaló dia		
+superscript	noun	felső index		
+superset	noun	tartalmazó halmaz		
+support	verb	támogatni		
+support	noun	támogatás		
+suppress	verb	elnyomni		
+suspend	verb	felfüggeszteni		
+swap	verb	lapozni		
+swap	noun	cserehely		
+swap	noun	lapozás		A cserehelyre lapozza ki a kernel a nem használt memórialapokat.
+symbol	noun	szimbólum		
+symbolic link		szimbolikus link		
+sync	noun	szinkronizálás		
+synchronization	noun	szinkronizáció		
+synchronize	verb	szinkronizálni		
+syndicate		tartalom megosztása		
+syndication	noun	tartalommegosztás		Például az RSS.
+synonym	noun	szinonima		
+synopsis	noun	áttekintés		
+syntax	noun	szintaxis		
+syntax error		szintaktikai hiba		
+system	noun	rendszer		
+system administrator		rendszergazda		
+system configuration		rendszerbeállítás		
+system settings		rendszerbeállítások		
+tab	noun	tabulátor		A billentyűzet gombja.
+tab order		bejárási sorrend		
+tab stop		tabulátor		
+tab stop position		tabulátorpozíció		
+table	noun	táblázat		
+table of contents		tartalomjegyzék		
+tabloid	noun	tabloid		
+tabulator	noun	tabulátor		
+tag	noun	címke		Hosszú **í**-vel!
+take advantage		kihasznál		
+tap	verb	koppintani		Okostelefonok művelete.
+target	noun	cél		
+target file		célfájl		
+task	noun	feladat		
+technology	noun	technológia		
+temp file		átmeneti fájl		
+template	noun	sablon		
+temporary	adjective	átmeneti		
+temporary buffer		átmeneti puffer		
+term	noun	kifejezés		
+TERM variable		TERM-változó		
+terminal	noun	terminál		
+terminate	verb	megszakítani		
+terms of use		felhasználási feltételek		
+test	noun	teszt		
+test	noun	próba	matematika	
+test module		tesztmodul		
+text	noun	szöveg		
+text area		szövegterület		
+text body		szövegtörzs		
+text box		szövegdoboz		
+text flow		szövegfolyam		
+text only		csak szöveg		
+text wrap		szöveg törése		
+textual name		szöveges név		
+texture	noun	textúra		
+theme	noun	téma		
+thesaurus	noun	szókincstár		
+thesis		szakdolgozat		
+thick	adjective	vastag		
+thickness	noun	vastagság		
+thin	adjective	vékony		
+third party		harmadik féltől származó		
+thousands separator		ezreselválasztó		
+thread	noun	szál		
+threaded	adjective	szálakra bontott		
+threshold	noun	küszöb		
+threshold value		küszöbérték		
+thumbnail	noun	bélyegkép		
+thumbnail	noun	bélyegkép		
+tick mark		pipa		
+ticker	noun	futószöveg		
+tile	noun	csempe		
+tile fill		mozaikszerű kitöltés		
+tiled	adjective	mozaik		A háttérkép elhelyezésének egyik módja.
+time format		időformátum		
+timed out		túllépte az időkorlátot		
+timeout	noun	időtúllépés		
+timestamp	noun	időbélyeg		
+timezone	noun	időzóna		
+tip	noun	tipp		
+title	noun	cím		
+title/position		beosztás		
+todo	noun	teendő		
+toggle	verb	átváltani		Szövegben rendszerint *be/ki*, például *Toggle sidebar* → *Oldalsáv be/ki*
+tolerance	noun	tűréshatár		
+tolerance	noun	tolerancia		
+toner low		kevés a festék		
+tool	noun	eszköz		
+tool menu		eszközmenü		
+toolbar	noun	eszköztár		
+toolkit	noun	eszközkészlet		
+tooltip	noun	buboréksúgó		
+topic	noun	téma		
+torus	noun	tórusz		
+total	noun	összeg		
+touchpad	noun	érintőtábla		
+touchscreen	noun	érintőképernyő		
+trace	noun	nyomkövetés		
+track	noun	szám	zene	
+traffic	noun	forgalom		
+transaction	noun	tranzakció		
+transcode	verb	átkódolni		Jellemzően valamilyen hang- vagy videofájl más formátumba kódolása.
+transcript	noun	átirat		
+transfer	verb	átvinni		
+transfer	noun	átvitel		
+transition	noun	átmenet		
+translate	verb	fordítani		
+translation	noun	fordítás		
+transmission channel		átviteli csatorna		
+transparency	noun	átlátszóság		
+transparency color		átlátszó szín		
+transparent	adjective	átlátszó		
+transpose	verb	felcserélni		
+transpose	verb	transzponálni	matematika	
+trash	noun	kuka		
+traversal	noun	bejárás		
+tree	noun	fa		
+trigger	noun	aktiváló		
+trigger	noun	trigger	adatbázis	
+trim	verb	levágni		
+tristate	adjective	háromállapotú		
+troubleshooting	noun	hibaelhárítás		
+true	adjective	igaz		
+truncate	verb	csonkolni		
+trust	noun	megbízhatóság		
+trusted	adjective	megbízható		
+try again		próbálja újra		
+tune	verb	hangolni		
+Turing machine		Turing-gép		
+tutorial	noun	ismertető		Avagy oktatóanyag.
+tweak	verb	finomhangolni		
+type	noun	típus		
+type mismatch		nem megfelelő típus		
+typed	adjective	típusos		
+UI	noun	felület		Avagy felhasználói felület.
+umount	verb	leválasztani		
+unallocated	adjective	lefoglalatlan		Partíciók által nem használt terület egy merevlemezen.
+uncategorized	adjective	kategorizálatlan		
+unchanged	adjective	változatlan		
+uncheck	verb	törölni		Jelölőnégyzet esetén.
+uncompress	verb	kibontani		
+unconfigured	adjective	beállítatlan		
+uncover	verb	felfedni		
+undelete	verb	törlés visszavonása		Angolul ige, de magyarul nincs rá egyszavas fordítás.
+under the hood		a felszín alatt		
+underflow	noun	alulcsordulás		
+underline	verb	aláhúzni		
+underline	noun	aláhúzás		
+underlined	adjective	aláhúzott		
+undo	verb	visszavonni		
+unexpected error		váratlan hiba		
+unformatted	adjective	formázatlan		
+ungroup	verb	csoport szétbontása		
+Unicode	noun	Unicode		
+uninstall	verb	eltávolítani		
+unique	adjective	egyedi		
+UNIX	noun	UNIX		
+unknown	adjective	ismeretlen		
+unknown host		ismeretlen kiszolgáló		
+unlink	verb	szétbontani		
+unload	verb	eltávolítani		
+unlock	verb	feloldani		
+unmount	verb	leválasztani		
+unmute	verb	visszahangosítani		
+unnamed	adjective	névtelen		
+unpack	verb	kibontani		
+unprotect	verb	védelem feloldása		Angolul ige, de magyarul nincs rá egyszavas fordítás.
+unpublished	adjective	kiadatlan		
+unread	adjective	olvasatlan		
+unrecognized	adjective	azonosítatlan		
+unrecoverable	adjective	helyreállíthatatlan		
+unrestricted	adjective	korlátlan		
+unspecif	adjective	nincs megadva		
+unsupported	adjective	nem támogatott		
+unsure	adjective	bizonytalan		
+untitled	adjective	névtelen		
+untitled	adjective	cím nélkül		
+unzip	verb	kibontani		A tömörített fájlokat kibontjuk, **nem** kitömörítjük.
+upcoming	adjective	következő		
+update	verb	frissíteni		
+update	noun	frissítés		
+upgrade	verb	frissíteni		
+upgrade	noun	frissítés		
+upload	verb	feltölteni		
+uptime	noun	működési idő		
+URI	noun	URI		Uniform Resource Identifier, egységes erőforrás-azonosító
+URL	noun	URL		Uniform Resource Locator, egységes erőforrás-helymeghatározó
+USB	noun	USB		Universal Serial Bus, univerzális soros busz
+user	noun	felhasználó		
+user agent		felhasználói ügynök		
+user defined		felhasználó által megadott		
+user directory		felhasználói könyvtár		
+user interface		felhasználói felület		
+user's guide		felhasználói kézikönyv		
+username	noun	felhasználónév		
+utility	noun	segédprogram		
+valid	adjective	érvényes		
+valid chars		érvényes karakterek		
+validate	verb	ellenőrizni		
+validation	noun	ellenőrzés		
+validity	adjective	érvényesség		
+value	noun	érték		
+variable	noun	változó		
+variance	noun	szórásnégyzet	matematika	
+vector graphics	noun	vektorgrafika		
+vectorized image		vektorizált kép		
+vendor	noun	gyártó		
+venue	noun	helyszín		
+verbose	adjective	részletes		
+verbose	adjective	részletes		
+verify	verb	ellenőrizni		
+version	noun	verzió		
+version control system		verziókezelő rendszer		
+vertical	noun	függőleges		
+vertical alignment		függőleges igazítás		
+VFS	noun	VFS		Virtual File System, virtuális fájlrendszer
+video	noun	videó		Előtagként jellemzően rövidül: *video-*, például videokártya; de mozgókép értelem esetén marad a hosszú ó, például videófelvétel.
+video	noun	video-		Előtagként jellemzően rövidül: *video-*, például videokártya; de mozgókép értelem esetén marad a hosszú ó, például videófelvétel.
+view	verb	megtekinteni		
+view	noun	nézet		
+viewer	noun	megjelenítő		**Nem** nézegető.
+viewport	noun	munkalap	nyomda	
+violation	noun	-sértés		
+virtual	adjective	virtuális		
+virtual desktop		virtuális asztal		
+virtualization	noun	virtualizáció		
+visibility	noun	láthatóság		
+visible	adjective	látható		
+visit	verb	felkeresni		Jellemzően egy weboldalról van szó.
+visualization	noun	képi megjelenítés		
+voice	noun	hang		
+voicemail	noun	hangposta		
+volume	noun	hangerő		
+vulnerability	noun	sebezhetőség		
+vulnerable	adjective	sebezhető		
+wakeup	noun	ébredés		
+wallpaper	noun	háttérkép		
+warning	noun	figyelmeztetés		
+watch	verb	figyelni		
+watch file		fájl figyelése		
+watermark	noun	vízjel		
+web	noun	web		
+web application		webalkalmazás		
+web page		weboldal		
+web search		webkeresés		
+web service		webszolgáltatás		
+web site		webhely		
+web view		webnézet		
+weight	noun	vastagság		Szó szerint *súly*, de betűkészleteknél a vastagságot jelenti.
+welcome	verb	üdvözöljük		
+while trying		... tett kísérlet során		
+whitelist	noun	fehérlista		
+whitespace	noun	üres hely		
+widget	noun	felületi elem		
+widow control		fattyúsorok kezelése		
+width	noun	szélesség		
+wildcard	noun	helyettesítő karakter		
+window	noun	ablak		
+window manager	noun	ablakkezelő		
+wireless	adjective	vezeték nélküli		
+word	noun	szó		
+work	noun	munka		
+work	noun	mű	jog	Gyakori példa: *derivative work* – *származékos mű*
+work with		vmi kezelése		
+workaround	noun	kerülőmegoldás		
+workbook	noun	munkafüzet		
+workflow	noun	munkafolyamat		
+working directory		munkakönyvtár		
+workspace	noun	munkaterület		
+wrap	noun	tördelés		
+wrap	noun	sortörés		
+wrap contour on		körvonal megjelenítése		
+wrap off		körbefuttatás ki		
+wrap optimal		optimális körbefuttatás		
+wrap through		keresztülfuttatás		
+wrap transparent		átlátszó körbefuttatás		
+write	verb	írni		
+wrong	adjective	hibás		**Nem** rossz
+WVLAN		WVLAN		Wireless Virtual Local Area Network, vezeték nélküli virtuális helyi hálózat
+X Align		X-igazítás		
+X server		X-kiszolgáló		
+XDMCP		XDMCP		X Display Manager Control Protocol, X-kiszolgálókezelő vezérlőprotokoll
+XML		XML		Extensible Markup Language, bővíthető jelölőnyelv
+Y main grid		Y tengely fő vezetőrács		
+Y minor grid		Y tengely segédrács		
+zero	noun	nulla		
+zigzagline		cikcakk vonal		
+zip code		irányítószám		
+Zip Drive		Zip-meghajtó		Egyfajta flopimeghajtó
+zoom	verb	nagyítani		
+zoom	noun	nagyítás		
+zoom in		nagyítás		
+zoom out		kicsinyítés		
