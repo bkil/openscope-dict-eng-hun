@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+. ./common.inc.sh
+
 main() {
   cd `dirname "$0"`
   ./bad-lines.sh
@@ -16,6 +18,8 @@ main() {
     -t $DIST \
     ../LICENSE \
     ../szotar/glosar.csv
+
+  cat_dict > $DIST/szotar.csv
 
   touch $DIST/exported.po
 }

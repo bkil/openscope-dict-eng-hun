@@ -3,17 +3,18 @@
 # TODO: We can then import the Hungarian po/msg translations as well.
 set -e
 
+. ./common.inc.sh
+
 main() {
   WEB="../web/"
   DIST="../dist/"
-  SZOTAR="../szotar/glosar.csv"
 
   local MARKER="((db))"
   local IN="$WEB/nojs.template.html"
   {
     sed -n "/$MARKER/,$ ! p" "$IN"
 
-    cat "$SZOTAR" |
+    cat_dict |
     tsv2html_table
 
     sed -n "1,/$MARKER/ ! p" "$IN"

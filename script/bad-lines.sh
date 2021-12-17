@@ -1,5 +1,7 @@
 #!/bin/sh
 
+. ./common.inc.sh
+
 main() {
   filters
 
@@ -28,6 +30,10 @@ filters() {
   filter_neg \
     "Underscore (_) used instead of asterisk (*)" \
     '_'
+
+  filter_neg \
+    "Space around double asterisk (*)" \
+    ' [*][*] '
 
   filter_neg \
     "Space around asterisk (*)" \
@@ -69,13 +75,13 @@ filter_generic() {
 
   echo "- $MSG" >&2
 
+  cat_dict |
   sed -rn "
     s/$REGEXP/&/
     $BRANCH e
     p
     :e
-    " \
-    ../szotar/glosar.csv |
+    " |
   while read ERROR; do
     printf " %s\n" "$ERROR" >&2
 

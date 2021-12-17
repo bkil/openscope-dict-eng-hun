@@ -1,12 +1,13 @@
 #!/bin/sh
 set -e
 
+. ./common.inc.sh
+
 main() {
   WEB="../web/"
   DIST="../dist/"
-  SZOTAR="../szotar/glosar.csv"
 
-  DBVERSION="`cat "$SZOTAR" "$WEB/db.template.js" | sha256sum | cut -d " " -f 1`"
+  DBVERSION="`{ cat_dict; cat "$WEB/db.template.js"; } | sha256sum | cut -d " " -f 1`"
 
   gen_js_db
 
@@ -23,7 +24,7 @@ gen_js_db() {
 }
 
 get_db_concat() {
-  cat "$SZOTAR" |
+  cat_dict |
   sed -r "
     s~\t+$~~
     s~_~*~g

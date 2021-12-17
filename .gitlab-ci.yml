@@ -5,8 +5,8 @@ pages:
   - apk update && apk add brotli # dictfmt dictzip
   script:
   - script/generate-site.sh
-  - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|json\|dz\|index\|csv\)$\|^LICENSE$' -exec gzip -9 -f -k {} \;
-  - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|json\|dz\|index\|csv\)$\|^LICENSE$' -exec brotli -f -k {} \;
+  - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|json\|dz\|index\|csv\)$\|.*/LICENSE$' -exec gzip -9 -f -k {} \;
+  - find dist -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|json\|dz\|index\|csv\)$\|.*/LICENSE$' -exec brotli -f -k {} \;
   - mkdir public
   - mv -t public dist/*
   artifacts:
