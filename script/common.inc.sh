@@ -6,8 +6,8 @@ cat_dict() {
 
     sed -r "s~^([^\t]*\t){2}~&+~" ../szotar/bkil.csv
   } |
-  grep --text --invert-match '^$' |
+  grep -v '^$' |
   sed "s~\t~&A~g" |
-  sort --ignore-case --unique |
+  sort -f -u |
   sed "s~\tA~\t~g"
 }
