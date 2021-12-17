@@ -1,10 +1,10 @@
 #!/bin/sh
 set -e
 
+cd `dirname "$0"`
 . ./common.inc.sh
 
 main() {
-  cd `dirname "$0"`
   ./bad-lines.sh
 
   local DIST="../dist/"
