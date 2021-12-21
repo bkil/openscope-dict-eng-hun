@@ -23,6 +23,7 @@ fetch	verb	letölteni	verziókezelés
 fixup	noun	gyorsjavítás	verziókezelés	
 graphic options		grafikai beállítások	játék	
 head	noun	fej	verziókezelés	
+hunk	noun	módosítás	verziókezelés	
 init	verb	előkészíteni	verziókezelés	
 joystick	noun	botkormány	játék	
 leave server	verb	játék elhagyása	játék	
