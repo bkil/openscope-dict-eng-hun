@@ -111,13 +111,19 @@ tbody>tr[id^=a i] {
 (function() {
   function onSearchChanged() {
     searchBox = document.getElementById('_search');
-    search = searchBox.value.trimStart().replaceAll(' ', '_');
     partial = document.getElementById('_partialMatch').checked;
+    search = searchBox.value;
+    if (!partial) {
+      search = search.trimStart();
+    }
+
+    search = search.replaceAll(' ', '_');
     hash = encodeURIComponent(search);
     if (partial) {
       hash += '?substring';
     }
     window.location.hash = hash;
+
     if (search) {
       filter = 'tbody > tr { display: table-row; }';
       if (partial) {
