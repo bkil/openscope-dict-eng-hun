@@ -9,11 +9,9 @@ branch	noun	ág	verziókezelés
 branch	verb	elágazni	verziókezelés	
 checkout	verb	átváltani	verziókezelés	git
 checkout	verb	lekérni	verziókezelés	svn
-cherry-pick	verb	mazsolázni	verziókezelés	
 clean	verb	tisztítani	verziókezelés	
 clone	verb	klónozni	verziókezelés	
 commit	noun	véglegesítő	verziókezelés	
-commit	verb	véglegesíteni	verziókezelés	
 computer player	noun	gépi játékos	játék	
 diff	verb	összehasonlítani	verziókezelés	
 disconnected from server		leválasztva a kiszolgálóról	játék	
