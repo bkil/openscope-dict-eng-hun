@@ -149,7 +149,7 @@ tbody>tr[id^=a i] {
 
   document.getElementById('_search').oninput = onSearchChanged;
   document.getElementById('_searchForm').onreset = onReset;
-  document.getElementById('_partialMatch').oninput = onSearchChanged;
+  document.getElementById('_partialMatch').onchange = onSearchChanged;
   window.onhashchange = onHashChanged;
   onHashChangedMaybe(true);
   onSearchChanged();
