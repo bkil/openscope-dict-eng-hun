@@ -136,6 +136,7 @@ arrowheads	noun	nyílhegyek
 arrow key		nyílbillentyű		
 article	noun	cikk		
 article	noun	cikkely	jog	
+artifact	noun	+hiba		rendering
 artist	noun	előadó	zene	
 artwork	noun	grafika		
 ascending	adjective	növekvő		
@@ -151,6 +152,7 @@ attach	verb	csatolni
 attach	verb	mellékelni		
 attachment	noun	melléklet		**Nem** csatolmány.
 attribute	noun	attribútum		
+attribution	noun	+forrásmegjelölés		
 audio	noun	hang		
 audiobook	noun	Hangoskönyv		
 audio feature		hangszolgáltatás		
@@ -347,7 +349,6 @@ checkered diagonal		rombuszos
 checkout	verb	+átváltani	verziókezelés	git
 checkout	verb	+lekérni	verziókezelés	svn
 checkpoint	noun	ellenőrzőpont		
-cherry-pick	verb	+mazsolázni	verziókezelés	
 cherry-pick	verb	mazsolázni	verziókezelés	
 child	noun	gyermek		
 child process		gyermekfolyamat		
@@ -406,7 +407,6 @@ command line		parancssor
 command line options		parancssori kapcsolók		
 comment	noun	megjegyzés		
 commit	noun	+véglegesítő	verziókezelés	
-commit	verb	+véglegesíteni	verziókezelés	
 commit	verb	véglegesíteni	verziókezelés	
 common	noun	általános		
 common file		közös fájl		
@@ -544,6 +544,7 @@ data	noun	adatok		Jellemzően többes számban fordítjuk, angolul megszámlálh
 database	noun	adatbázis		
 databuffer	noun	adatpuffer		
 date	noun	dátum		
+datetime		+dátum és idő		adattípus, alapból nem fordítjuk, dátum és idő?
 day	noun	nap		
 DDE	noun	DDE		
 DDE error		DDE-hiba		
@@ -576,6 +577,7 @@ deinterlace	verb	váltottsorosság megszüntetése
 delay	noun	késleltetés		
 delete	verb	törölni		
 demote	verb	lefokozni		
+demuxer		+daraboló	képfeldolgozas	szétbontó?
 denominator	noun	nevező	matematika	A törtszám nevezője.
 denote	verb	jelezni		
 deny	verb	megtagadni		
@@ -1004,6 +1006,7 @@ HTTP	noun	HTTP		HyperText Transfer Protokoll, hiperszöveg-átviteli protokoll
 HTTP proxy		HTTP-proxy		
 hue	noun	árnyalat		Színárnyalat, HSL színmodell esetén az egyik összetevő.
 human readable		emberek által olvasható		
+hunk	noun	+módosítás	verziókezelés	
 hyperbolic cosine		hiperbolikus koszinusz		
 hyperbolic cotangent		hiperbolikus kotangens		
 hyperbolic sine		hiperbolikus szinusz		
@@ -1161,6 +1164,7 @@ layout	noun	elrendezés
 ldap server		LDAP-kiszolgáló		
 lead-in		bevezető		A CD lemez egy szakasza
 leading		kezdő		Kezdő karakter.
+learn more		+további tudnivalók		
 leave server	verb	+játék elhagyása	játék	
 left join		bal oldali összekapcsolás		
 legacy	adjective	örökölt		
@@ -1756,6 +1760,7 @@ relation	noun	reláció	matematika
 relationship	noun	kapcsolat		
 relay	verb	továbbítani		
 release	noun	kiadás		
+release notes	noun	+kiadási megjegyzések		
 relief	noun	dombormű		
 reload	verb	újratölteni		
 relocate	verb	áthelyezni		
@@ -2347,6 +2352,7 @@ web site		webhely
 web view		webnézet		
 weight	noun	vastagság		Szó szerint *súly*, de betűkészleteknél a vastagságot jelenti.
 welcome	verb	üdvözöljük		
+What's new		+Újdonságok		changelog szalagcíme
 while trying		... tett kísérlet során		
 whitelist	noun	fehérlista		
 whitespace	noun	üres hely		

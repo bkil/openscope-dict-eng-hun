@@ -111,18 +111,31 @@ tbody>tr[id^=a i] {
 (function() {
   function onSearchChanged() {
     searchBox = document.getElementById('_search');
-    search = searchBox.value.trimStart().replaceAll(' ', '_');
-    window.location.hash = encodeURIComponent(search);
+    partial = document.getElementById('_partialMatch').checked;
+    search = searchBox.value;
+    if (!partial) {
+      search = search.trimStart();
+    }
+
+    search = search.replaceAll(' ', '_');
+    hash = encodeURIComponent(search);
+    if (partial) {
+      hash += '?substring';
+    }
+    window.location.hash = hash;
+
     if (search) {
       filter = 'tbody > tr { display: table-row; }';
-      if (document.getElementById('_partialMatch').checked) {
+      if (partial) {
         filter += 'tbody > tr:not([id*="' + search + '" i]) { display: none; }';
       } else {
         filter += 'tbody > tr:not([id^="' + search + '" i]) { display: none; }';
       }
     } else {
-      history.replaceState('', document.title, window.location.pathname);
       filter = '';
+    }
+    if (!hash) {
+      history.replaceState('', document.title, window.location.pathname);
     }
     style = document.getElementById('_filterStyle').innerHTML = filter;
     searchBox.focus();
@@ -134,11 +147,28 @@ tbody>tr[id^=a i] {
   }
 
   function onHashChangedMaybe(onlyNonEmpty) {
-    search = document.getElementById('_search')
-    next = decodeURIComponent(window.location.hash.substring(1));
-    next = next.replaceAll('_', ' ');
-    if ((next != search.value) && (!onlyNonEmpty || next)) {
-      search.value = next;
+    search = document.getElementById('_search');
+    partial = document.getElementById('_partialMatch');
+    hash = decodeURIComponent(window.location.hash.substring(1));
+    nextSearch = hash;
+    nextPartial = false;
+    i = hash.indexOf('?');
+    if (i >= 0) {
+      nextSearch = hash.substr(0, i);
+      nextPartial = hash.substr(i + 1) == 'substring';
+    }
+    nextSearch = nextSearch.replaceAll('_', ' ');
+
+    changed = false;
+    if ((nextSearch != search.value) && (!onlyNonEmpty || nextSearch)) {
+      search.value = nextSearch;
+      changed = true;
+    }
+    if (nextPartial != partial.checked) {
+      partial.checked = nextPartial;
+      changed = true;
+    }
+    if (changed) {
       onSearchChanged();
     }
   }
@@ -149,7 +179,7 @@ tbody>tr[id^=a i] {
 
   document.getElementById('_search').oninput = onSearchChanged;
   document.getElementById('_searchForm').onreset = onReset;
-  document.getElementById('_partialMatch').oninput = onSearchChanged;
+  document.getElementById('_partialMatch').onchange = onSearchChanged;
   window.onhashchange = onHashChanged;
   onHashChangedMaybe(true);
   onSearchChanged();
@@ -184,7 +214,7 @@ tbody>tr[id^=a i] {
     if (i < 0)
       return false;
     version = cache.slice(0, i);
-    if (version != "2d8b84ab5e7cf47fa6158d6da2f4025cdefb05ab455c3e005c4630da55e3665b")
+    if (version != "606f57b0c3e42fe26b7fe91d76684855fddd45f4b6b9e4eaed7418d492ab0983")
       return false;
     dict = cache.slice(i + 1);
     document.getElementsByTagName('tbody')[0].innerHTML = dict;
