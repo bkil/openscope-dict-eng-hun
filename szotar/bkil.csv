@@ -55,9 +55,11 @@ stash	noun	félretett változat	verziókezelés
 stash	verb	félrerakni	verziókezelés	félretenni
 tag	noun	címke	verziókezelés	
 tracked	noun	követett	verziókezelés	
+trigger	noun	eseményindító	adatbázis	
 unstage	verb	elengedni	verziókezelés	
 unstage	verb	visszavonni	verziókezelés	'=revert TODO
 untracked	noun	nem követett	verziókezelés	
 upstream	noun	távoli tároló	verziókezelés	
+visual style guide		arculati kézikönyv		
 What's new		Újdonságok		changelog szalagcíme
 working tree	noun	munkafa	verziókezelés	
