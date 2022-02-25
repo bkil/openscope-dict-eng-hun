@@ -41,6 +41,7 @@ points	noun	pontszám	játék
 pull	verb	lekérdezni	verziókezelés	
 pull request	noun	beolvasztási kérés	verziókezelés	
 push	verb	felküldeni	verziókezelés	
+random seed	noun	véletlenszám generátor kezdeti értéke		
 rebase	verb	újraalapozni	verziókezelés	
 release notes	noun	kiadási megjegyzések		
 remote	noun	távoli	verziókezelés	
