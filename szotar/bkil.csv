@@ -54,6 +54,7 @@ stage	verb	kiszemelni	verziókezelés
 stage	verb	kiválasztani	verziókezelés	'=choose TODO
 stash	noun	félretett változat	verziókezelés	
 stash	verb	félrerakni	verziókezelés	félretenni
+strike	noun	büntetőpont	moderáció	
 tag	noun	címke	verziókezelés	
 tracked	noun	követett	verziókezelés	
 trigger	noun	eseményindító	adatbázis	
