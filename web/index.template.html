@@ -58,12 +58,18 @@ tbody.O>tr[id^=a i] {
   </style>
 
   <style id=_filterStyle>
+    .js-microsoft-result {
+      display: none;
+    }
+
     .nojs .ifnojs {
       display: initial;
     }
     .nojs > body, html[class=nojs] {
       height: 100%;
     }
+  </style>
+  <style id=_js-spinner-style>
   </style>
 </head>
 <body>
@@ -89,10 +95,15 @@ tbody.O>tr[id^=a i] {
       <strong>S</strong>zövegrészlet egyezés
     </label>
 
+    <label>
+      <input id=_microsoft accesskey=m type=checkbox>
+      <strong>M</strong>icrosoft terminológia
+    </label>
+
   <a href="https://gitlab.com/bkil/openscope-dict-eng-hun">Felhasználási feltételek</a>
   </nav>
 
-  <table>
+  <table class=O>
     <thead>
       <tr>
         <th>Angolul
@@ -100,17 +111,39 @@ tbody.O>tr[id^=a i] {
         <th>Magyarul
         <th>Kontextus
         <th>Megjegyzés
-    <tbody>
+    <tbody class=O>
   </table>
+
+  <div class=js-microsoft-result>
+    <h2>Microsoft Terminology</h2>
+    <div class=js-microsoft-spinner>
+      Looking up <span class=js-microsoft-query></span>...
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Angolul
+          <th>Magyarul
+      <tbody class=js-microsoft-tbody>
+    </table>
+
+    <div class=microsoft-attribution>Microsoft Terminology Service <a href='https://microsoft.com/en-us/language/Microsoft-Terminology-API'>API</a>. &copy; <span id=_year></span> Microsoft Corporation. All rights reserved.</div>
+  </div>
 </div>
 
 <script>
+'use strict';
+var microsoftPending = 0;
+var lastMicrosoft = '';
+
 (function() {
 
   function onSearchChanged() {
     var searchBox = document.getElementById('_search');
     var partial = document.getElementById('_partialMatch').checked;
+    var microsoft = document.getElementById('_microsoft').checked;
     var search = searchBox.value;
+    var rawSearch = search;
     if (!partial) {
       search = search.trimStart();
     }
@@ -119,6 +152,9 @@ tbody.O>tr[id^=a i] {
     var hash = encodeURIComponent(search);
     if (partial) {
       hash += '?substring';
+    }
+    if (microsoft) {
+      hash += '?microsoft';
     }
     window.location.hash = hash;
 
@@ -134,7 +170,13 @@ tbody.O>tr[id^=a i] {
     if (!hash) {
       history.replaceState('', document.title, window.location.pathname);
     }
+    if (!microsoft) {
+      filter += '.js-microsoft-result{display:none}';
+    }
     document.getElementById('_filterStyle').innerHTML = filter;
+    if (microsoft) {
+      maybeLookupMicrosoft(rawSearch);
+    }
     searchBox.focus();
   }
 
@@ -146,13 +188,17 @@ tbody.O>tr[id^=a i] {
   function onHashChangedMaybe(onlyNonEmpty) {
     var search = document.getElementById('_search');
     var partial = document.getElementById('_partialMatch');
+    var microsoft = document.getElementById('_microsoft');
     var hash = decodeURIComponent(window.location.hash.substring(1));
     var nextSearch = hash;
     var nextPartial = false;
+    var nextMicrosoft = false;
     for (var i; i = nextSearch.lastIndexOf('?'), i >= 0; ) {
       var token = nextSearch.substr(i + 1);
       if (token === 'substring') {
         nextPartial = true;
+      } else if (token === 'microsoft') {
+        nextMicrosoft = true;
       }
       nextSearch = nextSearch.substr(0, i);
     }
@@ -163,8 +209,9 @@ tbody.O>tr[id^=a i] {
       search.value = nextSearch;
       changed = true;
     }
-    if (nextPartial != partial.checked) {
+    if ((nextPartial != partial.checked) || (nextMicrosoft != microsoft.checked)) {
       partial.checked = nextPartial;
+      microsoft.checked = nextMicrosoft;
       changed = true;
     }
     if (changed) {
@@ -176,9 +223,100 @@ tbody.O>tr[id^=a i] {
     onHashChangedMaybe(false);
   }
 
+
+  function maybeLookupMicrosoft(rawSearch) {
+    microsoftPending++;
+    setTimeout(
+      function() {
+        microsoftPending--;
+        if (microsoftPending === 0) {
+          lookupMicrosoft(rawSearch);
+        }
+      }, 500);
+  }
+
+  function processMicrosoftResponse(xml) {
+    console.log(xml);
+    var tbody = document.getElementsByClassName('js-microsoft-tbody')[0];
+
+    var matches = xml.getElementsByTagName('a:Match');
+    for (var i = 0; i < matches.length; i++) {
+      var match = matches[i];
+      var original = match.getElementsByTagName('a:OriginalText')[0].textContent;
+      var translations = match.getElementsByTagName('a:TranslatedText');
+      for (var j = 0; j < translations.length; j++) {
+        var translated = translations[j].textContent;
+        var tr = tbody.insertRow();
+        var cell = tr.insertCell();
+        cell.innerText = original;
+        cell = tr.insertCell();
+        cell.innerText = translated;
+      }
+    }
+
+    stopMicrosoftSpinner();
+  }
+
+  function stopMicrosoftError(message) {
+    console.log(message);
+    stopMicrosoftSpinner();
+  }
+
+  function stopMicrosoftSpinner() {
+    document.getElementById('_js-spinner-style').innerText = '.js-microsoft-spinner{display: none;}';
+  }
+
+  function lookupMicrosoft(queryText) {
+    if ((queryText === '') || (queryText === lastMicrosoft)) {
+      return
+    }
+    lastMicrosoft = queryText;
+    document.getElementsByClassName('js-microsoft-query')[0].innerText = queryText;
+    document.getElementById('_js-spinner-style').innerText = '';
+    var body = getSoap(queryText);
+
+    var xhr = new XMLHttpRequest;
+    xhr.open('GET', 'https://api.terminology.microsoft.com/Terminology.svc');
+    xhr.setRequestHeader('SOAPAction', 'http://api.terminology.microsoft.com/terminology/Terminology/GetTranslations');
+    xhr.overrideMimeType('text/xml');
+
+    xhr.onload = function() {
+      if (xhr.readyState === xhr.DONE && xhr.status === 200) {
+        processMicrosoftResponse(xhr.responseXML);
+      } else {
+        stopMicrosoftError('onload failed: ' + xhr.status + ' ' + xhr.response);
+      }
+    };
+    xhr.onerror = function(e) {
+      stopMicrosoftError('onerror ' + e.target.status);
+    };
+    xhr.send(body);
+  }
+
+  function getSoap(queryText) {
+    return `<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+    <GetTranslations xmlns="http://api.terminology.microsoft.com/terminology">
+    <text>${queryText}</text>
+    <from>en-US</from>
+    <to>hu-HU</to>
+    <searchOperator>Contains</searchOperator>
+    <sources xmlns:a="https://api.terminology.microsoft.com/terminology" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <a:TranslationSource>Terms</a:TranslationSource>
+    <a:TranslationSource>UiStrings</a:TranslationSource>
+    </sources>
+    <maxTranslations>20</maxTranslations>
+    <includeDefinitions>true</includeDefinitions>
+    </GetTranslations>
+    </s:Body>
+    </s:Envelope>"`;
+  }
+
   document.getElementById('_search').oninput = onSearchChanged;
   document.getElementById('_searchForm').onreset = onReset;
   document.getElementById('_partialMatch').onchange = onSearchChanged;
+  document.getElementById('_microsoft').onchange = onSearchChanged;
+  document.getElementById('_year').innerText = (new Date()).getFullYear();
   window.onhashchange = onHashChanged;
   onHashChangedMaybe(true);
   onSearchChanged();
