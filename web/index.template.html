@@ -33,29 +33,26 @@ form {
   </style>
 
   <style>
-table {
+table.O {
   padding-top: 40px;
 }
 
-.ifnojs, .nojs .ifjs {
+.ifnojs, .nojs .ifjs,
+tbody.O > tr {
   display: none;
 }
 
-tbody>tr {
-  display: none;
-}
-
-tbody>tr[id^="0"],
-tbody>tr[id^="1"],
-tbody>tr[id^="2"],
-tbody>tr[id^="3"],
-tbody>tr[id^="4"],
-tbody>tr[id^="5"],
-tbody>tr[id^="6"],
-tbody>tr[id^="7"],
-tbody>tr[id^="8"],
-tbody>tr[id^="9"],
-tbody>tr[id^=a i] {
+tbody.O>tr[id^="0"],
+tbody.O>tr[id^="1"],
+tbody.O>tr[id^="2"],
+tbody.O>tr[id^="3"],
+tbody.O>tr[id^="4"],
+tbody.O>tr[id^="5"],
+tbody.O>tr[id^="6"],
+tbody.O>tr[id^="7"],
+tbody.O>tr[id^="8"],
+tbody.O>tr[id^="9"],
+tbody.O>tr[id^=a i] {
   display: table-row;
 }
   </style>
@@ -109,35 +106,35 @@ tbody>tr[id^=a i] {
 
 <script>
 (function() {
+
   function onSearchChanged() {
-    searchBox = document.getElementById('_search');
-    partial = document.getElementById('_partialMatch').checked;
-    search = searchBox.value;
+    var searchBox = document.getElementById('_search');
+    var partial = document.getElementById('_partialMatch').checked;
+    var search = searchBox.value;
     if (!partial) {
       search = search.trimStart();
     }
 
     search = search.replaceAll(' ', '_');
-    hash = encodeURIComponent(search);
+    var hash = encodeURIComponent(search);
     if (partial) {
       hash += '?substring';
     }
     window.location.hash = hash;
 
+    var filter = '';
     if (search) {
-      filter = 'tbody > tr { display: table-row; }';
+      filter = 'tbody.O > tr { display: table-row; }';
       if (partial) {
-        filter += 'tbody > tr:not([id*="' + search + '" i]) { display: none; }';
+        filter += 'tbody.O > tr:not([id*="' + search + '" i]) { display: none; }';
       } else {
-        filter += 'tbody > tr:not([id^="' + search + '" i]) { display: none; }';
+        filter += 'tbody.O > tr:not([id^="' + search + '" i]) { display: none; }';
       }
-    } else {
-      filter = '';
     }
     if (!hash) {
       history.replaceState('', document.title, window.location.pathname);
     }
-    style = document.getElementById('_filterStyle').innerHTML = filter;
+    document.getElementById('_filterStyle').innerHTML = filter;
     searchBox.focus();
   }
 
@@ -147,19 +144,21 @@ tbody>tr[id^=a i] {
   }
 
   function onHashChangedMaybe(onlyNonEmpty) {
-    search = document.getElementById('_search');
-    partial = document.getElementById('_partialMatch');
-    hash = decodeURIComponent(window.location.hash.substring(1));
-    nextSearch = hash;
-    nextPartial = false;
-    i = hash.indexOf('?');
-    if (i >= 0) {
-      nextSearch = hash.substr(0, i);
-      nextPartial = hash.substr(i + 1) == 'substring';
+    var search = document.getElementById('_search');
+    var partial = document.getElementById('_partialMatch');
+    var hash = decodeURIComponent(window.location.hash.substring(1));
+    var nextSearch = hash;
+    var nextPartial = false;
+    for (var i; i = nextSearch.lastIndexOf('?'), i >= 0; ) {
+      var token = nextSearch.substr(i + 1);
+      if (token === 'substring') {
+        nextPartial = true;
+      }
+      nextSearch = nextSearch.substr(0, i);
     }
     nextSearch = nextSearch.replaceAll('_', ' ');
 
-    changed = false;
+    var changed = false;
     if ((nextSearch != search.value) && (!onlyNonEmpty || nextSearch)) {
       search.value = nextSearch;
       changed = true;
@@ -186,17 +185,19 @@ tbody>tr[id^=a i] {
 })();
 </script>
 
-<script>
+<script class=download>
+'use strict';
 (function() {
   function downloadTable() {
-    script = document.createElement('script');
+    var script = document.createElement('script');
+    script.className = 'download';
     script.src = 'db.js';
     document.getElementsByTagName('body')[0].appendChild(script);
     console.log('table will be downloaded and regenerated');
   }
 
   function loadCachedTable() {
-    cache = null;
+    var cache = null;
     try {
       cache = window.localStorage.getItem('dict');
     } catch (e) {
@@ -210,13 +211,13 @@ tbody>tr[id^=a i] {
 
     if (!cache)
       return false;
-    i = cache.indexOf("\n");
+    var i = cache.indexOf("\n");
     if (i < 0)
       return false;
-    version = cache.slice(0, i);
+    var version = cache.slice(0, i);
     if (version != "((dbVersion))")
       return false;
-    dict = cache.slice(i + 1);
+    var dict = cache.slice(i + 1);
     document.getElementsByTagName('tbody')[0].innerHTML = dict;
     console.log('table loaded from local storage: ' + version);
     return true;
