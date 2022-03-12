@@ -152,7 +152,7 @@ var lastMicrosoft = '';
 
 (function() {
 
-  function onSearchChanged(initial) {
+  function onSearchChangedMaybe(initial) {
     var searchBox = document.getElementById('_search');
     var partial = document.getElementById('_partialMatch').checked;
     var microsoft = document.getElementById('_microsoft').checked;
@@ -190,6 +190,7 @@ var lastMicrosoft = '';
     document.getElementById('_filterStyle').innerHTML = filter;
     if (microsoft) {
       if (initial) {
+        console.log(initial);
         lookupMicrosoft(rawSearch);
       } else {
         maybeLookupMicrosoft(rawSearch);
@@ -200,7 +201,7 @@ var lastMicrosoft = '';
 
   function onReset() {
     document.getElementById('_search').value = '';
-    onSearchChanged(false);
+    onSearchChangedMaybe(false);
   }
 
   function onHashChangedMaybe(initial) {
@@ -233,8 +234,12 @@ var lastMicrosoft = '';
       changed = true;
     }
     if (changed) {
-      onSearchChanged(initial);
+      onSearchChangedMaybe(initial);
     }
+  }
+
+  function onSearchChanged() {
+    onSearchChangedMaybe(false);
   }
 
   function onHashChanged() {
