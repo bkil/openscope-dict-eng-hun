@@ -55,13 +55,23 @@ tbody.O>tr[id^="9"],
 tbody.O>tr[id^=a i] {
   display: table-row;
 }
+
+.attribution {
+  text-align: right;
+}
+
+#_js-microsoft-result-panel,
+#_js-microsoft-spinner,
+#_js-microsoft-failed,
+#_js-microsoft-error,
+#_js-microsoft-empty,
+#_js-microsoft-data
+{
+  display: none;
+}
   </style>
 
   <style id=_filterStyle>
-    .js-microsoft-result {
-      display: none;
-    }
-
     .nojs .ifnojs {
       display: initial;
     }
@@ -69,8 +79,7 @@ tbody.O>tr[id^=a i] {
       height: 100%;
     }
   </style>
-  <style id=_js-spinner-style>
-  </style>
+  <style id=_js-spinner-style></style>
 </head>
 <body>
 
@@ -97,7 +106,7 @@ tbody.O>tr[id^=a i] {
 
     <label>
       <input id=_microsoft accesskey=m type=checkbox>
-      <strong>M</strong>icrosoft terminológia
+      <strong>M</strong>icrosoft Terminológia
     </label>
 
   <a href="https://gitlab.com/bkil/openscope-dict-eng-hun">Felhasználási feltételek</a>
@@ -114,20 +123,25 @@ tbody.O>tr[id^=a i] {
     <tbody class=O>
   </table>
 
-  <div class=js-microsoft-result>
-    <h2>Microsoft Terminology</h2>
-    <div class=js-microsoft-spinner>
-      Looking up <span class=js-microsoft-query></span>...
+  <div id=_js-microsoft-result-panel>
+    <h2>Microsoft Terminológia</h2>
+    <div id=_js-microsoft-spinner>
+      "<span id=_js-microsoft-query></span>" lekérdezése...
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Angolul
-          <th>Magyarul
-      <tbody class=js-microsoft-tbody>
-    </table>
+    <div id=_js-microsoft-failed>API hozzáférési hiba: <span id=_js-microsoft-message></span></div>
+    <div id=_js-microsoft-error>Hiba, további részletek a JavaScript konzolban</div>
+    <div id=_js-microsoft-empty>Nincs találat</div>
+    <div id=_js-microsoft-data>
+      <table>
+        <thead>
+          <tr>
+            <th>Angolul
+            <th>Magyarul
+        <tbody id=_js-microsoft-tbody>
+      </table>
 
-    <div class=microsoft-attribution>Microsoft Terminology Service <a href='https://microsoft.com/en-us/language/Microsoft-Terminology-API'>API</a>. &copy; <span id=_year></span> Microsoft Corporation. All rights reserved.</div>
+      <div class=attribution>Microsoft Terminology Service <a href='https://microsoft.com/en-us/language/Microsoft-Terminology-API'>API</a>. &copy; <span id=_year></span> Microsoft Corporation. All rights reserved.</div>
+    </div>
   </div>
 </div>
 
@@ -170,8 +184,8 @@ var lastMicrosoft = '';
     if (!hash) {
       history.replaceState('', document.title, window.location.pathname);
     }
-    if (!microsoft) {
-      filter += '.js-microsoft-result{display:none}';
+    if (microsoft) {
+      filter += '#_js-microsoft-result-panel{display:initial}';
     }
     document.getElementById('_filterStyle').innerHTML = filter;
     if (microsoft) {
@@ -235,10 +249,38 @@ var lastMicrosoft = '';
       }, 500);
   }
 
-  function processMicrosoftResponse(xml) {
-    console.log(xml);
-    var tbody = document.getElementsByClassName('js-microsoft-tbody')[0];
+  function lookupMicrosoft(queryText) {
+    if ((queryText === '') || (queryText === lastMicrosoft)) {
+      return
+    }
+    lastMicrosoft = queryText;
+    document.getElementById('_js-microsoft-query').innerText = queryText;
+    document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-spinner{display:initial}';
+    var body = getSoap(queryText);
 
+    var xhr = new XMLHttpRequest;
+    xhr.overrideMimeType('text/xml');
+
+    xhr.onload = function() {
+      if (xhr.readyState === xhr.DONE && xhr.status === 200) {
+        processMicrosoftResponse(xhr.responseXML);
+      } else {
+        document.getElementById('_js-microsoft-message').innerText = 'status ' + xhr.status + ', response ' + xhr.response;
+        document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-failed{display:initial}';
+      }
+    };
+    xhr.onerror = function(e) {
+      document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-error{display:initial}';
+      console.log(this);
+    };
+    xhr.open('GET', 'https://api.terminology.microsoft.com/Terminology.svc');
+    xhr.setRequestHeader('SOAPAction', 'http://api.terminology.microsoft.com/terminology/Terminology/GetTranslations');
+    xhr.send(body);
+  }
+
+  function processMicrosoftResponse(xml) {
+    var tbody = document.getElementById('_js-microsoft-tbody');
+    tbody.innerHTML = '';
     var matches = xml.getElementsByTagName('a:Match');
     for (var i = 0; i < matches.length; i++) {
       var match = matches[i];
@@ -254,43 +296,7 @@ var lastMicrosoft = '';
       }
     }
 
-    stopMicrosoftSpinner();
-  }
-
-  function stopMicrosoftError(message) {
-    console.log(message);
-    stopMicrosoftSpinner();
-  }
-
-  function stopMicrosoftSpinner() {
-    document.getElementById('_js-spinner-style').innerText = '.js-microsoft-spinner{display: none;}';
-  }
-
-  function lookupMicrosoft(queryText) {
-    if ((queryText === '') || (queryText === lastMicrosoft)) {
-      return
-    }
-    lastMicrosoft = queryText;
-    document.getElementsByClassName('js-microsoft-query')[0].innerText = queryText;
-    document.getElementById('_js-spinner-style').innerText = '';
-    var body = getSoap(queryText);
-
-    var xhr = new XMLHttpRequest;
-    xhr.open('GET', 'https://api.terminology.microsoft.com/Terminology.svc');
-    xhr.setRequestHeader('SOAPAction', 'http://api.terminology.microsoft.com/terminology/Terminology/GetTranslations');
-    xhr.overrideMimeType('text/xml');
-
-    xhr.onload = function() {
-      if (xhr.readyState === xhr.DONE && xhr.status === 200) {
-        processMicrosoftResponse(xhr.responseXML);
-      } else {
-        stopMicrosoftError('onload failed: ' + xhr.status + ' ' + xhr.response);
-      }
-    };
-    xhr.onerror = function(e) {
-      stopMicrosoftError('onerror ' + e.target.status);
-    };
-    xhr.send(body);
+    document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-data{display:initial}';
   }
 
   function getSoap(queryText) {
