@@ -152,7 +152,7 @@ var lastMicrosoft = '';
 
 (function() {
 
-  function onSearchChanged() {
+  function onSearchChanged(initial) {
     var searchBox = document.getElementById('_search');
     var partial = document.getElementById('_partialMatch').checked;
     var microsoft = document.getElementById('_microsoft').checked;
@@ -189,17 +189,21 @@ var lastMicrosoft = '';
     }
     document.getElementById('_filterStyle').innerHTML = filter;
     if (microsoft) {
-      maybeLookupMicrosoft(rawSearch);
+      if (initial) {
+        lookupMicrosoft(rawSearch);
+      } else {
+        maybeLookupMicrosoft(rawSearch);
+      }
     }
     searchBox.focus();
   }
 
   function onReset() {
     document.getElementById('_search').value = '';
-    onSearchChanged();
+    onSearchChanged(false);
   }
 
-  function onHashChangedMaybe(onlyNonEmpty) {
+  function onHashChangedMaybe(initial) {
     var search = document.getElementById('_search');
     var partial = document.getElementById('_partialMatch');
     var microsoft = document.getElementById('_microsoft');
@@ -219,7 +223,7 @@ var lastMicrosoft = '';
     nextSearch = nextSearch.replaceAll('_', ' ');
 
     var changed = false;
-    if ((nextSearch != search.value) && (!onlyNonEmpty || nextSearch)) {
+    if ((nextSearch != search.value) && (!initial || nextSearch)) {
       search.value = nextSearch;
       changed = true;
     }
@@ -229,7 +233,7 @@ var lastMicrosoft = '';
       changed = true;
     }
     if (changed) {
-      onSearchChanged();
+      onSearchChanged(initial);
     }
   }
 
@@ -325,7 +329,6 @@ var lastMicrosoft = '';
   document.getElementById('_year').innerText = (new Date()).getFullYear();
   window.onhashchange = onHashChanged;
   onHashChangedMaybe(true);
-  onSearchChanged();
 })();
 </script>
 
