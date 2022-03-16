@@ -292,8 +292,11 @@ var lastMicrosoft = '';
       document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-error{display:initial}';
       console.log(this);
     };
-    xhr.open('GET', 'https://api.terminology.microsoft.com/Terminology.svc');
+    xhr.open('GET', 'https://crossorigin.me/https://api.terminology.microsoft.com/Terminology.svc');
     xhr.setRequestHeader('SOAPAction', 'http://api.terminology.microsoft.com/terminology/Terminology/GetTranslations');
+    xhr.setRequestHeader('Content-Type', 'text/xml; charset=UTF-8');
+    xhr.setRequestHeader('Access-Control-Request-Headers', 'SOAPAction, X-Requested-With');
+    xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     xhr.send(body);
   }
 
