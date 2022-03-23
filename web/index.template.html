@@ -313,11 +313,11 @@ var _isAfterLogin = false;
       encodeURIComponent(rawSearch) +
       '&langID=382&Source=true&productid=undefined';
 
-    delayedSearchMicrosoft();
+    delayedSearchMicrosoft(rawSearch);
   }
 
-  function delayedSearchMicrosoft() {
-    const query = document.getElementById('_js-search').value;
+  function delayedSearchMicrosoft(rawSearch) {
+    const query = rawSearch.replace(/  .*$/, '');
     if (document.getElementById('_microsoft').checked) {
       if (!getMicrosoftConsent()) {
         return
@@ -367,6 +367,10 @@ var _isAfterLogin = false;
   function searchMicrosoft(query, microsoftApi) {
     console.log('searchMicrosoft ' + query);
     var base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    if (base.length > 50) {
+      showError('Query too long: ' + query);
+      return
+    }
     if (_isAfterLogin) {
       base = 'test'; // for Firefox
     }
