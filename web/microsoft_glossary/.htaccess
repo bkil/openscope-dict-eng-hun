@@ -1,0 +1,44 @@
+ErrorDocument 400 /400.html
+ErrorDocument 401 /401.html
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 503 /503.html
+
+<IfModule mod_headers.c>
+  Header always set X-Robots-Tag "noindex"
+  Header always set Referrer-Policy "no-referrer"
+  Header set Content-Security-Policy "script-src 'unsafe-inline'; referrer 'no-referrer';"
+  Header set Cache-Control "public, max-age=86400, stale-while-revalidate=31536000, s-maxage=86400"
+
+  Header always edit Set-Cookie ^(.*)$ "$1; SameSite=None"
+  Header onsuccess edit Set-Cookie ^(.*)$ "$1; SameSite=None"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresDefault "access plus 1 week"
+</IfModule>
+
+FileETag All
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteBase /
+
+  RewriteCond %{HTTP_COOKIE} ^([^=]+)=([^;]*)(;.*)?$
+  RewriteRule ^ - [CO=%1:%2:%{HTTP_HOST}:2880:/:secure:HttpOnly]
+  # :None
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{QUERY_STRING} =""
+  RewriteCond %{REQUEST_URI} ^/cache/([^/]{1,50})\.css$
+  RewriteRule ^ /get.php?q=%1 [L]
+
+  RewriteCond %{REQUEST_URI} =/get.php
+  RewriteCond %{QUERY_STRING} !^q=[^/?&]{1,50}$
+  RewriteRule ^ - [L,R=400,QSD]
+
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteCond %{REQUEST_URI} !^/?((index|400|401|403|404|503)\.html|robots\.txt|get\.php|cache/[^/]{1,50}\.css)?$
+  RewriteRule ^ - [L,F]
+</IfModule>

@@ -19,6 +19,10 @@ td, th {
   padding: 4px;
 }
 
+table.O {
+  padding-top: 40px;
+}
+
 #_searchBar {
   position: fixed;
   top: 0;
@@ -30,14 +34,51 @@ td, th {
 form {
   display: inline;
 }
+
+.attribution {
+  text-align: right;
+}
+
+body:not(.js-microsoft-consented) .js-microsoft-data,
+body:not(.js-microsoft-consented) #_js-microsoft-message,
+body:not([data-state="microsoft-loaded"]) .js-microsoft-data,
+body:not([data-state="microsoft-loading"], [data-state="microsoft-error"]) #_js-microsoft-message,
+.js-microsoft-consented #_js-microsoft-terms,
+body:not(.js-want-microsoft) #_js-microsoft-result-panel,
+#_data,
+.ifnojs,
+.nojs .ifjs
+{
+  display: none;
+}
+
+body:not(.js-microsoft-consented) #_js-microsoft-consent-label {
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+body:not(.js-microsoft-consented) #_js-microsoft-consent-label > label {
+  outline: auto;
+  padding: 1em;
+}
+
+.js-microsoft-consented #_js-microsoft-consent-label {
+  text-align: right;
+}
+
+#_js-microsoft-terms {
+  margin-left: 10%;
+  padding-right: 15%;
+  border-left: 1px solid;
+  padding-left: 5%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: x-large;
+}
   </style>
 
   <style>
-table.O {
-  padding-top: 40px;
-}
-
-.ifnojs, .nojs .ifjs,
 tbody.O > tr {
   display: none;
 }
@@ -55,20 +96,6 @@ tbody.O>tr[id^="9"],
 tbody.O>tr[id^=a i] {
   display: table-row;
 }
-
-.attribution {
-  text-align: right;
-}
-
-#_js-microsoft-result-panel,
-#_js-microsoft-spinner,
-#_js-microsoft-failed,
-#_js-microsoft-error,
-#_js-microsoft-empty,
-#_js-microsoft-data
-{
-  display: none;
-}
   </style>
 
   <style id=_filterStyle>
@@ -79,7 +106,6 @@ tbody.O>tr[id^=a i] {
       height: 100%;
     }
   </style>
-  <style id=_js-spinner-style></style>
 </head>
 <body>
 
@@ -94,7 +120,7 @@ tbody.O>tr[id^=a i] {
     <form id=_searchForm>
       <label>
         <strong>K</strong>eresés:
-        <input id=_search accesskey=k autofocus>
+        <input id=_js-search accesskey=k autofocus>
       </label>
       <input value=törlés accesskey=t type=reset>
     </form>
@@ -104,13 +130,9 @@ tbody.O>tr[id^=a i] {
       <strong>S</strong>zövegrészlet egyezés
     </label>
 
-    <label style='display:none'>
-      <input id=_microsoft type=checkbox>
-      <strong>M</strong>icrosoft Terminológia
-    </label>
-
     <label>
-      <a href='https://microsoft.com/en-us/language/Search' id=_microsoft-href accesskey=m target=_blank><strong>M</strong>icrosoft Terminológia</a>
+      <input id=_microsoft type=checkbox accesskey=m>
+      <strong>M</strong>icrosoft Terminológia
     </label>
 
   <a href="https://gitlab.com/bkil/openscope-dict-eng-hun">Felhasználási feltételek</a>
@@ -128,223 +150,345 @@ tbody.O>tr[id^=a i] {
   </table>
 
   <div id=_js-microsoft-result-panel>
-    <h2>Microsoft Terminológia</h2>
-    <div id=_js-microsoft-spinner>
-      "<span id=_js-microsoft-query></span>" lekérdezése...
-    </div>
-    <div id=_js-microsoft-failed>API hozzáférési hiba: <span id=_js-microsoft-message></span></div>
-    <div id=_js-microsoft-error>Hiba, további részletek a JavaScript konzolban</div>
-    <div id=_js-microsoft-empty>Nincs találat</div>
-    <div id=_js-microsoft-data>
-      <table>
-        <thead>
-          <tr>
-            <th>Angolul
-            <th>Magyarul
-        <tbody id=_js-microsoft-tbody>
-      </table>
+    <h2>Microsoft Terminology</h2>
+    <div id=_js-microsoft-message></div>
+    <table class=js-microsoft-data>
+      <thead>
+        <tr>
+          <th>English
+          <th>Hungarian
+      <tbody id=_js-microsoft-tbody>
+    </table>
 
-      <div class=attribution>Microsoft Terminology Service <a href='https://microsoft.com/en-us/language/Microsoft-Terminology-API'>API</a>. &copy; <span id=_year></span> Microsoft Corporation. All rights reserved.</div>
+    <div id=_js-microsoft-terms>
+      <p>While using this site, you may be redirected to a search provider from which you will receive a cookie.</p>
+      <p>Additionally, you agree to be bound by the
+      <a href='https://www.microsoft.com/en-us/language/licenseagreement' rel='nofollow noopener' target='_blank'>Microsoft Language Portal License Agreement</a></p>
+    </div>
+
+    <div id=_js-microsoft-consent-label>
+      <label>
+        Accept terms
+        <input id=_js-microsoft-consent type=checkbox>
+      </label>
+    </div>
+
+    <div class='attribution js-microsoft-data'>Microsoft Terminology Service <a href='https://microsoft.com/en-us/language/Microsoft-Terminology-API' rel='noopener' target=_blank>API</a>. &copy; <span id=_year></span> Microsoft Corporation. All rights reserved.</div>
+
+    <span id=_data></span>
+    <div>
+      <a href='https://microsoft.com/en-us/language/Search' id=_microsoft-href rel='nofollow noopener' target=_blank>All results (new window)</a>
     </div>
   </div>
 </div>
 
 <script>
 'use strict';
+(function() {
+var microsoftCache = {};
 var microsoftPending = 0;
 var lastMicrosoft = '';
+var _microsoftApi = null;
+var _isWarmState = false;
+var _isAfterLogin = false;
 
-(function() {
+  function init() {
+    document.getElementById('_js-search').oninput = updateHash;
+    document.getElementById('_searchForm').onreset = onReset;
+    document.getElementById('_partialMatch').onchange = updateHash;
+    document.getElementById('_microsoft').onchange = onMicrosoftChanged;
+    document.getElementById('_year').innerText = (new Date()).getFullYear();
 
-  function onSearchChangedMaybe(initial) {
-    var searchBox = document.getElementById('_search');
-    var partial = document.getElementById('_partialMatch').checked;
-    var microsoft = document.getElementById('_microsoft').checked;
-    var search = searchBox.value;
-    var rawSearch = search;
+    const isConsented = getMicrosoftConsent();
+    document.getElementById('_js-microsoft-consent').checked = isConsented;
+    toggle('js-microsoft-consented', isConsented);
+    document.getElementById('_js-microsoft-consent').onchange = onConsentChanged;
+
+    window.onhashchange = onHashChanged;
+    onHashChanged();
+  }
+
+  function onConsentChanged() {
+    const isConsented = this.checked;
+    toggle('js-microsoft-consented', isConsented);
+    save('microsoft-consent', isConsented);
+    if (isConsented) {
+      startSearch();
+    }
+  }
+
+  function onMicrosoftChanged() {
+    save('want-microsoft', this.checked);
+    updateHash();
+  }
+
+  function getMicrosoftConsent() {
+    return load('microsoft-consent') === 'true';
+  }
+
+  function toggle(key, value) {
+    const body = document.getElementsByTagName('body')[0];
+    if (value) {
+      body.classList.add(key);
+    } else {
+      body.classList.remove(key);
+    }
+  }
+
+  function onReset() {
+    document.getElementById('_js-search').value = '';
+    updateHash();
+  }
+
+  function updateHash() {
+    const searchBox = document.getElementById('_js-search');
+    let search = searchBox.value;
+    const partial = document.getElementById('_partialMatch').checked;
     if (!partial) {
       search = search.trimStart();
     }
 
     search = search.replaceAll(' ', '_');
-    var hash = encodeURIComponent(search);
+    let hash = encodeURIComponent(search);
     if (partial) {
       hash += '?substring';
     }
-    if (microsoft) {
-      hash += '?microsoft';
+    if (!document.getElementById('_microsoft').checked) {
+      hash += '?nomicrosoft';
     }
-    window.location.hash = hash;
 
-    var filter = '';
+    if (hash !== window.location.hash.substr(1)) {
+      window.location.hash = hash;
+      if (!hash) {
+        history.replaceState('', document.title, window.location.pathname);
+      }
+      onHashChanged();
+      searchBox.focus();
+    }
+  }
+
+  function onHashChanged() {
+    const parts = window.location.hash.substring(1).split('?');
+    const search = decodeURIComponent(parts[0]).replaceAll('_', ' ');
+    parts.shift();
+    if ((parts.includes('isAfterLogin2')) && (history.length > 0)) {
+      history.back();
+    }
+
+    document.getElementById('_js-search').value = search;
+    document.getElementById('_partialMatch').checked = parts.includes('substring');
+    const microsoft = !parts.includes('nomicrosoft')  && (load('want-microsoft') !== 'false');
+    document.getElementById('_microsoft').checked = microsoft;
+    toggle('js-want-microsoft', microsoft);
+    _isAfterLogin = parts.includes('isAfterLogin');
+
+    startSearch();
+  }
+
+  function startSearch() {
+    const rawSearch = document.getElementById('_js-search').value;
+    const search = rawSearch.replaceAll(' ', '_');
+
+    let filter = '';
     if (search) {
       filter = 'tbody.O > tr { display: table-row; }';
-      if (partial) {
+      if (document.getElementById('_partialMatch').checked) {
         filter += 'tbody.O > tr:not([id*="' + search + '" i]) { display: none; }';
       } else {
         filter += 'tbody.O > tr:not([id^="' + search + '" i]) { display: none; }';
       }
     }
-    if (!hash) {
-      history.replaceState('', document.title, window.location.pathname);
-    }
-    if (microsoft) {
-      filter += '#_js-microsoft-result-panel{display:initial}';
-    }
     document.getElementById('_filterStyle').innerHTML = filter;
-    if (microsoft) {
-      if (initial) {
-        console.log(initial);
-        lookupMicrosoft(rawSearch);
-      } else {
-        maybeLookupMicrosoft(rawSearch);
-      }
-    }
 
     document.getElementById('_microsoft-href').href =
       'https://microsoft.com/en-us/language/Search?searchTerm=' +
       encodeURIComponent(rawSearch) +
       '&langID=382&Source=true&productid=undefined';
 
-    searchBox.focus();
+    delayedSearchMicrosoft();
   }
 
-  function onReset() {
-    document.getElementById('_search').value = '';
-    onSearchChangedMaybe(false);
-  }
-
-  function onHashChangedMaybe(initial) {
-    var search = document.getElementById('_search');
-    var partial = document.getElementById('_partialMatch');
-    var microsoft = document.getElementById('_microsoft');
-    var hash = decodeURIComponent(window.location.hash.substring(1));
-    var nextSearch = hash;
-    var nextPartial = false;
-    var nextMicrosoft = false;
-    for (var i; i = nextSearch.lastIndexOf('?'), i >= 0; ) {
-      var token = nextSearch.substr(i + 1);
-      if (token === 'substring') {
-        nextPartial = true;
-      } else if (token === 'microsoft') {
-        nextMicrosoft = true;
+  function delayedSearchMicrosoft() {
+    const query = document.getElementById('_js-search').value;
+    if (document.getElementById('_microsoft').checked) {
+      if (!getMicrosoftConsent()) {
+        return
       }
-      nextSearch = nextSearch.substr(0, i);
-    }
-    nextSearch = nextSearch.replaceAll('_', ' ');
-
-    var changed = false;
-    if ((nextSearch != search.value) && (!initial || nextSearch)) {
-      search.value = nextSearch;
-      changed = true;
-    }
-    if ((nextPartial != partial.checked) || (nextMicrosoft != microsoft.checked)) {
-      partial.checked = nextPartial;
-      microsoft.checked = nextMicrosoft;
-      changed = true;
-    }
-    if (changed) {
-      onSearchChangedMaybe(initial);
+      showError('');
+      var cached = microsoftCache[query];
+      if (cached) {
+        lookupMicrosoft(query);
+      }
+      if (!_isWarmState) {
+        lookupMicrosoft(query);
+        _isWarmState = true;
+      } else {
+        delayedLookupMicrosoft(query);
+      }
     }
   }
 
-  function onSearchChanged() {
-    onSearchChangedMaybe(false);
-  }
-
-  function onHashChanged() {
-    onHashChangedMaybe(false);
-  }
-
-
-  function maybeLookupMicrosoft(rawSearch) {
+  function delayedLookupMicrosoft(query) {
     microsoftPending++;
     setTimeout(
       function() {
         microsoftPending--;
         if (microsoftPending === 0) {
-          lookupMicrosoft(rawSearch);
+          lookupMicrosoft(query);
         }
       }, 500);
   }
 
-  function lookupMicrosoft(queryText) {
-    if ((queryText === '') || (queryText === lastMicrosoft)) {
+  function lookupMicrosoft(query) {
+    if ((query === '') || (query === lastMicrosoft)) {
       return
     }
-    lastMicrosoft = queryText;
-    document.getElementById('_js-microsoft-query').innerText = queryText;
-    document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-spinner{display:initial}';
-    var body = getSoap(queryText);
+    lastMicrosoft = query;
 
-    var xhr = new XMLHttpRequest;
-    xhr.overrideMimeType('text/xml');
+    document.getElementById('_js-microsoft-tbody').innerHTML = '';
+    var cached = microsoftCache[query];
+    if (cached) {
+      processMicrosoftResponse(cached);
+      return
+    }
 
-    xhr.onload = function() {
-      if (xhr.readyState === xhr.DONE && xhr.status === 200) {
-        processMicrosoftResponse(xhr.responseXML);
-      } else {
-        document.getElementById('_js-microsoft-message').innerText = 'status ' + xhr.status + ', response ' + xhr.response;
-        document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-failed{display:initial}';
-      }
-    };
-    xhr.onerror = function(e) {
-      document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-error{display:initial}';
-      console.log(this);
-    };
-    xhr.open('GET', 'https://ftp.szerver.whiszerver8.hu/~bkilhu/cors/?url=https://api.terminology.microsoft.com/Terminology.svc');
-    xhr.setRequestHeader('SOAPAction', 'http://api.terminology.microsoft.com/terminology/Terminology/GetTranslations');
-    xhr.setRequestHeader('Content-Type', 'text/xml; charset=UTF-8');
-    xhr.send(body);
+    showError('Looking up "' + query + '"...');
+    document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-loading');
+    withMicrosoftApi(function(m) { searchMicrosoft(query, m); });
   }
 
-  function processMicrosoftResponse(xml) {
-    var tbody = document.getElementById('_js-microsoft-tbody');
-    tbody.innerHTML = '';
-    var matches = xml.getElementsByTagName('a:Match');
-    for (var i = 0; i < matches.length; i++) {
-      var match = matches[i];
-      var original = match.getElementsByTagName('a:OriginalText')[0].textContent;
-      var translations = match.getElementsByTagName('a:TranslatedText');
-      for (var j = 0; j < translations.length; j++) {
-        var translated = translations[j].textContent;
-        var tr = tbody.insertRow();
-        var cell = tr.insertCell();
+  function searchMicrosoft(query, microsoftApi) {
+    console.log('searchMicrosoft ' + query);
+    const base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    const url = microsoftApi + 'cache/' + base + '.css';
+    fetchCssData(
+      url,
+      function(s) {
+        microsoftCache[query] = s;
+        processMicrosoftResponse(s);
+        if (_isAfterLogin) {
+          updateHash();
+        }
+      },
+      function() {
+        if (_isAfterLogin) {
+          showError('error looking up "' + query + '", see console for details');
+          document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-error');
+        } else {
+          loginMicrosoftApi(microsoftApi);
+        }
+      }
+    );
+  }
+
+  function loginMicrosoftApi(microsoftApi) {
+    console.log('loginMicrosoftApi.start');
+    showError('Attempting to log into the API...');
+    const hash = window.location.hash;
+    history.pushState(null, '', hash + '?isAfterLogin');
+    history.pushState(null, '', hash + '?isAfterLogin2');
+    history.pushState(null, '', hash + '?isAfterLogin2');
+    window.location.replace(microsoftApi + '?i=2');
+    console.log('loginMicrosoftApi.end');
+  }
+
+  function withMicrosoftApi(callback) {
+    const k = '_js-microsoft-api';
+    if (!_microsoftApi) {
+       _microsoftApi = load(k);
+    }
+    if (_microsoftApi) {
+      callback(_microsoftApi);
+    } else {
+      fetchCssData(
+        'https://ftp.szerver.whiszerver8.hu/~bkilhu/tmp/balancers.css',
+        function(s) {
+          _microsoftApi = s;
+          save(k, s);
+          callback(s);
+        },
+        function() {
+          showError('error fetching load balancers, see console for details');
+        }
+      );
+    }
+  }
+
+  function fetchCssData(url, onSuccess, onError) {
+    const s = document.createElement('link');
+    s.onload = function() {
+      console.log('fetchCssData onload');
+      const content = window.getComputedStyle(document.getElementById('_data'), '::after').content;
+      const encoded = content.replace(/^[^'"]*['"]/, '').replace(/['"][^'"]*$/, '');
+      const decoded = decodeURIComponent(encoded.replace(/[+]/g, ' '));
+      document.body.removeChild(s);
+      if (('none' === content) || ('' === decoded)) {
+        onError();
+      } else {
+        onSuccess(decoded);
+      }
+    };
+
+    s.onerror = function() {
+      console.log('fetchCssData onerror');
+      document.body.removeChild(s);
+      onError();
+    };
+    s.rel = 'stylesheet noreferrer';
+    s.setAttribute('referrerpolicy', 'no-referrer');
+    s.href = url;
+    document.body.appendChild(s);
+    console.log('fetchCssData end');
+  }
+
+  function processMicrosoftResponse(s) {
+    const xml = (new DOMParser).parseFromString(s, 'text/xml');
+    const matches = xml.getElementsByTagName('a:Match');
+    const tbody = document.getElementById('_js-microsoft-tbody');
+    for (let i = 0; i < matches.length; i++) {
+      const match = matches[i];
+      const original = match.getElementsByTagName('a:OriginalText')[0].textContent;
+      const translations = match.getElementsByTagName('a:TranslatedText');
+      for (let j = 0; j < translations.length; j++) {
+        const translated = translations[j].textContent;
+        const tr = tbody.insertRow();
+        let cell = tr.insertCell();
         cell.innerText = original;
         cell = tr.insertCell();
         cell.innerText = translated;
       }
     }
-
-    document.getElementById('_js-spinner-style').innerText = '#_js-microsoft-data{display:initial}';
+    document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-loaded');
   }
 
-  function getSoap(queryText) {
-    return `<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
-    <s:Body>
-    <GetTranslations xmlns="http://api.terminology.microsoft.com/terminology">
-    <text>${queryText}</text>
-    <from>en-US</from>
-    <to>hu-HU</to>
-    <searchOperator>Contains</searchOperator>
-    <sources xmlns:a="https://api.terminology.microsoft.com/terminology" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-    <a:TranslationSource>Terms</a:TranslationSource>
-    <a:TranslationSource>UiStrings</a:TranslationSource>
-    </sources>
-    <maxTranslations>20</maxTranslations>
-    <includeDefinitions>true</includeDefinitions>
-    </GetTranslations>
-    </s:Body>
-    </s:Envelope>"`;
+  function showError(text) {
+    document.getElementById('_js-microsoft-message').innerText = text;
   }
 
-  document.getElementById('_search').oninput = onSearchChanged;
-  document.getElementById('_searchForm').onreset = onReset;
-  document.getElementById('_partialMatch').onchange = onSearchChanged;
-  document.getElementById('_microsoft').onchange = onSearchChanged;
-  document.getElementById('_year').innerText = (new Date()).getFullYear();
-  window.onhashchange = onHashChanged;
-  onHashChangedMaybe(true);
+  function save(k, v) {
+    try {
+      window.localStorage.setItem(k, v);
+      return true;
+    } catch (e) {
+      console.log(e);
+      return false;
+    }
+  }
+
+  function load(k, def) {
+    var result = def;
+    try {
+      const got = window.localStorage.getItem(k);
+      if (got !== null) {
+        result = got;
+      }
+    } catch (e) {
+      console.log(e);
+    }
+    return result;
+  }
+
+  init();
 })();
 </script>
 

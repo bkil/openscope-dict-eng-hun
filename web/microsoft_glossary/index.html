@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>Dictionary</title>
+  <link rel='shortcut icon' type=image/x-icon href=data:image/x-icon;,>
+  <meta name=robots content=noindex>
+  <meta http-equiv=Content-Security-Policy content="script-src 'unsafe-inline'; frame-ancestors *; referrer 'no-referrer';">
+  <meta name=referrer content=no-referrer>
+  <script>
+    if ((document.location.search !== '') && (document.location.search !== '?i=1') && (history.length >= 2)) {
+      history.go(-2);
+    }
+    window.location.hash = '';
+    history.replaceState('', document.title, window.location.pathname);
+  </script>
+
+  <style>
+
+  th, td {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 4px;
+  }
+
+  th:first-child, td:first-child {
+    border-right-style: dotted;
+    border-right-width: 1px;
+  }
+
+  .attribution {
+    text-align: right;
+    font-style: italic;
+  }
+
+  #_data {
+    display: none;
+  }
+
+  </style>
+<body>
+
+  <form action=get.php>
+    <input id=_js-search name=q placeholder='Search for English word...' autofocus>
+    <input type=submit>
+  </form>
+
+  <div id=_js-microsoft-message></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>English
+        <th>Hungarian
+    <tbody id=_js-microsoft-tbody>
+  </table>
+
+  <div class=attribution>data from Microsoft Terminology Service
+    <a href='https://microsoft.com/en-us/language/Microsoft-Terminology-API' target=_blank rel='noopener'>API</a>.
+    &copy; <span id=_year></span> Microsoft Corporation. All rights reserved.
+  </div>
+
+  <span id=_data></span>
+
+<script>
+'use strict';
+(function () {
+
+  function init() {
+    document.getElementById('_year').innerText = (new Date()).getFullYear();
+    document.forms[0].onsubmit = onSubmit;
+  }
+
+  function onSubmit() {
+    startSearch();
+    return false;
+  }
+
+  function startSearch() {
+    const query = document.getElementById('_js-search').value;
+    document.getElementById('_js-microsoft-tbody').innerHTML = '';
+    showError('');
+    searchMicrosoft(query);
+  }
+
+  function searchMicrosoft(query) {
+    const base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    const url = 'cache/' + base + '.css';
+    fetchCssData(
+      url,
+      processMicrosoftResponse,
+      function() {
+        showError('error looking up "' + query + '", see console for details');
+      }
+    );
+  }
+
+  function showError(text) {
+    document.getElementById('_js-microsoft-message').innerText = text;
+  }
+
+  function fetchCssData(url, onSuccess, onError) {
+    const s = document.createElement('link');
+    s.onload = function() {
+      const content = window.getComputedStyle(document.getElementById('_data'), '::after').content;
+      const encoded = content.replace(/^[^'"]*['"]/, '').replace(/['"][^'"]*$/, '');
+      const decoded = decodeURIComponent(encoded.replace(/[+]/g, ' '));
+      document.body.removeChild(s);
+      if (('none' === content) || ('' === decoded)) {
+        onError();
+      } else {
+        onSuccess(decoded);
+      }
+    };
+
+    s.onerror = function() {
+      document.body.removeChild(s);
+      onError();
+    };
+    s.rel = 'stylesheet noreferrer';
+    s.setAttribute('referrerpolicy', 'no-referrer');
+    s.href = url;
+    document.body.appendChild(s);
+  }
+
+  function processMicrosoftResponse(s) {
+    const xml = (new DOMParser).parseFromString(s, 'text/xml');
+    const matches = xml.getElementsByTagName('a:Match');
+    const tbody = document.getElementById('_js-microsoft-tbody');
+    for (let i = 0; i < matches.length; i++) {
+      const match = matches[i];
+      const original = match.getElementsByTagName('a:OriginalText')[0].textContent;
+      const translations = match.getElementsByTagName('a:TranslatedText');
+      for (let j = 0; j < translations.length; j++) {
+        const translated = translations[j].textContent;
+        const tr = tbody.insertRow();
+        let cell = tr.insertCell();
+        cell.innerText = original;
+        cell = tr.insertCell();
+        cell.innerText = translated;
+      }
+    }
+  }
+
+  init();
+})();
+</script>
+</html>
