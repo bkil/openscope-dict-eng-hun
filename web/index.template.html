@@ -367,7 +367,7 @@ var _isOnlyTestSucceeded = false;
 
   function searchMicrosoft(query, microsoftApi) {
     console.log('searchMicrosoft ' + query);
-    var base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    var base = encodeURIComponent(query).toLowerCase();
     if (base.length > 50) {
       showError('Query too long: ' + query);
       return

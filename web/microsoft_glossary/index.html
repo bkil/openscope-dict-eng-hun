@@ -84,7 +84,7 @@
   }
 
   function searchMicrosoft(query) {
-    const base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    const base = encodeURIComponent(query).toLowerCase();
     const url = 'cache/' + base + '.css';
     fetchCssData(
       url,

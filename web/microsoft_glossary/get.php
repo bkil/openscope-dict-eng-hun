@@ -8,13 +8,13 @@ function main() {
   }
 }
 
-function handle_query($q) {
-  $phrase = urldecode($q);
-  if ((to_percentile($phrase) != $q) || (strlen($q) > 50)) {
+function handle_query($phrase) {
+  $base = to_percentile($phrase);
+  if (strlen($base) > 50) {
     header('HTTP/1.0 400 Bad Request');
     exit();
   }
-  $file = "cache/$q.css";
+  $file = "cache/$base.css";
   $tmp = "$file.tmp";
 
   $xml = lookup_word($phrase);
