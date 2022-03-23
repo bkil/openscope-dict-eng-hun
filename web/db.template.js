@@ -11,7 +11,7 @@ function addCsvRows(data) {
       id += '__' + cells[1];
     if (cells[3])
       id += '__' + cells[3];
-    id = id.replaceAll(' ', '_');
+    id = id.replace(/ /g, '_');
     tr.id = id;
 
     cell = tr.insertCell();
