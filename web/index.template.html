@@ -196,6 +196,7 @@ var lastMicrosoft = '';
 var _microsoftApi = null;
 var _isWarmState = false;
 var _isAfterLogin = false;
+var _isOnlyTestSucceeded = false;
 
   function init() {
     document.getElementById('_js-search').oninput = updateHash;
@@ -375,19 +376,22 @@ var _isAfterLogin = false;
       base = 'test'; // for Firefox
     }
     const url = microsoftApi + 'cache/' + base + '.css';
+
     fetchCssData(
       url,
       function(s) {
         if (_isAfterLogin) {
+          _isOnlyTestSucceeded = true;
           updateHash();
         } else {
+          _isOnlyTestSucceeded = false;
           lastMicrosoft = query;
           microsoftCache[query] = s;
           processMicrosoftResponse(s);
         }
       },
       function() {
-        if (_isAfterLogin) {
+        if (_isAfterLogin || _isOnlyTestSucceeded) {
           showError('error looking up "' + query + '", see console for details');
           document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-error');
         } else {
