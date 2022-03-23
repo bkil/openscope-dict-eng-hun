@@ -248,7 +248,7 @@ var _isAfterLogin = false;
       search = search.trimStart();
     }
 
-    search = search.replaceAll(' ', '_');
+    search = search.replace(/ /g, '_');
     let hash = encodeURIComponent(search);
     if (partial) {
       hash += '?substring';
@@ -269,10 +269,14 @@ var _isAfterLogin = false;
 
   function onHashChanged() {
     const parts = window.location.hash.substring(1).split('?');
-    const search = decodeURIComponent(parts[0]).replaceAll('_', ' ');
+    const search = decodeURIComponent(parts[0]).replace(/_/g, ' ');
     parts.shift();
-    if ((parts.includes('isAfterLogin2')) && (history.length > 0)) {
-      history.back();
+    _isAfterLogin = parts.includes('isAfterLogin');
+    if (parts.includes('isAfterLogin2')) {
+      _isAfterLogin = true;
+      if (history.length > 0) {
+        history.back();
+      }
     }
 
     document.getElementById('_js-search').value = search;
@@ -280,14 +284,13 @@ var _isAfterLogin = false;
     const microsoft = !parts.includes('nomicrosoft')  && (load('want-microsoft') !== 'false');
     document.getElementById('_microsoft').checked = microsoft;
     toggle('js-want-microsoft', microsoft);
-    _isAfterLogin = parts.includes('isAfterLogin');
 
     startSearch();
   }
 
   function startSearch() {
     const rawSearch = document.getElementById('_js-search').value;
-    const search = rawSearch.replaceAll(' ', '_');
+    const search = rawSearch.replace(/ /g, '_');
 
     let filter = '';
     if (search) {
