@@ -346,7 +346,6 @@ var _isAfterLogin = false;
     if ((query === '') || (query === lastMicrosoft)) {
       return
     }
-    lastMicrosoft = query;
 
     document.getElementById('_js-microsoft-tbody').innerHTML = '';
     var cached = microsoftCache[query];
@@ -362,15 +361,20 @@ var _isAfterLogin = false;
 
   function searchMicrosoft(query, microsoftApi) {
     console.log('searchMicrosoft ' + query);
-    const base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    var base = encodeURIComponent(encodeURIComponent(query)).toLowerCase();
+    if (_isAfterLogin) {
+      base = 'test'; // for Firefox
+    }
     const url = microsoftApi + 'cache/' + base + '.css';
     fetchCssData(
       url,
       function(s) {
-        microsoftCache[query] = s;
-        processMicrosoftResponse(s);
         if (_isAfterLogin) {
           updateHash();
+        } else {
+          lastMicrosoft = query;
+          microsoftCache[query] = s;
+          processMicrosoftResponse(s);
         }
       },
       function() {
