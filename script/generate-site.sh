@@ -26,9 +26,11 @@ main() {
 
   touch $DIST/exported.po
 
-  BALANCERS="`sed -r ":l; N; s~\n~ ~g; t l" $VAR/balancers.private.csv`"
-  [ -n "$BALANCERS" ] &&
+  local BAL="$VAR/balancers.private.csv"
+  if [ -f "$BAL" ]; then
+    BALANCERS="`sed -r ":l; N; s~\n~ ~g; t l" "$BAL"`"
     printf "#_data:after{content:'${BALANCERS}'}\n" > $DIST/balancers.css
+  fi
 }
 
 main "$@"
