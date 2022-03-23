@@ -394,6 +394,7 @@ var _isOnlyTestSucceeded = false;
         if (_isAfterLogin || _isOnlyTestSucceeded) {
           showError('error looking up "' + query + '", see console for details');
           document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-error');
+          updateHash();
         } else {
           loginMicrosoftApi(microsoftApi);
         }
