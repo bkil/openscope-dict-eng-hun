@@ -28,6 +28,10 @@ table.O {
   padding-top: 3em;
 }
 
+select {
+  width: 12em;
+}
+
 #_searchBar {
   position: fixed;
   top: 0;
@@ -565,16 +569,18 @@ var _isOnlyTestSucceeded = false;
 (function() {
 
   function init() {
-    if (!loadCachedTable()) {
+    if (loadCachedTable()) {
+      fillCategories();
+    } else {
       downloadTable();
     }
-    fillCategories();
   }
 
   function downloadTable() {
     var script = document.createElement('script');
     script.className = 'download';
     script.src = 'db.js';
+    script.onload = fillCategories;
     document.getElementsByTagName('body')[0].appendChild(script);
     console.log('table will be downloaded and regenerated');
   }
@@ -584,6 +590,7 @@ var _isOnlyTestSucceeded = false;
     try {
       cache = window.localStorage.getItem('dict');
     } catch (e) {
+      console.log(e);
       if (e instanceof SecurityError) {
         console.log('localStorage denied: not caching table');
         return false;
