@@ -25,7 +25,7 @@ th:first-child, td:first-child {
 }
 
 table.O {
-  padding-top: 40px;
+  padding-top: 3em;
 }
 
 #_searchBar {
@@ -42,6 +42,7 @@ form {
 
 .attribution {
   text-align: right;
+  font-style: italic;
 }
 
 body:not(.js-microsoft-consented) .js-microsoft-data,
@@ -70,6 +71,7 @@ body:not(.js-microsoft-consented) #_js-microsoft-consent-label > label {
 
 .js-microsoft-consented #_js-microsoft-consent-label {
   text-align: right;
+  font-style: italic;
 }
 
 #_js-microsoft-terms {
@@ -125,9 +127,15 @@ tbody.O>tr[id^=a i] {
     <form id=_searchForm>
       <label>
         <strong>K</strong>eresés:
-        <input id=_js-search accesskey=k autofocus>
+        <input id=_js-search accesskey=k placeholder=English... autofocus>
       </label>
       <input value=törlés accesskey=t type=reset>
+      <select id=_js-category>
+      </select>
+      <label>
+        Ma<strong>g</strong>yar:
+        <input id=_js-search-hu accesskey=g placeholder=Hungarian...>
+      </label>
     </form>
 
     <label>
@@ -200,6 +208,8 @@ var _isOnlyTestSucceeded = false;
 
   function init() {
     document.getElementById('_js-search').oninput = updateHash;
+    document.getElementById('_js-search-hu').oninput = updateHash;
+    document.getElementById('_js-category').oninput = updateHash;
     document.getElementById('_searchForm').onreset = onReset;
     document.getElementById('_partialMatch').onchange = updateHash;
     document.getElementById('_microsoft').onchange = onMicrosoftChanged;
@@ -254,13 +264,20 @@ var _isOnlyTestSucceeded = false;
       search = search.trimStart();
     }
 
-    search = search.replace(/ /g, '_');
-    let hash = encodeURIComponent(search);
+    let hash = encodeURIComponent(search.replace(/ /g, '_'));
     if (partial) {
       hash += '?substring';
     }
     if (!document.getElementById('_microsoft').checked) {
       hash += '?nomicrosoft';
+    }
+    const searchHu = document.getElementById('_js-search-hu').value;
+    if (searchHu) {
+      hash += '?hu=' + encodeURIComponent(searchHu);
+    }
+    const category = document.getElementById('_js-category').value;
+    if (category) {
+      hash += '?cat=' + encodeURIComponent(category);
     }
 
     if (hash !== window.location.hash.substr(1)) {
@@ -269,16 +286,26 @@ var _isOnlyTestSucceeded = false;
         history.replaceState('', document.title, window.location.pathname);
       }
       onHashChanged();
-      searchBox.focus();
     }
   }
 
   function onHashChanged() {
     const parts = window.location.hash.substring(1).split('?');
-    const search = decodeURIComponent(parts[0]).replace(/_/g, ' ');
+    const search = decodeQuery(parts[0]);
     parts.shift();
-    _isAfterLogin = parts.includes('isAfterLogin');
-    if (parts.includes('isAfterLogin2')) {
+    var param = {};
+    for (const i in parts) {
+      const part = parts[i];
+      const j = part.indexOf('=');
+      if (j > 0)  {
+        param[part.substr(0, j)] = part.substr(j + 1);
+      } else {
+        param[part] = true;
+      }
+    }
+
+    _isAfterLogin = param['isAfterLogin'];
+    if (param['isAfterLogin2']) {
       _isAfterLogin = true;
       if (history.length > 0) {
         history.back();
@@ -286,27 +313,47 @@ var _isOnlyTestSucceeded = false;
     }
 
     document.getElementById('_js-search').value = search;
-    document.getElementById('_partialMatch').checked = parts.includes('substring');
-    const microsoft = !parts.includes('nomicrosoft')  && (load('want-microsoft') !== 'false');
+    document.getElementById('_js-search-hu').value = decodeQuery(param['hu']);
+    document.getElementById('_js-category').value = decodeQuery(param['cat']);
+    document.getElementById('_partialMatch').checked = param['substring'];
+    const microsoft = !param['nomicrosoft']  && (load('want-microsoft') !== 'false');
+
     document.getElementById('_microsoft').checked = microsoft;
     toggle('js-want-microsoft', microsoft);
 
     startSearch();
   }
 
+  function decodeQuery(s) {
+    if (s) {
+      return decodeURIComponent(s).replace(/_/g, ' ');
+    } else {
+      return '';
+    }
+  }
+
   function startSearch() {
     const rawSearch = document.getElementById('_js-search').value;
     const search = rawSearch.replace(/ /g, '_');
+    const searchHu = document.getElementById('_js-search-hu').value;
+    const category = document.getElementById('_js-category').value;
 
     let filter = '';
-    if (search) {
-      filter = 'tbody.O > tr { display: table-row; }';
-      if (document.getElementById('_partialMatch').checked) {
-        filter += 'tbody.O > tr:not([id*="' + search + '" i]) { display: none; }';
-      } else {
-        filter += 'tbody.O > tr:not([id^="' + search + '" i]) { display: none; }';
+    if (search || searchHu || category) {
+      filter = 'tbody.O > tr[id] { display: none; } tbody.O > tr';
+      if (search) {
+        const match = document.getElementById('_partialMatch').checked ? '*' : '^';
+        filter += '[id' + match + '="' + search + '" i]';
       }
+      if (searchHu) {
+        filter += '[data-h*="' + searchHu + '" i]';
+      }
+      if (category) {
+        filter += '[data-c="' + category + '" i]';
+      }
+      filter += '{ display: table-row; }';
     }
+
     document.getElementById('_filterStyle').innerHTML = filter;
 
     document.getElementById('_microsoft-href').href =
@@ -516,6 +563,14 @@ var _isOnlyTestSucceeded = false;
 <script class=download>
 'use strict';
 (function() {
+
+  function init() {
+    if (!loadCachedTable()) {
+      downloadTable();
+    }
+    fillCategories();
+  }
+
   function downloadTable() {
     var script = document.createElement('script');
     script.className = 'download';
@@ -551,8 +606,43 @@ var _isOnlyTestSucceeded = false;
     return true;
   }
 
-  if (!loadCachedTable())
-    downloadTable();
+  function fillCategories() {
+    const select = document.getElementById('_js-category');
+
+    var values = {};
+    const rows = document.querySelector('tbody.O').rows;
+    for (let i = 0; i < rows.length; i++) {
+      const category = rows[i].cells[3].innerText.toLowerCase();
+      if (category) {
+        rows[i].setAttribute('data-c', category);
+      }
+
+      const hu = rows[i].cells[2].innerText;
+      const comment = rows[i].cells[4].innerText;
+      rows[i].setAttribute('data-h', hu + ' ' + comment);
+
+      values[category] = 1 + (values[category] ? values[category] : 0);
+    }
+
+    var sorted = [];
+    for (const k in values) {
+      sorted.push([k, values[k]]);
+    }
+    sorted = sorted.sort();
+
+    for (const i in sorted) {
+      const kv = sorted[i];
+      const k = kv[0];
+      const v = kv[1];
+      const option = document.createElement('option');
+      const text = k ? (k + ' (' + v + ')') : '*';
+      option.value = k;
+      option.innerText = text;
+      select.appendChild(option);
+    }
+  }
+
+  init();
 })();
 </script>
 
