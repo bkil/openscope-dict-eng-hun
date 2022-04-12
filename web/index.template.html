@@ -417,13 +417,14 @@ var _isOnlyTestSucceeded = false;
   }
 
   function searchMicrosoft(query, microsoftApi) {
+    let isAfterLogin = _isAfterLogin;
     console.log('searchMicrosoft ' + query);
-    var base = encodeURIComponent(query).toLowerCase();
+    let base = encodeURIComponent(query).toLowerCase();
     if (base.length > 50) {
       showError('Query too long: ' + query);
       return
     }
-    if (_isAfterLogin) {
+    if (isAfterLogin) {
       base = 'test'; // for Firefox
     }
     const url = microsoftApi + 'cache/' + base + '.css';
@@ -431,7 +432,7 @@ var _isOnlyTestSucceeded = false;
     fetchCssData(
       url,
       function(s) {
-        if (_isAfterLogin) {
+        if (isAfterLogin) {
           _isOnlyTestSucceeded = true;
           updateHash();
         } else {
@@ -442,7 +443,7 @@ var _isOnlyTestSucceeded = false;
         }
       },
       function() {
-        if (_isAfterLogin || _isOnlyTestSucceeded) {
+        if (isAfterLogin || _isOnlyTestSucceeded) {
           showError('error looking up "' + query + '", see console for details');
           document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-error');
           updateHash();
