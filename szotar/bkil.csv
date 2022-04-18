@@ -3,6 +3,7 @@ amend	verb	javítás	verziókezelés
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
 attribution	noun	forrásmegjelölés		
+audio metre	noun	hangmérő		a decibel skálán mérő felületi elem
 bisect	verb	bináris keresést futtatni	verziókezelés	
 blame	verb	gyanúsítani	verziókezelés	
 blame	verb	hibáztatni	verziókezelés	
@@ -17,6 +18,7 @@ commit	noun	véglegesítő	verziókezelés
 computer player	noun	gépi játékos	játék	
 datetime		dátum és idő		adattípus, alapból nem fordítjuk, dátum és idő?
 demuxer		daraboló	grafika	szétbontó?
+deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
 diff	verb	összehasonlítani	verziókezelés	
 disconnected from server		leválasztva a kiszolgálóról	játék	
 fast-forward	noun	előrepörgetett változat	verziókezelés	
@@ -40,14 +42,17 @@ paused		játék szüneteltetve	játék
 points	noun	pontszám	játék	
 pull	verb	lekérdezni	verziókezelés	
 pull request	noun	beolvasztási kérés	verziókezelés	
+pulldown	noun	pulldown	grafika	Frissítési időköz alulmintavételezése
 push	verb	felküldeni	verziókezelés	
 random seed	noun	véletlenszám generátor kezdeti értéke		
 rebase	verb	újraalapozni	verziókezelés	
+refresh rate	noun	képfrissítesi gyakoriság	grafika	frissítési időköz
 release notes	noun	kiadási megjegyzések		
 remote	noun	távoli	verziókezelés	
 render device	noun	megjelenítőeszköz	játék	
 repository	noun	tároló	verziókezelés	
 reset	verb	visszaállítani	verziókezelés	
+ringing artifact	noun	ringing képhiba	grafika	"Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, ""begyűrűzés"" (?)."
 score	noun	pontszám	játék	
 squash	verb	összevonni	verziókezelés	
 stage	verb	kiszemelni	verziókezelés	
