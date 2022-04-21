@@ -52,7 +52,7 @@ remote	noun	távoli	verziókezelés
 render device	noun	megjelenítőeszköz	játék	
 repository	noun	tároló	verziókezelés	
 reset	verb	visszaállítani	verziókezelés	
-ringing artifact	noun	ringing képhiba	grafika	"Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, ""begyűrűzés"" (?)."
+ringing artifact	noun	ringing képhiba	grafika	Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, begyűrűzés.
 score	noun	pontszám	játék	
 squash	verb	összevonni	verziókezelés	
 stage	verb	kiszemelni	verziókezelés	
