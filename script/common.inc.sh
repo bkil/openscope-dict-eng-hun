@@ -13,5 +13,6 @@ cat_dict() {
 
     sed -r "s~^([^\t]*\t){2}~&+~" ../szotar/bkil.csv
   } |
+  sed "s~\"~'~g ; s~\\\\~/~g ; s~_~-~g" | # DEBUG
   sort_dict
 }
