@@ -448,7 +448,8 @@ var _isOnlyTestSucceeded = false;
           document.getElementsByTagName('body')[0].setAttribute('data-state', 'microsoft-error');
           updateHash();
         } else {
-          loginMicrosoftApi(microsoftApi);
+//          loginMicrosoftApi(microsoftApi);
+          showError('You are not logged in to the API. Automatic login is disabled pending loop investigation, please ask for a backup URL');
         }
       }
     );
