@@ -25,6 +25,7 @@ fast-forward	noun	előrepörgetett változat	verziókezelés
 fast-forward	verb	előrepörgetni	verziókezelés	
 fetch	verb	letölteni	verziókezelés	
 fixup	noun	gyorsjavítás	verziókezelés	
+frugall install	noun	lemezképként telepítés	fájlrendszer	vagy helytakarékos telepítés
 graphic options		grafikai beállítások	játék	
 head	noun	fej	verziókezelés	
 hunk	noun	módosítás	verziókezelés	
@@ -48,6 +49,7 @@ random seed	noun	véletlenszám generátor kezdeti értéke
 rebase	verb	újraalapozni	verziókezelés	
 refresh rate	noun	képfrissítesi gyakoriság	grafika	frissítési időköz
 release notes	noun	kiadási megjegyzések		
+remaster	verb	újjáépítés	fájlrendszer	
 remote	noun	távoli	verziókezelés	
 render device	noun	megjelenítőeszköz	játék	
 repository	noun	tároló	verziókezelés	
@@ -60,6 +62,7 @@ stage	verb	kiválasztani	verziókezelés	'=choose TODO
 stash	noun	félretett változat	verziókezelés	
 stash	verb	félrerakni	verziókezelés	félretenni
 strike	noun	büntetőpont	moderáció	
+subfolder	noun	almappa	fájlrendszer	
 tag	noun	címke	verziókezelés	
 tracked	noun	követett	verziókezelés	
 trigger	noun	eseményindító	adatbázis	
