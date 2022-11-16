@@ -34,8 +34,9 @@ function saveTableToCache(dbVersion) {
   try {
     window.localStorage.setItem('dict', cache);
   } catch (e) {
-    console.log(e);
-    if (e instanceof SecurityError) {
+    if (e.name === "QuotaExceededError") {
+      console.log('localStorage denied: quota exceeded');
+    } else if (e.name === "SecurityError") {
       console.log('localStorage denied: not caching table');
     } else {
       throw e;

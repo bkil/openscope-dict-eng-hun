@@ -592,8 +592,7 @@ var _isOnlyTestSucceeded = false;
     try {
       cache = window.localStorage.getItem('dict');
     } catch (e) {
-      console.log(e);
-      if (e instanceof SecurityError) {
+      if (e.name === "SecurityError") {
         console.log('localStorage denied: not caching table');
         return false;
       } else {
