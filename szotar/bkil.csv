@@ -16,6 +16,7 @@ clean	verb	tisztítani	verziókezelés
 clone	verb	klónozni	verziókezelés	
 commit	noun	véglegesítő	verziókezelés	
 computer player	noun	gépi játékos	játék	
+cyan	noun	cián	nyomda	
 datetime		dátum és idő		adattípus, alapból nem fordítjuk, dátum és idő?
 demuxer		daraboló	grafika	szétbontó?
 deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
@@ -33,10 +34,13 @@ init	verb	előkészíteni	verziókezelés
 joystick	noun	botkormány	játék	
 learn more		további tudnivalók		
 leave server	verb	játék elhagyása	játék	
+magenta	noun	bíbor	nyomda	
 merge	verb	beolvasztani	verziókezelés	
 merge request	noun	beolvasztási kérés	verziókezelés	
 namespace	noun	névtér	verziókezelés	
+omnichannel		összcsatornás	Windows	
 origin	noun	eredeti	verziókezelés	
+parent channel		csatorna szülője		
 patch	noun	folt	verziókezelés	
 pause	verb	játék szüneteltetése	játék	
 paused		játék szüneteltetve	játék	
@@ -63,6 +67,7 @@ stash	noun	félretett változat	verziókezelés
 stash	verb	félrerakni	verziókezelés	félretenni
 strike	noun	büntetőpont	moderáció	
 subfolder	noun	almappa	fájlrendszer	
+tab bar		lapsáv	Mozilla	
 tag	noun	címke	verziókezelés	
 tracked	noun	követett	verziókezelés	
 trigger	noun	eseményindító	adatbázis	
@@ -72,4 +77,5 @@ untracked	noun	nem követett	verziókezelés
 upstream	noun	távoli tároló	verziókezelés	
 visual style guide		arculati kézikönyv		
 What's new		Újdonságok		changelog szalagcíme
+with overcoating		bevonattal	nyomda	
 working tree	noun	munkafa	verziókezelés	
