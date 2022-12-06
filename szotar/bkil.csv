@@ -14,6 +14,7 @@ checkout	verb	átváltani	verziókezelés	git
 checkout	verb	lekérni	verziókezelés	svn
 clean	verb	tisztítani	verziókezelés	
 clone	verb	klónozni	verziókezelés	
+code snippet	noun	kódrészlet	programozás	
 commit	noun	véglegesítő	verziókezelés	
 computer player	noun	gépi játékos	játék	
 cyan	noun	cián	nyomda	
