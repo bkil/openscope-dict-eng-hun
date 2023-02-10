@@ -36,6 +36,7 @@ joystick	noun	botkormány	játék
 learn more		további tudnivalók		
 leave server	verb	játék elhagyása	játék	
 magenta	noun	bíbor	nyomda	
+memory-safe	adjective	biztonságos memóriakezelésű	programozás	
 merge	verb	beolvasztani	verziókezelés	
 merge request	noun	beolvasztási kérés	verziókezelés	
 namespace	noun	névtér	verziókezelés	
