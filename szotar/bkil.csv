@@ -52,8 +52,11 @@ pull request	noun	beolvasztási kérés	verziókezelés
 pulldown	noun	pulldown	grafika	Frissítési időköz alulmintavételezése
 push	verb	felküldeni	verziókezelés	
 random seed	noun	véletlenszám generátor kezdeti értéke		
+re-authentication	noun	ismételt hitelesítés		Vagy újrahitelesítés
 rebase	verb	újraalapozni	verziókezelés	
 refresh rate	noun	képfrissítesi gyakoriság	grafika	frissítési időköz
+relabel	verb	átnevezés, módosítás	programozás	
+relabel	verb	újracímkézés	levelezés	
 release notes	noun	kiadási megjegyzések		
 remaster	verb	újjáépítés	fájlrendszer	
 remote	noun	távoli	verziókezelés	
@@ -78,6 +81,7 @@ unstage	verb	visszavonni	verziókezelés	'=revert TODO
 untracked	noun	nem követett	verziókezelés	
 upstream	noun	távoli tároló	verziókezelés	
 visual style guide		arculati kézikönyv		
+walled garden		zárt rendszer		
 What's new		Újdonságok		changelog szalagcíme
 with overcoating		bevonattal	nyomda	
 working tree	noun	munkafa	verziókezelés	
