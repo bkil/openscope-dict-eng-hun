@@ -1,9 +1,11 @@
+AGC	noun	automatikis hangerő-kiegyenlítés	zene	
 AI	noun	gépi játékos	játék	
 amend	verb	javítás	verziókezelés	
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
 attribution	noun	forrásmegjelölés		
 audio metre	noun	hangmérő		a decibel skálán mérő felületi elem
+automatic gain control	noun	automatikis hangerő-kiegyenlítés	zene	
 bisect	verb	bináris keresést futtatni	verziókezelés	
 blame	verb	gyanúsítani	verziókezelés	
 blame	verb	hibáztatni	verziókezelés	
@@ -61,6 +63,7 @@ release notes	noun	kiadási megjegyzések
 remaster	verb	újjáépítés	fájlrendszer	
 remote	noun	távoli	verziókezelés	
 render device	noun	megjelenítőeszköz	játék	
+ReplayGain	noun	hangerő-korrekció	zene	https://en.wikipedia.org/wiki/Replay_gain
 repository	noun	tároló	verziókezelés	
 reset	verb	visszaállítani	verziókezelés	
 ringing artifact	noun	ringing képhiba	grafika	Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, begyűrűzés.
