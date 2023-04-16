@@ -53,6 +53,7 @@ pull	verb	lekérdezni	verziókezelés
 pull request	noun	beolvasztási kérés	verziókezelés	
 pulldown	noun	pulldown	grafika	Frissítési időköz alulmintavételezése
 push	verb	felküldeni	verziókezelés	
+QR code	noun	QR-kód		
 random seed	noun	véletlenszám generátor kezdeti értéke		
 re-authentication	noun	ismételt hitelesítés		Vagy újrahitelesítés
 rebase	verb	újraalapozni	verziókezelés	
