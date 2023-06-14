@@ -78,6 +78,7 @@ strike	noun	büntetőpont	moderáció
 subfolder	noun	almappa	fájlrendszer	
 tab bar		lapsáv	Mozilla	
 tag	noun	címke	verziókezelés	
+thread	noun	szál	levelezés	Csevegőprogramokban esetleg üzenetszál.
 tracked	noun	követett	verziókezelés	
 trigger	noun	eseményindító	adatbázis	
 unstage	verb	elengedni	verziókezelés	
