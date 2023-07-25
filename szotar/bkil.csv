@@ -69,8 +69,8 @@ repository	noun	tároló	verziókezelés
 reset	verb	visszaállítani	verziókezelés	
 ringing artifact	noun	ringing képhiba	grafika	Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, begyűrűzés.
 sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Homokoz%C3%B3
-sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox_(software_development)
-sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox_(computer_security)
+sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%20(software%20development)
+sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox%20(computer%20security)
 score	noun	pontszám	játék	
 squash	verb	összevonni	verziókezelés	
 stage	verb	kiszemelni	verziókezelés	
