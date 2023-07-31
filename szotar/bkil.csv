@@ -25,6 +25,7 @@ demuxer		daraboló	grafika	szétbontó?
 deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
 diff	verb	összehasonlítani	verziókezelés	
 disconnected from server		leválasztva a kiszolgálóról	játék	
+endianness	noun	bájtsorrend	programozás	
 fast-forward	noun	előrepörgetett változat	verziókezelés	
 fast-forward	verb	előrepörgetni	verziókezelés	
 fetch	verb	letölteni	verziókezelés	
