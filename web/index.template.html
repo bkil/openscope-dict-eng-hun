@@ -354,18 +354,24 @@ var _isOnlyTestSucceeded = false;
 
     let filter = '';
     if (search || searchHu || category) {
-      filter = 'tbody.O > tr[id] { display: none; } tbody.O > tr';
-      if (search) {
-        const match = document.getElementById('_partialMatch').checked ? '*' : '^';
-        filter += '[id' + match + '="' + search + '" i]';
-      }
+      filter = 'tbody.O > tr[id] { display: none; }';
+      let filterPre = 'tbody.O > tr';
       if (searchHu) {
-        filter += '[data-h*="' + searchHu + '" i]';
+        filterPre += '[data-h*="' + searchHu + '" i]';
       }
       if (category) {
-        filter += '[data-c="' + category + '" i]';
+        filterPre += '[data-c="' + category + '" i]';
       }
-      filter += '{ display: table-row; }';
+      if (search) {
+        filter += filterPre + '[id^="' + search + '" i],';
+        filter += filterPre + '[id*="_' + search + '" i],';
+        if (document.getElementById('_partialMatch').checked) {
+          filter += filterPre + '[id*="' + search + '" i],';
+        }
+      } else {
+        filter += filterPre + ',';
+      }
+      filter += '#XXXXXXXX { display: table-row; }';
     }
 
     document.getElementById('_filterStyle').innerHTML = filter;
