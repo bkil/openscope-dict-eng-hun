@@ -221,7 +221,9 @@ var _isAfterLogin = false;
 var _isOnlyTestSucceeded = false;
 
   function init() {
-    document.getElementById('_js-search').oninput = updateHash;
+    const search = document.getElementById('_js-search');
+    search.oninput = updateHash;
+    search.focus();
     document.getElementById('_js-search-hu').oninput = updateHash;
     document.getElementById('_js-category').oninput = updateHash;
     document.getElementById('_searchForm').onreset = onReset;
@@ -266,7 +268,9 @@ var _isOnlyTestSucceeded = false;
   }
 
   function onReset() {
-    document.getElementById('_js-search').value = '';
+    const search = document.getElementById('_js-search');
+    search.value = '';
+    search.focus();
     updateHash();
   }
 
@@ -364,9 +368,10 @@ var _isOnlyTestSucceeded = false;
       }
       if (search) {
         filter += filterPre + '[id^="' + search + '" i],';
-        filter += filterPre + '[id*="_' + search + '" i],';
         if (document.getElementById('_partialMatch').checked) {
           filter += filterPre + '[id*="' + search + '" i],';
+        } else {
+          filter += filterPre + '[id*="_' + search + '" i],';
         }
       } else {
         filter += filterPre + ',';
