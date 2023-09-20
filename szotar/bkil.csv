@@ -51,6 +51,8 @@ patch	noun	folt	verziókezelés
 pause	verb	játék szüneteltetése	játék	
 paused		játék szüneteltetve	játék	
 points	noun	pontszám	játék	
+port	noun	átirat	programozás	
+port	verb	átírás	programozás	
 pull	verb	lekérdezni	verziókezelés	
 pull request	noun	beolvasztási kérés	verziókezelés	
 pulldown	noun	pulldown	grafika	Frissítési időköz alulmintavételezése
