@@ -92,6 +92,7 @@ unstage	verb	elengedni	verziókezelés
 unstage	verb	visszavonni	verziókezelés	'=revert TODO
 untracked	noun	nem követett	verziókezelés	
 upstream	noun	távoli tároló	verziókezelés	
+URL	noun	webcím		vagy URL
 visual style guide		arculati kézikönyv		
 walled garden		zárt rendszer		
 What's new		Újdonságok		changelog szalagcíme
