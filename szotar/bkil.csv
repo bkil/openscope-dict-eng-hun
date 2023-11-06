@@ -32,6 +32,7 @@ fetch	verb	letölteni	verziókezelés
 fixup	noun	gyorsjavítás	verziókezelés	
 frugal install	noun	lemezképként telepítés	fájlrendszer	vagy helytakarékos telepítés
 graphic options		grafikai beállítások	játék	
+hashtag	noun	hashtag		lásd Mastodon
 head	noun	fej	verziókezelés	
 hunk	noun	módosítás	verziókezelés	
 in case of emergency	noun	vészhelyzet esetén értesítendő	android	ICE, emergency contact
@@ -76,6 +77,7 @@ sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:
 sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%20(software%20development)
 sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox%20(computer%20security)
 score	noun	pontszám	játék	
+social network	noun	közösségi háló	azonnali üzenetküldés	
 squash	verb	összevonni	verziókezelés	
 stage	verb	kiszemelni	verziókezelés	
 stage	verb	kiválasztani	verziókezelés	'=choose TODO
