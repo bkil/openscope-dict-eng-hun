@@ -13,6 +13,7 @@ blame	verb	hibáztatni	verziókezelés
 bot	noun	gépi játékos	játék	
 branch	noun	ág	verziókezelés	
 branch	verb	elágazni	verziókezelés	
+campaign	noun	hadjárat	játék	
 checkout	verb	átváltani	verziókezelés	git
 checkout	verb	lekérni	verziókezelés	svn
 clean	verb	tisztítani	verziókezelés	
