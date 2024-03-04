@@ -43,6 +43,7 @@ highscore	noun	legmagasabb pontszám	játék
 hunk	noun	módosítás	verziókezelés	
 in case of emergency	noun	vészhelyzet esetén értesítendő	android	ICE, emergency contact
 init	verb	előkészíteni	verziókezelés	
+join	verb	csatlakozni	azonnali üzenetküldés	csevegéshez
 joystick	noun	botkormány	játék	
 learn more		további tudnivalók		
 leave server	verb	játék elhagyása	játék	
@@ -107,5 +108,6 @@ URL	noun	webcím		vagy URL
 visual style guide		arculati kézikönyv		
 walled garden		zárt rendszer		
 What's new		Újdonságok		changelog szalagcíme
+wifi	noun	Wi-Fi	android	
 with overcoating		bevonattal	nyomda	
 working tree	noun	munkafa	verziókezelés	
