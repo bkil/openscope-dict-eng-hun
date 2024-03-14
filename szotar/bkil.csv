@@ -1,7 +1,7 @@
 achievement	noun	teljesítmény	játék	
 AGC	noun	automatikis hangerő-kiegyenlítés	zene	
 AI	noun	gépi játékos	játék	
-amend	verb	javítás	verziókezelés	
+amend	verb	javítani	verziókezelés	
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
 attribution	noun	forrásmegjelölés		
@@ -17,6 +17,7 @@ campaign	noun	hadjárat	játék
 checkout	verb	átváltani	verziókezelés	git
 checkout	verb	lekérni	verziókezelés	svn
 clean	verb	tisztítani	verziókezelés	
+clock tick	noun	órajel	játék	vagy szimulációs lépés
 clone	verb	klónozni	verziókezelés	
 code snippet	noun	kódrészlet	programozás	
 commit	noun	véglegesítő	verziókezelés	
@@ -29,17 +30,20 @@ diff	verb	összehasonlítani	verziókezelés
 disconnected from server		leválasztva a kiszolgálóról	játék	
 disk array	noun	merevlemeztömb	hardver	
 disk enclosure	noun	merevlemezház	hardver	
+encode	verb	kódolni	PGP	például karakterkódolás vagy base64 kapcsán, **nem** titkosítani
 endianness	noun	bájtsorrend	programozás	
 fast-forward	noun	előrepörgetett változat	verziókezelés	
 fast-forward	verb	előrepörgetni	verziókezelés	
 fetch	verb	letölteni	verziókezelés	
 fixup	noun	gyorsjavítás	verziókezelés	
 frugal install	noun	lemezképként telepítés	fájlrendszer	vagy helytakarékos telepítés
+game tick	noun	szimulációs lépés	játék	vagy órajel
 graphic options		grafikai beállítások	játék	
 hashbang	noun	parancsértelmezőt megadó sor	programozás	
 hashtag	noun	hashtag		lásd Mastodon
 head	noun	fej	verziókezelés	
 highscore	noun	legmagasabb pontszám	játék	
+honorific	noun	előtag	levelezés	például dr., özv., ifj., id. (esetleg titulus)
 hunk	noun	módosítás	verziókezelés	
 in case of emergency	noun	vészhelyzet esetén értesítendő	android	ICE, emergency contact
 init	verb	előkészíteni	verziókezelés	
@@ -97,6 +101,7 @@ strike	noun	büntetőpont	moderáció
 subfolder	noun	almappa	fájlrendszer	
 tab bar		lapsáv	Mozilla	
 tag	noun	címke	verziókezelés	
+title	noun	előtag	levelezés	például dr., özv., ifj., id.
 thread	noun	szál	levelezés	Csevegőprogramokban esetleg üzenetszál.
 tracked	noun	követett	verziókezelés	
 trigger	noun	eseményindító	adatbázis	
