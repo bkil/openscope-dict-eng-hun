@@ -1,6 +1,7 @@
 achievement	noun	teljesítmény	játék	
 AGC	noun	automatikis hangerő-kiegyenlítés	zene	
 AI	noun	gépi játékos	játék	
+ambient occlusion	noun	környezeti okklúzió	grafika	
 amend	verb	javítani	verziókezelés	
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
@@ -92,6 +93,7 @@ render device	noun	megjelenítőeszköz	játék
 ReplayGain	noun	hangerő-korrekció	zene	https://en.wikipedia.org/wiki/Replay_gain
 repository	noun	tároló	verziókezelés	
 reset	verb	visszaállítani	verziókezelés	
+revert	verb	visszavonni	verziókezelés	
 ringing artifact	noun	ringing képhiba	grafika	Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, begyűrűzés.
 sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Homokoz%C3%B3
 sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%20(software%20development)
