@@ -63,6 +63,7 @@ merge	verb	beolvasztani	verziókezelés
 merge request	noun	beolvasztási kérés	verziókezelés	
 monitor	noun	kijelző	hardver	vagy monitor
 namespace	noun	névtér	verziókezelés	
+numeric keypad	noun	számbillentyűzet	hardver	vagy numerikus billentyűzet
 observation	noun	észlelés	hardver	OGC IoT
 omnichannel		összcsatornás	Windows	
 origin	noun	eredeti	verziókezelés	
