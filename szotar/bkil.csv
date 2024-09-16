@@ -3,6 +3,7 @@ AGC	noun	automatikis hangerő-kiegyenlítés	zene
 AI	noun	gépi játékos	játék	
 ambient occlusion	noun	környezeti okklúzió	grafika	
 amend	verb	javítani	verziókezelés	
+any		bármely		
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
 attribution	noun	forrásmegjelölés		
@@ -62,6 +63,7 @@ magenta	noun	bíbor	nyomda
 memory-safe	adjective	biztonságos memóriakezelésű	programozás	
 merge	verb	beolvasztani	verziókezelés	
 merge request	noun	beolvasztási kérés	verziókezelés	
+metered	adjective	forgalomkorlátos	android	hálózat
 monitor	noun	kijelző	hardver	vagy monitor
 namespace	noun	névtér	verziókezelés	
 numeric keypad	noun	számbillentyűzet	hardver	vagy numerikus billentyűzet
@@ -97,6 +99,7 @@ repository	noun	tároló	verziókezelés
 reset	verb	visszaállítani	verziókezelés	
 revert	verb	visszavonni	verziókezelés	
 ringing artifact	noun	ringing képhiba	grafika	Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, begyűrűzés.
+roaming	adjective	barangoló	android	mobilhálózat
 sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Homokoz%C3%B3
 sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%20(software%20development)
 sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox%20(computer%20security)
@@ -119,6 +122,7 @@ thread	noun	szál	levelezés	Csevegőprogramokban esetleg üzenetszál.
 track	noun	szám	zene	változatosság folyószövegben: dal, zeneszám, zene, sláger, mix, feldolgozás, felvétel, hangfelvétel, szerzemény, zenemű, mű, alkotás, költemény, sáv, nóta
 tracked	noun	követett	verziókezelés	
 trigger	noun	eseményindító	adatbázis	
+unmetered	adjective	nem forgalomkorlátos	android	hálózat
 unstage	verb	elengedni	verziókezelés	
 unstage	verb	visszavonni	verziókezelés	'=revert TODO
 untracked	noun	nem követett	verziókezelés	
