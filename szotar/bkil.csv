@@ -8,6 +8,8 @@ apply	verb	alkalmazni	verziókezelés
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
 attribution	noun	forrásmegjelölés		
 audio metre	noun	hangmérő		a decibel skálán mérő felületi elem
+authorization	noun	jogosultság-ellenőrzés	ldap	
+authorized person	noun	illetékes	ldap	vagy arra jogosult
 automatic gain control	noun	automatikis hangerő-kiegyenlítés	zene	
 bisect	verb	bináris keresést futtatni	verziókezelés	
 blame	verb	gyanúsítani	verziókezelés	
