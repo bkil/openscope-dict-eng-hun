@@ -6,6 +6,7 @@ amend	verb	javítani	verziókezelés
 any		bármely		
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
+asset	noun	erőforrás	adatbázis	
 attribution	noun	forrásmegjelölés		
 audio metre	noun	hangmérő		a decibel skálán mérő felületi elem
 authorization	noun	jogosultság-ellenőrzés	ldap	
@@ -65,6 +66,8 @@ learn more		további tudnivalók
 leave server	verb	játék elhagyása	játék	
 like	verb	kedvelni	azonnali üzenetküldés	vagy *tetszik* ha önálló gomb
 like	noun	kedvelés	azonnali üzenetküldés	
+LUKS	noun	LUKS	fájlrendszer	vagy egységes linuxos kulcskezelés
+LVM	noun	LVM	fájlrendszer	vagy logikai kötetkezelő
 magenta	noun	bíbor	nyomda	
 memory-safe	adjective	biztonságos memóriakezelésű	programozás	
 merge	verb	beolvasztani	verziókezelés	
@@ -72,6 +75,7 @@ merge request	noun	beolvasztási kérés	verziókezelés
 metered	adjective	forgalomkorlátos	android	hálózat
 monitor	noun	kijelző	hardver	vagy monitor
 namespace	noun	névtér	verziókezelés	
+non-free	adjective	zárt	jog	Zárt vagy tulajdonosi szoftver, a szabad szoftver ellentéte.
 numeric keypad	noun	számbillentyűzet	hardver	vagy numerikus billentyűzet
 observation	noun	észlelés	hardver	OGC IoT
 omnichannel		összcsatornás	Windows	
