@@ -38,6 +38,7 @@ disk array	noun	merevlemeztömb	hardver
 disk enclosure	noun	merevlemezház	hardver	
 dislike	verb	nem kedvelni	azonnali üzenetküldés	vagy *nem tetszik* ha önálló gomb
 dislike	noun	nem kedvelés	azonnali üzenetküldés	
+edge computing	noun	peremhálózati számítás	programozás	
 encode	verb	kódolni	PGP	például karakterkódolás vagy base64 kapcsán, **nem** titkosítani
 endianness	noun	bájtsorrend	programozás	
 fast-forward	noun	előrepörgetett változat	verziókezelés	
