@@ -30,6 +30,7 @@ computer player	noun	gépi játékos	játék
 cue sheet	noun	cue sheet	zene	Ötletek: sávelrendezési metaadatok, cue fájl
 cyan	noun	cián	nyomda	
 datetime		dátum és idő		adattípus, alapból nem fordítjuk, dátum és idő?
+datum	noun	referenciasík	nyomda	vagy alapfelület, vonatkoztatási pont, dátum
 demuxer		daraboló	grafika	szétbontó?
 deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
 diff	verb	összehasonlítani	verziókezelés	
