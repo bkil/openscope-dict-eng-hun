@@ -120,6 +120,7 @@ shebang	noun	parancsértelmezőt megadó sor	programozás
 SKU	noun	tétel	adatbázis	
 social network	noun	közösségi háló	azonnali üzenetküldés	
 squash	verb	összevonni	verziókezelés	
+stack unwinding		verem lebontása	programozás	
 stage	verb	kiszemelni	verziókezelés	
 stage	verb	kiválasztani	verziókezelés	'=choose TODO
 stash	noun	félretett változat	verziókezelés	
