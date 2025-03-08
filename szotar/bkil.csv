@@ -134,6 +134,7 @@ thing	noun	dolog	hardver	vagy okoseszköz (OGC IoT)
 thread	noun	szál	levelezés	Csevegőprogramokban esetleg üzenetszál.
 track	noun	szám	zene	változatosság folyószövegben: dal, zeneszám, zene, sláger, mix, feldolgozás, felvétel, hangfelvétel, szerzemény, zenemű, mű, alkotás, költemény, sáv, nóta
 tracked	noun	követett	verziókezelés	
+transcript	noun	leirat	zene	felvételen elhangzó szöveg leírva (helytelenül: átirat)
 trigger	noun	eseményindító	adatbázis	
 unmetered	adjective	nem forgalomkorlátos	android	hálózat
 unstage	verb	elengedni	verziókezelés	
