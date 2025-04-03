@@ -45,6 +45,8 @@ endianness	noun	bájtsorrend	programozás
 fast-forward	noun	előrepörgetett változat	verziókezelés	
 fast-forward	verb	előrepörgetni	verziókezelés	
 feature of interest		megfigyelés tárgya	hardver	"OGC IoT ""FOI"""
+federate	verb	föderálni	programozás	
+federation	noun	föderáció	programozás	
 fetch	verb	letölteni	verziókezelés	
 fixup	noun	gyorsjavítás	verziókezelés	
 fog of war	noun	háború köde	játék	
