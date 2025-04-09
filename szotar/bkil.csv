@@ -21,12 +21,12 @@ bot	noun	gépi játékos	játék
 branch	noun	ág	verziókezelés	
 branch	verb	elágazni	verziókezelés	
 breeze		szellő	meteorológia	
-broken clouds		elszórt felhőzet	meteorológia	
+broken clouds		erősen felhős	meteorológia	szakadozott felhőzet
 campaign	noun	hadjárat	játék	
 checkout	verb	átváltani	verziókezelés	git
 checkout	verb	lekérni	verziókezelés	svn
 clean	verb	tisztítani	verziókezelés	
-clear		derült	meteorológia	
+clear		derült égbolt	meteorológia	
 clock tick	noun	órajel	játék	vagy szimulációs lépés
 clone	verb	klónozni	verziókezelés	
 code snippet	noun	kódrészlet	programozás	
@@ -58,6 +58,7 @@ feature of interest		megfigyelés tárgya	hardver	"OGC IoT ""FOI"""
 federate	verb	föderálni	programozás	
 federation	noun	föderáció	programozás	
 fetch	verb	letölteni	verziókezelés	
+few clouds		gyengén felhős	meteorológia	
 fixup	noun	gyorsjavítás	verziókezelés	
 fog		köd	meteorológia	
 fog of war	noun	háború köde	játék	
@@ -96,6 +97,8 @@ merge request	noun	beolvasztási kérés	verziókezelés
 metered	adjective	forgalomkorlátos	android	hálózat
 mist		párásság	meteorológia	enyhe köd
 monitor	noun	kijelző	hardver	vagy monitor
+mostly clear		fátyolfelhős	meteorológia	cirrus
+mostly cloudy		nagyrészt felhős	meteorológia	
 namespace	noun	névtér	verziókezelés	
 non-free	adjective	zárt	jog	Zárt vagy tulajdonosi szoftver, a szabad szoftver ellentéte.
 numeric keypad	noun	számbillentyűzet	hardver	vagy numerikus billentyűzet
@@ -105,6 +108,7 @@ operator	noun	üzemeltető	hardver
 origin	noun	eredeti	verziókezelés	
 overcast		borult	meteorológia	
 parent channel		csatorna szülője		
+partly sunny		részben napos	meteorológia	
 patch	noun	folt	verziókezelés	
 pause	verb	játék szüneteltetése	játék	
 paused		játék szüneteltetve	játék	
@@ -139,6 +143,7 @@ roaming	adjective	barangoló	android	mobilhálózat
 sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Homokoz%C3%B3
 sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%20(software%20development)
 sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox%20(computer%20security)
+scattered clouds		közepesen felhős	meteorológia	
 score	noun	pontszám	játék	
 severe gale		viharos erejű szél	meteorológia	
 shebang	noun	parancsértelmezőt megadó sor	programozás	
