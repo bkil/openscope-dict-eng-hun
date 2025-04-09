@@ -20,6 +20,7 @@ blowing snow		erős hófúvás	meteorológia
 bot	noun	gépi játékos	játék	
 branch	noun	ág	verziókezelés	
 branch	verb	elágazni	verziókezelés	
+breeze		szellő	meteorológia	
 broken clouds		elszórt felhőzet	meteorológia	
 campaign	noun	hadjárat	játék	
 checkout	verb	átváltani	verziókezelés	git
@@ -39,6 +40,7 @@ demuxer		daraboló	grafika	szétbontó?
 deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
 dew		harmat	meteorológia	
 diff	verb	összehasonlítani	verziókezelés	
+dirt devil		porördög	meteorológia	
 disconnected from server		leválasztva a kiszolgálóról	játék	
 disk array	noun	merevlemeztömb	hardver	
 disk enclosure	noun	merevlemezház	hardver	
@@ -46,6 +48,7 @@ dislike	noun	nem kedvelés	azonnali üzenetküldés
 dislike	verb	nem kedvelni	azonnali üzenetküldés	vagy *nem tetszik* ha önálló gomb
 dizzle		ködszitálás	meteorológia	
 drizzle		szitálás	meteorológia	
+dust whirl		porördög	meteorológia	
 edge computing	noun	peremhálózati számítás	programozás	
 encode	verb	kódolni	PGP	például karakterkódolás vagy base64 kapcsán, **nem** titkosítani
 endianness	noun	bájtsorrend	programozás	
@@ -60,6 +63,7 @@ fog		köd	meteorológia
 fog of war	noun	háború köde	játék	
 freezing rain		ónos eső	meteorológia	
 frugal install	noun	lemezképként telepítés	fájlrendszer	vagy helytakarékos telepítés
+gale		erős szél	meteorológia	
 game tick	noun	szimulációs lépés	játék	vagy órajel
 glide ratio		siklószám	hardver	
 graphic options		grafikai beállítások	játék	
@@ -136,14 +140,17 @@ sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:
 sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%20(software%20development)
 sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox%20(computer%20security)
 score	noun	pontszám	játék	
+severe gale		viharos erejű szél	meteorológia	
 shebang	noun	parancsértelmezőt megadó sor	programozás	
 shower		zápor	meteorológia	
 SKU	noun	tétel	adatbázis	
 sleet		havas eső	meteorológia	
+smoke		füst	meteorológia	
 snow shower		hózápor	meteorológia	
 snow with thunder		hózivatar	meteorológia	
 snowdrift		gyenge hófúvás	meteorológia	
 social network	noun	közösségi háló	azonnali üzenetküldés	
+squall		görgôvihar	meteorológia	
 squash	verb	összevonni	verziókezelés	
 stack unwinding		verem lebontása	programozás	
 stage	verb	kiszemelni	verziókezelés	
@@ -155,6 +162,7 @@ strike	noun	büntetőpont	moderáció
 subfolder	noun	almappa	fájlrendszer	
 tab bar		lapsáv	Mozilla	
 tag	noun	címke	verziókezelés	
+thermal column		termik	meteorológia	
 thing	noun	dolog	hardver	vagy okoseszköz (OGC IoT)
 thread	noun	szál	levelezés	Csevegőprogramokban esetleg üzenetszál.
 thunderstorm		zivatar	meteorológia	
@@ -173,5 +181,6 @@ visual style guide		arculati kézikönyv
 walled garden		zárt rendszer		
 What's new		Újdonságok		changelog szalagcíme
 wifi	noun	Wi-Fi	android	
+wind storm		szélvihar	meteorológia	
 with overcoating		bevonattal	nyomda	
 working tree	noun	munkafa	verziókezelés	
