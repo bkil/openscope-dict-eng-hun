@@ -15,13 +15,17 @@ automatic gain control	noun	automatikis hangerő-kiegyenlítés	zene
 bisect	verb	bináris keresést futtatni	verziókezelés	
 blame	verb	gyanúsítani	verziókezelés	
 blame	verb	hibáztatni	verziókezelés	
+blizzard		hóvihar	meteorológia	
+blowing snow		erős hófúvás	meteorológia	
 bot	noun	gépi játékos	játék	
 branch	noun	ág	verziókezelés	
 branch	verb	elágazni	verziókezelés	
+broken clouds		elszórt felhőzet	meteorológia	
 campaign	noun	hadjárat	játék	
 checkout	verb	átváltani	verziókezelés	git
 checkout	verb	lekérni	verziókezelés	svn
 clean	verb	tisztítani	verziókezelés	
+clear		derült	meteorológia	
 clock tick	noun	órajel	játék	vagy szimulációs lépés
 clone	verb	klónozni	verziókezelés	
 code snippet	noun	kódrészlet	programozás	
@@ -33,12 +37,15 @@ datetime		dátum és idő		adattípus, alapból nem fordítjuk, dátum és idő?
 datum	noun	referenciasík	nyomda	vagy alapfelület, vonatkoztatási pont, dátum
 demuxer		daraboló	grafika	szétbontó?
 deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
+dew		harmat	meteorológia	
 diff	verb	összehasonlítani	verziókezelés	
 disconnected from server		leválasztva a kiszolgálóról	játék	
 disk array	noun	merevlemeztömb	hardver	
 disk enclosure	noun	merevlemezház	hardver	
-dislike	verb	nem kedvelni	azonnali üzenetküldés	vagy *nem tetszik* ha önálló gomb
 dislike	noun	nem kedvelés	azonnali üzenetküldés	
+dislike	verb	nem kedvelni	azonnali üzenetküldés	vagy *nem tetszik* ha önálló gomb
+dizzle		ködszitálás	meteorológia	
+drizzle		szitálás	meteorológia	
 edge computing	noun	peremhálózati számítás	programozás	
 encode	verb	kódolni	PGP	például karakterkódolás vagy base64 kapcsán, **nem** titkosítani
 endianness	noun	bájtsorrend	programozás	
@@ -49,16 +56,21 @@ federate	verb	föderálni	programozás
 federation	noun	föderáció	programozás	
 fetch	verb	letölteni	verziókezelés	
 fixup	noun	gyorsjavítás	verziókezelés	
+fog		köd	meteorológia	
 fog of war	noun	háború köde	játék	
+freezing rain		ónos eső	meteorológia	
 frugal install	noun	lemezképként telepítés	fájlrendszer	vagy helytakarékos telepítés
 game tick	noun	szimulációs lépés	játék	vagy órajel
 glide ratio		siklószám	hardver	
 graphic options		grafikai beállítások	játék	
+gust of wind		széllökés	meteorológia	
+hail		jégeső	meteorológia	
 hashbang	noun	parancsértelmezőt megadó sor	programozás	
 hashtag	noun	hashtag		lásd Mastodon
-haze	noun	száraz légköri homály	grafika	
+haze	noun	száraz légköri homály	meteorológia	
 head	noun	fej	verziókezelés	
 highscore	noun	legmagasabb pontszám	játék	
+hoarfrost		kristályos zúzmara	meteorológia	
 honorific	noun	előtag	levelezés	például dr., özv., ifj., id. (esetleg titulus)
 hunk	noun	módosítás	verziókezelés	
 in case of emergency	noun	vészhelyzet esetén értesítendő	android	ICE, emergency contact
@@ -68,8 +80,9 @@ join	verb	csatlakozni	azonnali üzenetküldés	csevegéshez
 joystick	noun	botkormány	játék	
 learn more		további tudnivalók		
 leave server	verb	játék elhagyása	játék	
-like	verb	kedvelni	azonnali üzenetküldés	vagy *tetszik* ha önálló gomb
+light snow		hószállingózás	meteorológia	
 like	noun	kedvelés	azonnali üzenetküldés	
+like	verb	kedvelni	azonnali üzenetküldés	vagy *tetszik* ha önálló gomb
 LUKS	noun	LUKS	fájlrendszer	vagy egységes linuxos kulcskezelés
 LVM	noun	LVM	fájlrendszer	vagy logikai kötetkezelő
 magenta	noun	bíbor	nyomda	
@@ -77,6 +90,7 @@ memory-safe	adjective	biztonságos memóriakezelésű	programozás
 merge	verb	beolvasztani	verziókezelés	
 merge request	noun	beolvasztási kérés	verziókezelés	
 metered	adjective	forgalomkorlátos	android	hálózat
+mist		párásság	meteorológia	enyhe köd
 monitor	noun	kijelző	hardver	vagy monitor
 namespace	noun	névtér	verziókezelés	
 non-free	adjective	zárt	jog	Zárt vagy tulajdonosi szoftver, a szabad szoftver ellentéte.
@@ -85,6 +99,7 @@ observation	noun	észlelés	hardver	OGC IoT
 omnichannel		összcsatornás	Windows	
 operator	noun	üzemeltető	hardver	
 origin	noun	eredeti	verziókezelés	
+overcast		borult	meteorológia	
 parent channel		csatorna szülője		
 patch	noun	folt	verziókezelés	
 pause	verb	játék szüneteltetése	játék	
@@ -99,6 +114,7 @@ pull request	noun	beolvasztási kérés	verziókezelés
 pulldown	noun	pulldown	grafika	Frissítési időköz alulmintavételezése
 push	verb	felküldeni	verziókezelés	
 QR code	noun	QR-kód		
+rain		eső	meteorológia	
 random seed	noun	véletlenszám generátor kezdeti értéke		
 re-authentication	noun	ismételt hitelesítés		Vagy újrahitelesítés
 rebase	verb	újraalapozni	verziókezelés	
@@ -113,6 +129,7 @@ ReplayGain	noun	hangerő-korrekció	zene	https://en.wikipedia.org/wiki/Replay%20
 repository	noun	tároló	verziókezelés	
 reset	verb	visszaállítani	verziókezelés	
 revert	verb	visszavonni	verziókezelés	
+rime ice		durva zúzmara	meteorológia	
 ringing artifact	noun	ringing képhiba	grafika	Veszteséges tömörítés okozta lecsengési képtorzulás ahol túllövés és alullövés jár párban. További ötletek: szellemkép, élvisszhang, elővisszhang, sávozódás, fodrozódás, begyűrűzés.
 roaming	adjective	barangoló	android	mobilhálózat
 sandbox	noun	homokozó	moderáció	https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Homokoz%C3%B3
@@ -120,7 +137,12 @@ sandbox	noun	tesztkörnyezet	programozás	https://en.wikipedia.org/wiki/Sandbox%
 sandboxed	adjective	izolált	parancssor	https://en.wikipedia.org/wiki/Sandbox%20(computer%20security)
 score	noun	pontszám	játék	
 shebang	noun	parancsértelmezőt megadó sor	programozás	
+shower		zápor	meteorológia	
 SKU	noun	tétel	adatbázis	
+sleet		havas eső	meteorológia	
+snow shower		hózápor	meteorológia	
+snow with thunder		hózivatar	meteorológia	
+snowdrift		gyenge hófúvás	meteorológia	
 social network	noun	közösségi háló	azonnali üzenetküldés	
 squash	verb	összevonni	verziókezelés	
 stack unwinding		verem lebontása	programozás	
@@ -128,13 +150,15 @@ stage	verb	kiszemelni	verziókezelés
 stage	verb	kiválasztani	verziókezelés	'=choose TODO
 stash	noun	félretett változat	verziókezelés	
 stash	verb	félrerakni	verziókezelés	félretenni
+storm		vihar	meteorológia	
 strike	noun	büntetőpont	moderáció	
 subfolder	noun	almappa	fájlrendszer	
 tab bar		lapsáv	Mozilla	
 tag	noun	címke	verziókezelés	
-title	noun	előtag	levelezés	például dr., özv., ifj., id.
 thing	noun	dolog	hardver	vagy okoseszköz (OGC IoT)
 thread	noun	szál	levelezés	Csevegőprogramokban esetleg üzenetszál.
+thunderstorm		zivatar	meteorológia	
+title	noun	előtag	levelezés	például dr., özv., ifj., id.
 track	noun	szám	zene	változatosság folyószövegben: dal, zeneszám, zene, sláger, mix, feldolgozás, felvétel, hangfelvétel, szerzemény, zenemű, mű, alkotás, költemény, sáv, nóta
 tracked	noun	követett	verziókezelés	
 transcript	noun	leirat	zene	felvételen elhangzó szöveg leírva (helytelenül: átirat)
