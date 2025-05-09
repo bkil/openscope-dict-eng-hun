@@ -8,8 +8,8 @@ any		bármely
 apply	verb	alkalmazni	verziókezelés	
 artifact	noun	képhiba	grafika	anomália? torzítás? képhűtlenség?
 asset	noun	erőforrás	adatbázis	
-attribution	noun	forrásmegjelölés		
-audio metre	noun	hangmérő		a decibel skálán mérő felületi elem
+attribution	noun	forrásmegjelölés	programozás	
+audio metre	noun	hangmérő	zene	a decibel skálán mérő felületi elem
 authorization	noun	jogosultság-ellenőrzés	ldap	
 authorized person	noun	illetékes	ldap	vagy arra jogosult
 automatic gain control	noun	automatikis hangerő-kiegyenlítés	zene	
@@ -35,7 +35,7 @@ commit	noun	véglegesítő	verziókezelés
 computer player	noun	gépi játékos	játék	
 cue sheet	noun	cue sheet	zene	Ötletek: sávelrendezési metaadatok, cue fájl
 cyan	noun	cián	nyomda	
-datetime		dátum és idő		adattípus, alapból nem fordítjuk, dátum és idő?
+datetime		dátum és idő	programozás	adattípus, alapból nem fordítjuk, dátum és idő?
 datum	noun	referenciasík	nyomda	vagy alapfelület, vonatkoztatási pont, dátum
 demuxer		daraboló	grafika	szétbontó?
 deringing filter	noun	ringing elleni szűrő	grafika	Ringing elfedésére való utófeldolgozó szűrő.
@@ -72,7 +72,7 @@ graphic options		grafikai beállítások	játék
 gust of wind		széllökés	meteorológia	
 hail		jégeső	meteorológia	
 hashbang	noun	parancsértelmezőt megadó sor	programozás	
-hashtag	noun	hashtag		lásd Mastodon
+hashtag	noun	hashtag	azonnali üzenetküldés	lásd Mastodon
 haze	noun	száraz légköri homály	meteorológia	
 head	noun	fej	verziókezelés	
 highscore	noun	legmagasabb pontszám	játék	
@@ -115,7 +115,7 @@ partly sunny		részben napos	meteorológia
 patch	noun	folt	verziókezelés	
 pause	verb	játék szüneteltetése	játék	
 paused		játék szüneteltetve	játék	
-perfect forward secrecy		sérülés utáni titkosságvédelem		PFS
+perfect forward secrecy		sérülés utáni titkosságvédelem	pgp	PFS
 plain text		formázás nélküli szöveg	programozás	vagy *egyszerű szöveg*
 plain text editor		formázás nélküli szövegszerkesztő	programozás	vagy *egyszerűszöveg-szerkesztő*
 platform	noun	peron	közlekedés	vagy autóbuszperon
@@ -130,13 +130,13 @@ push	verb	felküldeni	verziókezelés
 QR code	noun	QR-kód		
 quantum resistance	noun	kvantumbiztosság	pgp	
 rain		eső	meteorológia	
-random seed	noun	véletlenszám generátor kezdeti értéke		
-re-authentication	noun	ismételt hitelesítés		Vagy újrahitelesítés
+random seed	noun	véletlenszám generátor kezdeti értéke	programozás	
+re-authentication	noun	ismételt hitelesítés	pgp	Vagy újrahitelesítés
 rebase	verb	újraalapozni	verziókezelés	
 refresh rate	noun	képfrissítesi gyakoriság	grafika	frissítési időköz
 relabel	verb	átnevezés, módosítás	programozás	
 relabel	verb	újracímkézés	levelezés	
-release notes	noun	kiadási megjegyzések		
+release notes	noun	kiadási megjegyzések	programozás	
 remaster	verb	újjáépítés	fájlrendszer	
 remote	noun	távoli	verziókezelés	
 render device	noun	megjelenítőeszköz	játék	
@@ -192,8 +192,8 @@ unstage	verb	visszavonni	verziókezelés	'=revert TODO
 untracked	noun	nem követett	verziókezelés	
 upstream	noun	távoli tároló	verziókezelés	
 URL	noun	webcím		vagy URL
-visual style guide		arculati kézikönyv		
-walled garden		zárt rendszer		
+visual style guide		arculati kézikönyv	programozás	
+walled garden		zárt rendszer	azonnali üzenetküldés	
 What's new		Újdonságok		changelog szalagcíme
 widget	noun	modul	android	
 wifi	noun	Wi-Fi	android	
