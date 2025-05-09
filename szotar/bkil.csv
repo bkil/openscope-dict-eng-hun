@@ -122,11 +122,13 @@ platform	noun	peron	közlekedés	vagy autóbuszperon
 points	noun	pontszám	játék	
 port	noun	átirat	programozás	
 port	verb	átírás	programozás	
+post-compromise security		kompromittálás utáni biztonság	pgp	break-in recovery, SimpleX
 pull	verb	lekérdezni	verziókezelés	
 pull request	noun	beolvasztási kérés	verziókezelés	
 pulldown	noun	pulldown	grafika	Frissítési időköz alulmintavételezése
 push	verb	felküldeni	verziókezelés	
 QR code	noun	QR-kód		
+quantum resistance	noun	kvantumbiztosság	pgp	
 rain		eső	meteorológia	
 random seed	noun	véletlenszám generátor kezdeti értéke		
 re-authentication	noun	ismételt hitelesítés		Vagy újrahitelesítés
@@ -140,6 +142,7 @@ remote	noun	távoli	verziókezelés
 render device	noun	megjelenítőeszköz	játék	
 ReplayGain	noun	hangerő-korrekció	zene	https://en.wikipedia.org/wiki/Replay%20gain
 repository	noun	tároló	verziókezelés	
+repudiation	noun	letagadhatóság	pgp	
 reset	verb	visszaállítani	verziókezelés	
 revert	verb	visszavonni	verziókezelés	
 rich text		formázott szöveg	programozás	
