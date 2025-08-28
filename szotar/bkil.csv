@@ -71,6 +71,7 @@ glide ratio		siklószám	hardver
 graphic options		grafikai beállítások	játék	
 gust of wind		széllökés	meteorológia	
 hail		jégeső	meteorológia	
+hash	noun	hasítóérték	programozás	vagy kivonat, hash
 hashbang	noun	parancsértelmezőt megadó sor	programozás	
 hashtag	noun	hashtag	azonnali üzenetküldés	lásd Mastodon
 haze	noun	száraz légköri homály	meteorológia	
@@ -157,6 +158,7 @@ scattered clouds		közepesen felhős	meteorológia
 score	noun	pontszám	játék	
 severe gale		viharos erejű szél	meteorológia	
 shebang	noun	parancsértelmezőt megadó sor	programozás	
+shell	noun	parancsértelmező	parancssor	vagy parancshéj
 shower		zápor	meteorológia	
 SKU	noun	tétel	adatbázis	
 sleet		havas eső	meteorológia	
